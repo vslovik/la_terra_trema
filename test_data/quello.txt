@@ -1,0 +1,13 @@
+quegli	quello	DET-DEMO:m+p
+quei	quello	DET-DEMO:m+p
+quel	quello	DET-DEMO:m+s
+quell'	quello	DET-DEMO:f+s
+quell'	quello	DET-DEMO:m+s
+quella	quella	PRO-DEMO-F-S
+quella	quello	DET-DEMO:f+s
+quelle	quelle	PRO-DEMO-F-P
+quelle	quello	DET-DEMO:f+p
+quelli	quelli	PRO-DEMO-M-P
+quelli	quello	DET-DEMO:m+p
+quello	quello	DET-DEMO:m+s
+quello	quello	PRO-DEMO-M-S
