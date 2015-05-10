@@ -38,7 +38,7 @@ public class MorfItDictionary {
         private String label;
     }
 
-    private class FormIndexEntry {
+    public class FormIndexEntry {
         protected int lemmaKey;
         protected Short labelKey;
 
@@ -87,6 +87,16 @@ public class MorfItDictionary {
     public Iterable<String> getLabels()
     {
         return labelIndex.keys();
+    }
+
+    public int lemmaCount()
+    {
+        return lemmaIndexR.size();
+    }
+
+    public int size()
+    {
+        return formIndex.size();
     }
 
     protected Dto stringToDto(String s)
@@ -192,7 +202,7 @@ public class MorfItDictionary {
             }
         }
 
-        System.out.println("Lemma index size: " + d.lemmaIndexR.size() + "\n"); // 35056
-        System.out.println("Form index size: " + d.formIndex.size() + "\n"); // 405411
+        System.out.println("Lemma index size: " + d.lemmaCount() + "\n"); // 35056
+        System.out.println("Form index size: " + d.size() + "\n"); // 405411
     }
 }

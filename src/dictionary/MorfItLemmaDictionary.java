@@ -64,6 +64,17 @@ public class MorfItLemmaDictionary {
         return formIndex.get(form);
     }
 
+
+    public int lemmaCount()
+    {
+        return lemmaIndexR.size();
+    }
+
+    public int size()
+    {
+        return formIndex.size();
+    }
+
     protected Dto stringToDto(String s)
     {
         Dto dto = new Dto();
@@ -139,7 +150,7 @@ public class MorfItLemmaDictionary {
             }
         }
 
-        System.out.println("Lemma index size: " + d.lemmaIndexR.size() + "\n"); // 35056
-        System.out.println("Form index size: " + d.formIndex.size() + "\n"); // 405411
+        System.out.println("Lemma index size: " + d.lemmaCount() + "\n"); // 35056
+        System.out.println("Form index size: " + d.size() + "\n"); // 405411
     }
 }

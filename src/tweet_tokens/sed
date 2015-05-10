@@ -1,0 +1,38 @@
+% echo "123 abc" | sed -r 's/[0-9]+/& &/'
+123 123 abc
+
+java:
+
+word.replaceAll("^(\\w)\\1+","$1"). // letter is repeated at the beginning of the token
+word.replaceAll("(\\w)\\1+$","$1"). // letter is repeated at the end of the token
+
+word.replaceAll("(\\w{2})\\1+$","$1$1"). // token consist of the repeated pair of letters, lets repeat once, not more
+word.replaceAll("^(\\w{2})\\1+","$1$1").
+
+word.replaceAll("(\\w)\\1{2}\\1+","$1$1$1"); // letter is repeated more than 3 times in the middle of the word, lets repeat only three times
+
+sed: (http://www.grymoire.com/Unix/Sed.html#uh-0)
+
+echo 'zzzyyyzzzzzzzzzzzz' | sed -r 's/^(\w)\1+/\1/'
+
+echo 'zzzyyy' | sed -r 's/^(\w)\1+/\1/'
+zyyy
+
+echo 'zzzyyy' | sed -r 's/(\w)\1+$/\1/'
+zzzy
+
+echo 'zzzyyy' | sed -r 's/^(\w)\1+/\1/' | sed -r 's/(\w)\1+$/\1/'
+zy
+
+echo 'ahahah' | sed -r 's/(\w{2})\1+$/\1\1/'
+ahah
+
+echo 'hahahahahhh' | sed -r 's/^(\w{2})\1+/\1\1/'
+hahahhh
+
+echo 'maaaaaaama' | sed -r 's/(\w)\1{2}\1+/\1\1\1/'
+maaama
+
+echo 'zitti	Smp' | sed -r 's/(\w+)\t(\w+)/\1/'
+
+sed -e 's/a/A/' -e 's/b/B/' <old >new

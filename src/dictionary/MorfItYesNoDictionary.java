@@ -18,7 +18,6 @@ import java.io.InputStreamReader;
 public class MorfItYesNoDictionary {
 
     protected TST<Boolean> formIndex;
-    protected int i;
 
     public MorfItYesNoDictionary(String filename) {
 
@@ -41,6 +40,11 @@ public class MorfItYesNoDictionary {
     public boolean contains(String form)
     {
         return formIndex.get(form) != null;
+    }
+
+    public int size()
+    {
+        return formIndex.size();
     }
 
     protected String stringToForm(String s)
@@ -78,6 +82,6 @@ public class MorfItYesNoDictionary {
             }
         }
 
-        System.out.println(d.formIndex.size()); // 405400  check! have to be 405411!
+        System.out.println(d.size()); // 405400  check! have to be 405411!
     }
 }
