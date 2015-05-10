@@ -1,7 +1,9 @@
 package dictionary;
 
+import algorithms.MinPQ;
 import algorithms.Queue;
 import algorithms.TST;
+import score.ScoredToken;
 import score.TrigramScoreTool;
 
 import java.io.BufferedReader;
@@ -20,7 +22,9 @@ import java.io.InputStreamReader;
 public class TrainingLexiconDiff implements TrigramScoreTool {
 
     protected TST<Integer> indexCorpus;
+    protected MinPQ<ScoredToken> topTokens;
 
+    protected int ttN = 50000;
     protected int counter;
 
     public TrainingLexiconDiff(String baseDictFile, String corpusFile) {
@@ -28,6 +32,7 @@ public class TrainingLexiconDiff implements TrigramScoreTool {
         MorfItYesNoDictionary d = new MorfItYesNoDictionary(baseDictFile);
 
         indexCorpus = new TST<Integer>();
+        topTokens = new MinPQ<ScoredToken>();
 
         String line, word;
         BufferedReader br;
@@ -72,11 +77,29 @@ public class TrainingLexiconDiff implements TrigramScoreTool {
     {
         if(trigram.size() != 3)
             throw new IllegalArgumentException("Size of trigram != 3");
-        trigram.dequeue();
-        String central = trigram.dequeue();
-        if(contains(central)) {
-            return get(central);
+
+        String[] t = new String[3];
+        int i = 0;
+        for(String e:trigram) {
+            t[i++] = e;
         }
+        if (t[0].length() == 1 && t[2].length() == 1) // punctuation
+            return 0;
+        if(contains(t[1])) {
+            int freq = get(t[1]);
+            if(freq > 20) {
+                return 1;
+            }
+            return 0;
+        }
+        return 0;
+    }
+
+    public int score(String token)
+    {
+        String tkn = getToken(token);
+        if(contains(tkn))
+            return get(tkn);
         return 0;
     }
 
@@ -102,6 +125,22 @@ public class TrainingLexiconDiff implements TrigramScoreTool {
         }
     }
 
+    protected void collectToken(ScoredToken st)
+    {
+        if (st.getScore() == 0)
+            return;
+
+        int min = 0;
+        if (!topTokens.isEmpty())
+            min = topTokens.min().getScore();
+
+        if (topTokens.size() < ttN && st.getScore() >= min) {
+            topTokens.insert(st);
+            if (topTokens.size() == ttN + 1)
+                topTokens.delMin();
+        }
+    }
+
     public static void main(String[] args)
     {
         System.gc();
@@ -113,9 +152,17 @@ public class TrainingLexiconDiff implements TrigramScoreTool {
 
         TrainingLexiconDiff diff = new TrainingLexiconDiff(baseDictFile, corpusFile);
 
-        System.out.println("Words: \n");
+        // System.out.println("Words: \n");
         for (String word : diff.words()) {
-            System.out.println(word);
+            //System.out.println(word);
+            diff.collectToken(new ScoredToken(word, diff.score(word)));
+        }
+
+        System.out.println("Top tokens: \n");
+        int i = 0;
+        for (ScoredToken t: diff.topTokens){
+            i++;
+            System.out.println(Integer.toString(i) + " " + t.getToken() + " " + t.getScore());
         }
 
         System.out.println(diff.size());
