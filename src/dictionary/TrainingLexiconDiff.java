@@ -19,41 +19,23 @@ import java.io.InputStreamReader;
  */
 public class TrainingLexiconDiff implements TrigramScoreTool {
 
-    protected int N = 100;
-//    protected TST<Integer> indexTrain;
     protected TST<Integer> indexCorpus;
 
     protected int counter;
 
-    public TrainingLexiconDiff(String baseDictFile, String trainFile, String corpusFile) {
+    public TrainingLexiconDiff(String baseDictFile, String corpusFile) {
 
         MorfItYesNoDictionary d = new MorfItYesNoDictionary(baseDictFile);
 
- //       indexTrain = new TST<Integer>();
         indexCorpus = new TST<Integer>();
 
         String line, word;
         BufferedReader br;
 
-//        try {
-//            br = new BufferedReader(new InputStreamReader(new FileInputStream(trainFile), "utf8"));
-//            while ((line = br.readLine()) != null) {
-//                word = getToken(line);
-//                if (word.length() > 2 && !word.matches("^(http|@|#|tco).*") && !d.contains(word)) {
-//                    addTrainEntry(word);
-//                }
-//            }
-//            br.close();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//            System.out.println(e.toString());
-//        }
-
         try {
             br = new BufferedReader(new InputStreamReader(new FileInputStream(corpusFile), "utf8"));
             while ((line = br.readLine()) != null) {
                 word = getToken(line);
-                //if (word.matches("\\w+") && word.length() > 2 && !word.matches("^(http|@|#|tco).*") && !d.contains(word) && !trainContains(word)) {
                 if (word.matches("\\w+") && word.length() > 2 && !word.matches("^(http|@|#|tco).*") && !d.contains(word)) {
                     counter += 1;
                     addCorpusEntry(word);
@@ -70,11 +52,6 @@ public class TrainingLexiconDiff implements TrigramScoreTool {
             System.out.println(e.toString());
         }
     }
-
-//    public boolean trainContains(String form)
-//    {
-//        return indexTrain.get(form) != null;
-//    }
 
     public boolean contains(String form)
     {
@@ -103,11 +80,6 @@ public class TrainingLexiconDiff implements TrigramScoreTool {
         return 0;
     }
 
-//    protected void addTrainEntry(String form)
-//    {
-//        indexTrain.put(form, 1);
-//    }
-
     public Iterable<String> words()
     {
         return indexCorpus.keys();
@@ -115,34 +87,7 @@ public class TrainingLexiconDiff implements TrigramScoreTool {
 
     protected String getToken(String line)
     {
-        //This we let sed to do
-//        String s = line.replace(" ", "\t");
-//        String[] a = s.toLowerCase().split("\t");
-//        String word = a[0];
-
         return line.toLowerCase().replace("rt", "").replaceAll("[‘'~&;,.\"]", "").replaceAll("^\\d+$", "");
-
-       // This we let sed to do
-//        word = word.
-//                replaceAll("aa+$","a").
-//                replaceAll("àà+$","à").
-//                replaceAll("ee+$","e").
-//                replaceAll("èè+$","è").
-//                replaceAll("éé+$","é").
-//                replaceAll("oo+$","o").
-//                replaceAll("òò+$","ò").
-//                replaceAll("uu+$","u").
-//                replaceAll("ùù+$","ù").
-//                replaceAll("ii+$","i").
-//                replaceAll("ìì+$","ì").
-
-//                replaceAll("^(\\w)\\1+","$1"). // letter is repeated at the beginning of the token
-//                replaceAll("(\\w)\\1+$","$1"). // letter is repeated at the end of the token
-//                replaceAll("(\\w{2})\\1+$","$1$1"). // token consist of the repeated pair of letters, lets repeat once, not more
-//                replaceAll("^(\\w{2})\\1+","$1$1").
-//                replaceAll("(\\w)\\1{2}\\1+","$1$1$1"); // letter is repeated more than 3 times in the middle of the word, lets repeat only three times
-
-//        return word;
     }
 
     protected void addCorpusEntry(String form)
@@ -162,12 +107,11 @@ public class TrainingLexiconDiff implements TrigramScoreTool {
         System.gc();
         Runtime rt = Runtime.getRuntime();
 
-        // /home/lera/Desktop/LAUREA/la_terra_trema/morfit/morph-it_048.txt /home/lera/Desktop/LAUREA/Training_pos_isst-paisa-devLeg.pos /home/lera/Desktop/LAUREA/corpus_annotato_automaticamente.pos
+        // /home/lera/Desktop/LAUREA/la_terra_trema/morfit/morph-it_048.txt /home/lera/Desktop/LAUREA/corpus_annotato_automaticamente_cleaned_no_tags.pos
         String baseDictFile  = args[0]; // /home/lera/Desktop/LAUREA/la_terra_trema/morfit/morph-it_048.txt
-        String trainFile  = args[1]; // /home/lera/Desktop/LAUREA/Training_pos_isst-paisa-devLeg.pos
-        String corpusFile  = args[2]; // /home/lera/Desktop/LAUREA/corpus_annotato_automaticamente_cleaned_no_tags.pos
+        String corpusFile  = args[1]; // /home/lera/Desktop/LAUREA/corpus_annotato_automaticamente_cleaned_no_tags.pos
 
-        TrainingLexiconDiff diff = new TrainingLexiconDiff(baseDictFile, trainFile, corpusFile);
+        TrainingLexiconDiff diff = new TrainingLexiconDiff(baseDictFile, corpusFile);
 
         System.out.println("Words: \n");
         for (String word : diff.words()) {
