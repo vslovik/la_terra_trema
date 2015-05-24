@@ -5,10 +5,15 @@ import com.sun.istack.internal.NotNull;
 
 public class ScoredPhrase implements Comparable<ScoredPhrase> {
 
-    protected Integer score;
+    protected Double score;
     protected Queue<String> lines;
 
-    public ScoredPhrase(Queue<String> lines, int score)
+    public ScoredPhrase()
+    {
+        this.lines = new Queue<String>();
+    }
+
+    public ScoredPhrase(Queue<String> lines, double score)
     {
         this.lines = lines;
         this.score = score;

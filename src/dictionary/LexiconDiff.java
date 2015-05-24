@@ -4,7 +4,7 @@ import algorithms.MinPQ;
 import algorithms.Queue;
 import algorithms.TST;
 import score.ScoredToken;
-import score.TrigramScoreTool;
+import score.PhraseScoreTool;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -19,7 +19,7 @@ import java.io.InputStreamReader;
  *
  *  @author Valeriya Slovikovskaya
  */
-public class TrainingLexiconDiff implements TrigramScoreTool {
+public class LexiconDiff implements PhraseScoreTool {
 
     protected TST<Integer> indexCorpus;
     protected MinPQ<ScoredToken> topTokens;
@@ -27,7 +27,7 @@ public class TrainingLexiconDiff implements TrigramScoreTool {
     protected int ttN = 50000;
     protected int counter;
 
-    public TrainingLexiconDiff(String baseDictFile, String corpusFile) {
+    public LexiconDiff(String baseDictFile, String corpusFile) {
 
         MorfItYesNoDictionary d = new MorfItYesNoDictionary(baseDictFile);
 
@@ -73,7 +73,7 @@ public class TrainingLexiconDiff implements TrigramScoreTool {
         return indexCorpus.size();
     }
 
-    public int score(Queue<String> trigram)
+    public double score(Queue<String> trigram)
     {
         if(trigram.size() != 3)
             throw new IllegalArgumentException("Size of trigram != 3");
@@ -150,7 +150,7 @@ public class TrainingLexiconDiff implements TrigramScoreTool {
         String baseDictFile  = args[0]; // /home/lera/Desktop/LAUREA/la_terra_trema/morfit/morph-it_048.txt
         String corpusFile  = args[1]; // /home/lera/Desktop/LAUREA/corpus_annotato_automaticamente_cleaned_no_tags.pos
 
-        TrainingLexiconDiff diff = new TrainingLexiconDiff(baseDictFile, corpusFile);
+        LexiconDiff diff = new LexiconDiff(baseDictFile, corpusFile);
 
         // System.out.println("Words: \n");
         for (String word : diff.words()) {

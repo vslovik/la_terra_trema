@@ -1,0 +1,1 @@
+cat /home/lera/Desktop/LAUREA/corpus_annotato_automaticamente.pos | grep -C1 "tutti" | egrep -C1 ^i\\s | wc -l
