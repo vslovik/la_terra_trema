@@ -1,0 +1,3008 @@
+/usr/local/jdk1.8.0_40/bin/java -mx1g -Didea.launcher.port=7536 -Didea.launcher.bin.path=/home/lera/idea-IC-135.1230/bin -Dfile.encoding=UTF-8 -classpath /usr/local/jdk1.8.0_40/jre/lib/resources.jar:/usr/local/jdk1.8.0_40/jre/lib/jfr.jar:/usr/local/jdk1.8.0_40/jre/lib/jfxswt.jar:/usr/local/jdk1.8.0_40/jre/lib/deploy.jar:/usr/local/jdk1.8.0_40/jre/lib/plugin.jar:/usr/local/jdk1.8.0_40/jre/lib/rt.jar:/usr/local/jdk1.8.0_40/jre/lib/javaws.jar:/usr/local/jdk1.8.0_40/jre/lib/jsse.jar:/usr/local/jdk1.8.0_40/jre/lib/charsets.jar:/usr/local/jdk1.8.0_40/jre/lib/jce.jar:/usr/local/jdk1.8.0_40/jre/lib/management-agent.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/sunec.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/sunjce_provider.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/zipfs.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/dnsns.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/cldrdata.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/nashorn.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/localedata.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/jfxrt.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/sunpkcs11.jar:/home/lera/Desktop/LAUREA/la_terra_trema/classes:/home/lera/idea-IC-135.1230/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain score.TopTagged /home/lera/Desktop/LAUREA/Training_pos_isst-paisa-devLeg.pos /home/lera/Desktop/LAUREA/corpus_annotato_automaticamente.pos
+Memory usage: 62Mb
+
+Memory usage: 324Mb
+
+1
+score: 20.998821457266793
+
+SOLO IN ITALIA ! 
+B E SP FS 
+
+2
+score: 21.014500197245304
+
+A domani . 
+E B FS 
+
+3
+score: 21.014938141423034
+
+Iniziata l' operazione di terra da parte di Israele verso Gaza . 
+Vpsfs RDns Sfs E Sfs E Sfs E SP E SP FS 
+
+4
+score: 21.01885339844893
+
+Bastara solo con Verte . 
+SP B E SP FS 
+
+5
+score: 21.023131584694436
+
+Come sempre . 
+E B FS 
+
+6
+score: 21.0304050149296
+
+come sempre . 
+E B FS 
+
+7
+score: 21.0304050149296
+
+come sempre . 
+E B FS 
+
+8
+score: 21.0304050149296
+
+come sempre . 
+E B FS 
+
+9
+score: 21.0304050149296
+
+come sempre . 
+E B FS 
+
+10
+score: 21.0304050149296
+
+come sempre . 
+E B FS 
+
+11
+score: 21.0304050149296
+
+come sempre . 
+E B FS 
+
+12
+score: 21.042972361567777
+
+Sì , di Salò ! 
+B FF E SP FS 
+
+13
+score: 21.056852365322356
+
+@pigrec0_ Pazzesco ... 
+Sms SP FF 
+
+14
+score: 21.056852365322356
+
+@pigrec0_ Pazzesco ... 
+Sms SP FF 
+
+15
+score: 21.06687435615209
+
+Solo per Marotta . 
+B E SP FS 
+
+16
+score: 21.06687435615209
+
+Solo per Siculi . 
+B E SP FS 
+
+17
+score: 21.06687435615209
+
+Solo per Andreahahahahah . 
+B E SP FS 
+
+18
+score: 21.067726185737786
+
+In onda fra pochissimo ! 
+E Sfs E Ams FS 
+
+19
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+20
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+21
+score: 21.10520796341179
+
+G ... 
+Sms FF 
+
+22
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+23
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+24
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+25
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+26
+score: 21.10520796341179
+
+Senso ... 
+Sms FF 
+
+27
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+28
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+29
+score: 21.10520796341179
+
+Senso ... 
+Sms FF 
+
+30
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+31
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+32
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+33
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+34
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+35
+score: 21.10520796341179
+
+HAHAHAHHAHAHHAHAHHAHAHHAHAHAHHAHHAHAHH ... 
+Sms FF 
+
+36
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+37
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+38
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+39
+score: 21.10520796341179
+
+Cazzo ... 
+Sms FF 
+
+40
+score: 21.10520796341179
+
+Cazzo ... 
+Sms FF 
+
+41
+score: 21.10520796341179
+
+T ... 
+Sms FF 
+
+42
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+43
+score: 21.10520796341179
+
+G ... 
+Sms FF 
+
+44
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+45
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+46
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+47
+score: 21.10520796341179
+
+G ... 
+Sms FF 
+
+48
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+49
+score: 21.10520796341179
+
+G ... 
+Sms FF 
+
+50
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+51
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+52
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+53
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+54
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+55
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+56
+score: 21.10520796341179
+
+CH ... 
+Sms FF 
+
+57
+score: 21.105240942766713
+
+N ... 
+Sms FF 
+
+58
+score: 21.10527392212164
+
+S ... 
+Sms FF 
+
+59
+score: 21.10527392212164
+
+S ... 
+Sms FF 
+
+60
+score: 21.10527392212164
+
+S ... 
+Sms FF 
+
+61
+score: 21.105306901476563
+
+C ... 
+Sms FF 
+
+62
+score: 21.105306901476563
+
+C ... 
+Sms FF 
+
+63
+score: 21.105306901476563
+
+C ... 
+Sms FF 
+
+64
+score: 21.105306901476563
+
+C ... 
+Sms FF 
+
+65
+score: 21.105306901476563
+
+C ... 
+Sms FF 
+
+66
+score: 21.105306901476563
+
+C ... 
+Sms FF 
+
+67
+score: 21.15764638512982
+
+De Benedetti chiama a #inonda per lamentarsi di ... 
+SP SP Vip3s E Sfs E Vfc E FF 
+
+68
+score: 21.15764638512982
+
+De Benedetti chiama a #inonda per lamentarsi di ... 
+SP SP Vip3s E Sfs E Vfc E FF 
+
+69
+score: 21.15764638512982
+
+De Benedetti chiama a #inonda per lamentarsi di ... 
+SP SP Vip3s E Sfs E Vfc E FF 
+
+70
+score: 21.15764638512982
+
+De Benedetti chiama a #inonda per lamentarsi di ... 
+SP SP Vip3s E Sfs E Vfc E FF 
+
+71
+score: 21.15764638512982
+
+De Benedetti chiama a #inonda per lamentarsi di ... 
+SP SP Vip3s E Sfs E Vfc E FF 
+
+72
+score: 21.15764638512982
+
+De Benedetti chiama a #inonda per lamentarsi di ... 
+SP SP Vip3s E Sfs E Vfc E FF 
+
+73
+score: 21.15764638512982
+
+De Benedetti chiama a #inonda per lamentarsi di ... 
+SP SP Vip3s E Sfs E Vfc E FF 
+
+74
+score: 21.15764638512982
+
+De Benedetti chiama a #inonda per lamentarsi di ... 
+SP SP Vip3s E Sfs E Vfc E FF 
+
+75
+score: 21.15764638512982
+
+De Benedetti chiama a #inonda per lamentarsi di ... 
+SP SP Vip3s E Sfs E Vfc E FF 
+
+76
+score: 21.15764638512982
+
+De Benedetti chiama a #inonda per lamentarsi di ... 
+SP SP Vip3s E Sfs E Vfc E FF 
+
+77
+score: 21.15764638512982
+
+De Benedetti chiama a #inonda per lamentarsi di ... 
+SP SP Vip3s E Sfs E Vfc E FF 
+
+78
+score: 21.15764638512982
+
+De Benedetti chiama a #inonda per lamentarsi di ... 
+SP SP Vip3s E Sfs E Vfc E FF 
+
+79
+score: 21.15764638512982
+
+De Benedetti chiama a #inonda per lamentarsi di ... 
+SP SP Vip3s E Sfs E Vfc E FF 
+
+80
+score: 21.161580366035285
+
+Solo , sin enroscarme . 
+B FF E Sms FS 
+
+81
+score: 21.175274355080447
+
+Ma quindi resto da solo in stanza ? 
+CC B Sms E Sms E Sfs FS 
+
+82
+score: 21.185398163306132
+
+1kg di #cioccolatofondente solo per #me\ 
+Snn E Sms B E Sms 
+
+83
+score: 21.193533422484606
+
+Rosina è già in volo verso CT . 
+SP Vip3s B E Sms E SP FS 
+
+84
+score: 21.19730227118884
+
+Dopo #inonda Don Lurio intervista Topolino . 
+E Sfs SP SP Sfs SP FS 
+
+85
+score: 21.20624198726118
+
+Il confronto come arma di seduzione . 
+RDms Sms E Sfs E Sfs FS 
+
+86
+score: 21.206393932315617
+
+Fra di cosa parla aftera ? 
+E E Sfs Vip3s Sfs FS 
+
+87
+score: 21.21382084489898
+
+Attacco peso di nostalgia di quando in cameretta ascoltavo Punkorama . 
+Sms Sms E Sfs E B E Sfs Vii1s SP FS 
+
+88
+score: 21.216138374116
+
+attacco di terra di Israele via @michelegiorgio2 
+Sms E Sfs E SP Sfs Snn 
+
+89
+score: 21.220441822024124
+
+@crisencolor Solo soporto a Lauren 
+Sms B B E SP 
+
+90
+score: 21.241951699275212
+
+Solo amo a Aichel Acosta ? 
+B Sms E SP SP FS 
+
+91
+score: 21.24682424171419
+
+ANTICICLONE GIA IN CRISI ! . 
+Sms SP E SP FS FS 
+
+92
+score: 21.24682424171419
+
+ANTICICLONE GIA IN CRISI ! . 
+Sms SP E SP FS FS 
+
+93
+score: 21.287981107083226
+
+Con quale diritto ? 
+E B Sms FS 
+
+94
+score: 21.29874687248752
+
+Da dicembre precisamente ! 
+E Sms B FS 
+
+95
+score: 21.307501238921045
+
+a esercito stano a tweettà troppo poco su su #mengoniliveconelisa 
+E Sms Vip1s E DIns Sms B E E Sfs 
+
+96
+score: 21.321450179376498
+
+Ecco come legge un bambino con #dislessia. 
+B E Sfs RIms Sms E Sms 
+
+97
+score: 21.328293514337968
+
+Claramente banco a Tinelli . 
+B Sms E SP FS 
+
+98
+score: 21.34093870481547
+
+GALELLA SENZA BARBA AIUTO . 
+Sfs E Sfs SP FS 
+
+99
+score: 21.341852883351283
+
+Tra poco live . 
+E B Sms FS 
+
+100
+score: 21.35626286747466
+
+In inglese ovviamente . 
+E Sms B FS 
+
+101
+score: 21.382615098993163
+
+@rossbrescia #ilmondomuore solo per scopi d' interesse . 
+Sfs Sms B E Smp E Sms FS 
+
+102
+score: 21.38489211209549
+
+L' escalation in M.O. con invasione di terra striscia di G ... 
+RDns Sfn E SP E Sfs E Sfs Sfs E SP FF 
+
+103
+score: 21.395475056071295
+
+Secondo disastro in 4mesi.Stavolta tra Russia ... 
+NOms Sms E Sfs E SP FF 
+
+104
+score: 21.413162640896168
+
+Usualmente a novembre . 
+B E Sms FS 
+
+105
+score: 21.420023081390042
+
+Precipita aereo in zona di guerra Ucraina . 
+Vip3s Sms E Sfs E Sfs SP FS 
+
+106
+score: 21.44109615451664
+
+Solo di tacchino . 
+B E Sms FS 
+
+107
+score: 21.450194180968133
+
+Voglia di pizza ? 
+Sfs E Sfs FS 
+
+108
+score: 21.457328874255126
+
+Guerra di cosa ? 
+Sfs E Sfs FS 
+
+109
+score: 21.49259339953949
+
+Settimana da paura . 
+Sfs E Sfs FS 
+
+110
+score: 21.504242440573137
+
+Stagione di merda . 
+Sfs E Sfs FS 
+
+111
+score: 21.548332100524995
+
+Tremendo mono 
+SP Sms 
+
+112
+score: 21.548332100524995
+
+Tremendo alivioooooo 
+SP Sms 
+
+113
+score: 21.548332100524995
+
+Viennetta #dolce#nutella#gelato#freddo 
+SP Sms 
+
+114
+score: 21.548332100524995
+
+Tremendo chango 
+SP Sms 
+
+115
+score: 21.548332100524995
+
+que pedO 
+SP Sms 
+
+116
+score: 21.56094907134061
+
+@arusohoko Grave 
+Sms SP 
+
+117
+score: 21.56094907134061
+
+@xidolssmile Okay 
+Sms SP 
+
+118
+score: 21.56094907134061
+
+@agusciru Tremendo 
+Sms SP 
+
+119
+score: 21.56157857988719
+
+COMPRATELE DA SOLO , TIRCHIO . 
+Sfs E SP FF SP FS 
+
+120
+score: 21.56157857988719
+
+COMPRATELE DA SOLO , TIRCHIO . 
+Sfs E SP FF SP FS 
+
+121
+score: 21.56157857988719
+
+COMPRATELE DA SOLO , TIRCHIO . 
+Sfs E SP FF SP FS 
+
+122
+score: 21.56157857988719
+
+COMPRATELE DA SOLO , TIRCHIO . 
+Sfs E SP FF SP FS 
+
+123
+score: 21.56157857988719
+
+COMPRATELE DA SOLO , TIRCHIO . 
+Sfs E SP FF SP FS 
+
+124
+score: 21.56157857988719
+
+COMPRATELE DA SOLO , TIRCHIO . 
+Sfs E SP FF SP FS 
+
+125
+score: 21.56157857988719
+
+COMPRATELE DA SOLO , TIRCHIO . 
+Sfs E SP FF SP FS 
+
+126
+score: 21.56157857988719
+
+COMPRATELE DA SOLO , TIRCHIO . 
+Sfs E SP FF SP FS 
+
+127
+score: 21.56157857988719
+
+COMPRATELE DA SOLO , TIRCHIO . 
+Sfs E SP FF SP FS 
+
+128
+score: 21.561641637794008
+
+problema Mmq 
+Sms SP 
+
+129
+score: 21.57444943018458
+
+SENZA OMBRA DI DUBBIO ! ! ! 
+E Sfs E SP FS FS FS 
+
+130
+score: 21.61484991850285
+
+Sei a casa da solo . 
+N E Sfs E Sms FS 
+
+131
+score: 21.624027698187906
+
+@AlfredoPedulla Anche Rosina a costo zero a Catania ... 
+N B SP E Sms Sms E SP FF 
+
+132
+score: 21.713184316847972
+
+Alucino tan solo con verla 
+SP SP B E Sfs 
+
+133
+score: 21.72263540603243
+
+Cazzo puzzo troppo di fumo . 
+Sms Sms B E Sms FS 
+
+134
+score: 21.751152455967063
+
+Ma di brutto 
+CC E Sms 
+
+135
+score: 21.780193068817155
+
+Da cave or da grave ... 
+E Sfp B E Sms FF 
+
+136
+score: 21.782831312504715
+
+Braccio di ferro azienda-medici su farmaco epatite . 
+Sms E Sms N E Sms Sfs FS 
+
+137
+score: 21.79662828404761
+
+Rapina Tassista a Roma . 
+Sfs SP E SP FS 
+
+138
+score: 21.807268335543288
+
+Mangia in ristorante , soffitto in testa . 
+Vip3s E Sms FF Sms E Sfs FS 
+
+139
+score: 21.848075383838157
+
+Come farò senza Keegan 
+E Vif1s E SP 
+
+140
+score: 21.85949975715208
+
+La prova di sentimento di comunicazione ... 
+RDfs Sfs E Sms E Sfs FF 
+
+141
+score: 21.868514801241503
+
+Sono in guerra con Whatsapp 
+Vip3p E Sfs E SP 
+
+142
+score: 21.896694611153716
+
+Casa solo con Luisito 
+Sfs B E SP 
+
+143
+score: 21.92652882594646
+
+@carlopalomar Buona sera ? 
+E SP Sfs FS 
+
+144
+score: 21.959820442498568
+
+Motociclette senza casco senza età senza numero max di persone a bordo ... 
+Sfp E Sms E Sfn E Sms B E Sfp E Sms FF 
+
+145
+score: 21.973560380204777
+
+Di guerra , di lutti . 
+E Sfs FF E Smp FS 
+
+146
+score: 21.973560380204777
+
+Di guerra , di lutti . 
+E Sfs FF E Smp FS 
+
+147
+score: 21.973560380204777
+
+Di guerra , di lutti . 
+E Sfs FF E Smp FS 
+
+148
+score: 21.973560380204777
+
+Di guerra , di lutti . 
+E Sfs FF E Smp FS 
+
+149
+score: 21.98101779036796
+
+STRAGE DI INNOCENTI ! 
+Sfs E SP FS 
+
+150
+score: 21.98101779036796
+
+STRAGE DI INNOCENTI ! 
+Sfs E SP FS 
+
+151
+score: 22.002520329778292
+
+Chiusura a Gela ? 
+Sfs E SP FS 
+
+152
+score: 22.037996430078667
+
+Da mesi 
+E Smp 
+
+153
+score: 22.039348583630545
+
+Per soldi 
+E Smp 
+
+154
+score: 22.105205968464716
+
+D' intesa tacita con Egitti 
+E Sfs Afs E SP 
+
+155
+score: 22.105205968464716
+
+D' intesa tacita con Egitti 
+E Sfs Afs E SP 
+
+156
+score: 22.105205968464716
+
+D' intesa tacita con Egitti 
+E Sfs Afs E SP 
+
+157
+score: 22.105205968464716
+
+D' intesa tacita con Egitti 
+E Sfs Afs E SP 
+
+158
+score: 22.105205968464716
+
+D' intesa tacita con Egitti 
+E Sfs Afs E SP 
+
+159
+score: 22.105205968464716
+
+D' intesa tacita con Egitti 
+E Sfs Afs E SP 
+
+160
+score: 22.105205968464716
+
+D' intesa tacita con Egitti 
+E Sfs Afs E SP 
+
+161
+score: 22.25739923964134
+
+Ofelia tra i fiori vs Morte di Ofelia 
+SP E RDmp Smp E SP E SP 
+
+162
+score: 22.25871944110042
+
+Di mondo contro il mondo . 
+E Sms E RDms Sms FS 
+
+163
+score: 22.25871944110042
+
+Di mondo contro il mondo . 
+E Sms E RDms Sms FS 
+
+164
+score: 22.25871944110042
+
+Di mondo contro il mondo . 
+E Sms E RDms Sms FS 
+
+165
+score: 22.25871944110042
+
+Di mondo contro il mondo . 
+E Sms E RDms Sms FS 
+
+166
+score: 22.268595041322314
+
+#iosono 
+Sms 
+
+167
+score: 22.268595041322314
+
+@citiamo 
+Sms 
+
+168
+score: 22.268595041322314
+
+#nonsoloparole 
+Sms 
+
+169
+score: 22.268595041322314
+
+#NOEREENATENTO\ 
+Sms 
+
+170
+score: 22.268595041322314
+
+#vorreiprendereiltreno 
+Sms 
+
+171
+score: 22.268595041322314
+
+#tkg_anime 
+Sms 
+
+172
+score: 22.268595041322314
+
+#TIM4U 
+Sms 
+
+173
+score: 22.268595041322314
+
+#vorreiprendereiltreno 
+Sms 
+
+174
+score: 22.268595041322314
+
+@archivetro 
+Sms 
+
+175
+score: 22.268595041322314
+
+#MH17\ 
+Sms 
+
+176
+score: 22.268595041322314
+
+#vorreiprendereiltreno 
+Sms 
+
+177
+score: 22.268595041322314
+
+#sapevatelo 
+Sms 
+
+178
+score: 22.268595041322314
+
+#mistero 
+Sms 
+
+179
+score: 22.268595041322314
+
+Cazzo 
+Sms 
+
+180
+score: 22.268595041322314
+
+#mondo 
+Sms 
+
+181
+score: 22.268595041322314
+
+#EMMATREPUNTOZERO 
+Sms 
+
+182
+score: 22.268595041322314
+
+#vorreiprendereiltreno 
+Sms 
+
+183
+score: 22.268595041322314
+
+YO 
+Sms 
+
+184
+score: 22.268595041322314
+
+Commento 
+Sms 
+
+185
+score: 22.268595041322314
+
+#calciomercato 
+Sms 
+
+186
+score: 22.268595041322314
+
+#ottimismo 
+Sms 
+
+187
+score: 22.268595041322314
+
+@cesareporto 
+Sms 
+
+188
+score: 22.268595041322314
+
+@lilwasthere 
+Sms 
+
+189
+score: 22.268595041322314
+
+Fenomeno 
+Sms 
+
+190
+score: 22.268595041322314
+
+#degradomoraleassoluto 
+Sms 
+
+191
+score: 22.268595041322314
+
+#vorreiprendereiltreno 
+Sms 
+
+192
+score: 22.268595041322314
+
+#FILMAUROSTORY\ 
+Sms 
+
+193
+score: 22.268595041322314
+
+ouo 
+Sms 
+
+194
+score: 22.268595041322314
+
+#mistero 
+Sms 
+
+195
+score: 22.268595041322314
+
+\no 
+Sms 
+
+196
+score: 22.268595041322314
+
+#PD 
+Sms 
+
+197
+score: 22.268595041322314
+
+#MH17" 
+Sms 
+
+198
+score: 22.268595041322314
+
+@mengonimarco 
+Sms 
+
+199
+score: 22.268595041322314
+
+#sapevatelo 
+Sms 
+
+200
+score: 22.268595041322314
+
+harrynelcuore 
+Sms 
+
+201
+score: 22.268595041322314
+
+#parolecheamo 
+Sms 
+
+202
+score: 22.268595041322314
+
+#finoallafine 
+Sms 
+
+203
+score: 22.268595041322314
+
+#rigorosamenteinvinile 
+Sms 
+
+204
+score: 22.268595041322314
+
+#homalditesta#troppo#oraesplode#pd#vaffanculo 
+Sms 
+
+205
+score: 22.268595041322314
+
+#cosechenonvorrestisapere 
+Sms 
+
+206
+score: 22.268595041322314
+
+#sagramontoro 
+Sms 
+
+207
+score: 22.268595041322314
+
+@lodocomello 
+Sms 
+
+208
+score: 22.268595041322314
+
+@mengonimarco 
+Sms 
+
+209
+score: 22.268595041322314
+
+#ilmiocellnonèuniphone 
+Sms 
+
+210
+score: 22.268595041322314
+
+#modificarelamorale 
+Sms 
+
+211
+score: 22.268595041322314
+
+#MH17" 
+Sms 
+
+212
+score: 22.268595041322314
+
+#chiudotutto 
+Sms 
+
+213
+score: 22.268595041322314
+
+#tkg_anime 
+Sms 
+
+214
+score: 22.268595041322314
+
+#noue 
+Sms 
+
+215
+score: 22.268595041322314
+
+#liberalalazio 
+Sms 
+
+216
+score: 22.268595041322314
+
+@officialsslazio 
+Sms 
+
+217
+score: 22.268595041322314
+
+#nientedinuovo 
+Sms 
+
+218
+score: 22.268595041322314
+
+#TIM4U 
+Sms 
+
+219
+score: 22.268595041322314
+
+#vorreiprendereiltreno 
+Sms 
+
+220
+score: 22.268595041322314
+
+#tuttobene 
+Sms 
+
+221
+score: 22.268595041322314
+
+#UE 
+Sms 
+
+222
+score: 22.268595041322314
+
+#calciomercato 
+Sms 
+
+223
+score: 22.268595041322314
+
+@mengonimarco 
+Sms 
+
+224
+score: 22.268595041322314
+
+#ilsegreto 
+Sms 
+
+225
+score: 22.268595041322314
+
+@lodocomello 
+Sms 
+
+226
+score: 22.268595041322314
+
+@lodocomello 
+Sms 
+
+227
+score: 22.268595041322314
+
+PARA-PARA-PARADISE 
+Sms 
+
+228
+score: 22.268595041322314
+
+#governofossile 
+Sms 
+
+229
+score: 22.268595041322314
+
+#panicopreesame 
+Sms 
+
+230
+score: 22.268595041322314
+
+#mostro 
+Sms 
+
+231
+score: 22.268595041322314
+
+#sapevatelo 
+Sms 
+
+232
+score: 22.268595041322314
+
+#MH17\ 
+Sms 
+
+233
+score: 22.268595041322314
+
+#fatemicapire 
+Sms 
+
+234
+score: 22.268595041322314
+
+#acquaperme 
+Sms 
+
+235
+score: 22.268595041322314
+
+we 
+Sms 
+
+236
+score: 22.268595041322314
+
+#disagio 
+Sms 
+
+237
+score: 22.268595041322314
+
+@mengonimarco 
+Sms 
+
+238
+score: 22.268595041322314
+
+#dimaleinpeggio 
+Sms 
+
+239
+score: 22.268595041322314
+
+camino 
+Sms 
+
+240
+score: 22.268595041322314
+
+@mengonimarco 
+Sms 
+
+241
+score: 22.268595041322314
+
+O.O 
+Sms 
+
+242
+score: 22.268595041322314
+
+¡TREMENDO! 
+Sms 
+
+243
+score: 22.268595041322314
+
+#ilsegreto 
+Sms 
+
+244
+score: 22.268595041322314
+
+#umorismonero 
+Sms 
+
+245
+score: 22.268595041322314
+
+#iversicheamo 
+Sms 
+
+246
+score: 22.268595041322314
+
+#NBC 
+Sms 
+
+247
+score: 22.268595041322314
+
+#mollamitiprego 
+Sms 
+
+248
+score: 22.268595041322314
+
+#aggettivoeducato 
+Sms 
+
+249
+score: 22.268595041322314
+
+#dicadicaprego 
+Sms 
+
+250
+score: 22.268595041322314
+
+cazzo 
+Sms 
+
+251
+score: 22.268595041322314
+
+#sapevatelo 
+Sms 
+
+252
+score: 22.268595041322314
+
+@mdisalento 
+Sms 
+
+253
+score: 22.268595041322314
+
+#palo 
+Sms 
+
+254
+score: 22.268595041322314
+
+#NOEREENATENTO\ 
+Sms 
+
+255
+score: 22.268595041322314
+
+#perdire 
+Sms 
+
+256
+score: 22.268595041322314
+
+@citiamo 
+Sms 
+
+257
+score: 22.268595041322314
+
+#finoallafine 
+Sms 
+
+258
+score: 22.268595041322314
+
+@citiamo 
+Sms 
+
+259
+score: 22.268595041322314
+
+#vorreiprendereiltreno 
+Sms 
+
+260
+score: 22.268595041322314
+
+#dubbio 
+Sms 
+
+261
+score: 22.268595041322314
+
+#mostro 
+Sms 
+
+262
+score: 22.268595041322314
+
+@ladyonorato 
+Sms 
+
+263
+score: 22.268595041322314
+
+RIDICOLO 
+Sms 
+
+264
+score: 22.268595041322314
+
+@officialsslazio 
+Sms 
+
+265
+score: 22.268595041322314
+
+@iltwitdimarco 
+Sms 
+
+266
+score: 22.268595041322314
+
+O_O 
+Sms 
+
+267
+score: 22.268595041322314
+
+#sportitaliamercato 
+Sms 
+
+268
+score: 22.268595041322314
+
+#aereo 
+Sms 
+
+269
+score: 22.268595041322314
+
+#perdire 
+Sms 
+
+270
+score: 22.268595041322314
+
+PUAHAHAH 
+Sms 
+
+271
+score: 22.268595041322314
+
+#governofossile 
+Sms 
+
+272
+score: 22.268595041322314
+
+#sportitaliamercato 
+Sms 
+
+273
+score: 22.268595041322314
+
+¡RACISTA! 
+Sms 
+
+274
+score: 22.268595041322314
+
+#perdire 
+Sms 
+
+275
+score: 22.268595041322314
+
+@mengonimarco 
+Sms 
+
+276
+score: 22.268595041322314
+
+#LEH" 
+Sms 
+
+277
+score: 22.268595041322314
+
+@mengonimarco 
+Sms 
+
+278
+score: 22.268595041322314
+
+#CIAO 
+Sms 
+
+279
+score: 22.268595041322314
+
+#consapevole 
+Sms 
+
+280
+score: 22.268595041322314
+
+#cosestrane 
+Sms 
+
+281
+score: 22.268595041322314
+
+#liberalalazio 
+Sms 
+
+282
+score: 22.268595041322314
+
+#vorreiprendereiltreno 
+Sms 
+
+283
+score: 22.268595041322314
+
+#finoallafine 
+Sms 
+
+284
+score: 22.268595041322314
+
+@N..." 
+Sms 
+
+285
+score: 22.268595041322314
+
+Documentario 
+Sms 
+
+286
+score: 22.268595041322314
+
+#grazie 
+Sms 
+
+287
+score: 22.268595041322314
+
+@lodocomello 
+Sms 
+
+288
+score: 22.268595041322314
+
+#sapevatelo 
+Sms 
+
+289
+score: 22.268595041322314
+
+FATTO 
+Sms 
+
+290
+score: 22.268595041322314
+
+#SKYMONSTERSATTACK 
+Sms 
+
+291
+score: 22.268595041322314
+
+@mengonimarco 
+Sms 
+
+292
+score: 22.268595041322314
+
+#ilsegreto 
+Sms 
+
+293
+score: 22.268595041322314
+
+#liberalalazio 
+Sms 
+
+294
+score: 22.268595041322314
+
+#rigorosamenteinvinile 
+Sms 
+
+295
+score: 22.268595041322314
+
+§O^\ 
+Sms 
+
+296
+score: 22.268595041322314
+
+KSHAKHKKSHKJH 
+Sms 
+
+297
+score: 22.268595041322314
+
+#MH17" 
+Sms 
+
+298
+score: 22.268595041322314
+
+#MH17\ 
+Sms 
+
+299
+score: 22.268595041322314
+
+@ladyonorato 
+Sms 
+
+300
+score: 22.268595041322314
+
+#calciomercato 
+Sms 
+
+301
+score: 22.268595041322314
+
+§O^\ 
+Sms 
+
+302
+score: 22.268595041322314
+
+ciaaao 
+Sms 
+
+303
+score: 22.268595041322314
+
+#ilsegreto 
+Sms 
+
+304
+score: 22.268595041322314
+
+#finoallafine 
+Sms 
+
+305
+score: 22.268595041322314
+
+#sapevatelo 
+Sms 
+
+306
+score: 22.268595041322314
+
+dio 
+Sms 
+
+307
+score: 22.268595041322314
+
+#ridicolo 
+Sms 
+
+308
+score: 22.268595041322314
+
+@_ruggero 
+Sms 
+
+309
+score: 22.268595041322314
+
+@mengonimarco 
+Sms 
+
+310
+score: 22.268595041322314
+
+#nnpossiamoesserelunicofaro 
+Sms 
+
+311
+score: 22.268595041322314
+
+PAZZO 
+Sms 
+
+312
+score: 22.268595041322314
+
+#ilsegreto 
+Sms 
+
+313
+score: 22.268595041322314
+
+Settembre 
+Sms 
+
+314
+score: 22.268595041322314
+
+#perdire 
+Sms 
+
+315
+score: 22.268595041322314
+
+@FASTWEB 
+Sms 
+
+316
+score: 22.268595041322314
+
+#amorepuro 
+Sms 
+
+317
+score: 22.268595041322314
+
+#sapevatelo 
+Sms 
+
+318
+score: 22.268595041322314
+
+#campomobile 
+Sms 
+
+319
+score: 22.268595041322314
+
+#noue 
+Sms 
+
+320
+score: 22.268595041322314
+
+o.o 
+Sms 
+
+321
+score: 22.268595041322314
+
+#sapevatelo 
+Sms 
+
+322
+score: 22.268595041322314
+
+#ridicolo 
+Sms 
+
+323
+score: 22.268595041322314
+
+#uanemaropriatorio 
+Sms 
+
+324
+score: 22.268595041322314
+
+#ilsegreto 
+Sms 
+
+325
+score: 22.268595041322314
+
+#muovitiafinire 
+Sms 
+
+326
+score: 22.268595041322314
+
+#M..." 
+Sms 
+
+327
+score: 22.268595041322314
+
+#amorosomanchitroppo 
+Sms 
+
+328
+score: 22.268595041322314
+
+o.o 
+Sms 
+
+329
+score: 22.268595041322314
+
+#israele 
+Sms 
+
+330
+score: 22.268595041322314
+
+#doppiocognome 
+Sms 
+
+331
+score: 22.26866100003216
+
+ridicolo 
+Sms 
+
+332
+score: 22.26866100003216
+
+ridicolo 
+Sms 
+
+333
+score: 22.26866100003216
+
+giuro 
+Sms 
+
+334
+score: 22.26866100003216
+
+ridicolo 
+Sms 
+
+335
+score: 22.26866100003216
+
+ridicolo 
+Sms 
+
+336
+score: 22.26892483487155
+
+aiuto 
+Sms 
+
+337
+score: 22.269122711001096
+
+costo 
+Sms 
+
+338
+score: 22.271007362717747
+
+#stileunico #juvenelcuore 
+Sms Sms 
+
+339
+score: 22.27240487859591
+
+Provincia di Firenze te ? 
+Sfs E SP Sms FS 
+
+340
+score: 22.274911711307016
+
+Per amore solo per amore ? ? 
+E Sms B E Sms FS FS 
+
+341
+score: 22.29167655828616
+
+Di cosa ? 
+E Sfs FS 
+
+342
+score: 22.29167655828616
+
+Di cosa ? 
+E Sfs FS 
+
+343
+score: 22.292863815063416
+
+Per cosa ? 
+E Sfs FS 
+
+344
+score: 22.299242314718622
+
+Da subito avvisaglie di muro di gomma . 
+E B Sfp E Sms E Sfs FS 
+
+345
+score: 22.320457327676955
+
+con solo ver eso me da nostalgia ! 
+E Sms E Sms PC1ns E Sfs FS 
+
+346
+score: 22.328675285606355
+
+Come @GesuRedentore insegna . 
+E Sms Sfs FS 
+
+347
+score: 22.354271952516736
+
+Di corvetta . 
+E Sfs FS 
+
+348
+score: 22.36868261144425
+
+Da ora . 
+E Sfs FS 
+
+349
+score: 22.393372297490906
+
+a costo di non mangiare , cazzo 
+E Sms E BN Sms FF Sms 
+
+350
+score: 22.397071060239565
+
+Orrore senza fine . 
+Sms E Sfs FS 
+
+351
+score: 22.398302827512524
+
+Tipo dolore di crescita . 
+Sms Sms E Sfs FS 
+
+352
+score: 22.429441164975053
+
+Vaccino di merda . 
+Sms E Sfs FS 
+
+353
+score: 22.42998844711438
+
+Attacco di terra . 
+Sms E Sfs FS 
+
+354
+score: 22.44731088427928
+
+Kuzmanovic adesso in diretta su Sportitalia ! 
+SP B E Sfs E SP FS 
+
+355
+score: 22.4821703891771
+
+Legge di mercato . 
+Sfs E Sms FS 
+
+356
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+357
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+358
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+359
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+360
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+361
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+362
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+363
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+364
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+365
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+366
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+367
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+368
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+369
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+370
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+371
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+372
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+373
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+374
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+375
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+376
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+377
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+378
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+379
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+380
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+381
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+382
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+383
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+384
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+385
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+386
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+387
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+388
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+389
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+390
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+391
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+392
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+393
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+394
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+395
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+396
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+397
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+398
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+399
+score: 22.521546935121002
+
+Come sempre person ... 
+E B Sms FF 
+
+400
+score: 22.53014907792805
+
+Cristian pazzo di Tara ? 
+SP Sms E SP FS 
+
+401
+score: 22.53096093171591
+
+Itavia a Ustica ? 
+SP E SP FS 
+
+402
+score: 22.584067694578685
+
+Giusto per t ... 
+B E Sms FF 
+
+403
+score: 22.584067694578685
+
+Giusto per t ... 
+B E Sms FF 
+
+404
+score: 22.584067694578685
+
+Giusto per t ... 
+B E Sms FF 
+
+405
+score: 22.594200095643597
+
+http://t.co/Y2CJKtJJfi da Voci di #Brescia 
+N E SP E Sfs 
+
+406
+score: 22.609854296404524
+
+da Kuala Lumpur . 
+E SP SP FS 
+
+407
+score: 22.73158705267666
+
+Salvo solo il video di SOML ... 
+E Sms RDms Sms E SP FF 
+
+408
+score: 22.805106988982896
+
+Bastara solo con verteeee 
+SP B E Sms 
+
+409
+score: 22.805106988982896
+
+Bastara solo con vertee 
+SP B E Sms 
+
+410
+score: 22.805106988982896
+
+Bastara solo con verteeee 
+SP B E Sms 
+
+411
+score: 22.805106988982896
+
+Bastara solo con vertee 
+SP B E Sms 
+
+412
+score: 22.805106988982896
+
+Bastara solo con verteee 
+SP B E Sms 
+
+413
+score: 22.83483018903769
+
+@giuseppezulian Solo in Italia 
+Sms B E SP 
+
+414
+score: 22.848474729288956
+
+Gaza sotto attacco ! 
+SP E Sms FS 
+
+415
+score: 22.880812824723836
+
+Anche stasera a casa da solo 
+B B E Sfs E Sms 
+
+416
+score: 22.90471291924681
+
+Magari come animaletto da compagnia ! 
+B E Sms E Sfs FS 
+
+417
+score: 22.99774183427862
+
+SCHIFOSA RETE DI MERDA , SCHIFOSO TEMPO DI MERDA 
+Sfs Sfs E SP FF SP Sms E Sfs 
+
+418
+score: 23.009771689230668
+
+Altopiano di Asiago . 
+Sms E SP FS 
+
+419
+score: 23.05272113821156
+
+Come Dio ! 
+E SP FS 
+
+420
+score: 23.065605072868465
+
+da Gaza ? 
+E SP FS 
+
+421
+score: 23.128045984857557
+
+Di Umano . 
+E SP FS 
+
+422
+score: 23.128045984857557
+
+Di Umano . 
+E SP FS 
+
+423
+score: 23.128045984857557
+
+Di Umano . 
+E SP FS 
+
+424
+score: 23.245496686592645
+
+carcere senza appello ! 
+Sms E Sms FS 
+
+425
+score: 23.249223353699037
+
+Esterno d' attacco ? 
+Sms E Sms FS 
+
+426
+score: 23.249223353699037
+
+Esterno d' attacco ? 
+Sms E Sms FS 
+
+427
+score: 23.322901293808528
+
+pericolo di crollo ! 
+Sms E Sms FS 
+
+428
+score: 23.382708833814682
+
+A dopo http://t.co/td51upupmx 
+E B Sms 
+
+429
+score: 23.41777173481464
+
+A comer solo 
+E Sms B 
+
+430
+score: 23.429046689722004
+
+Offensiva di terra a Gaza . 
+Sfs E Sfs E SP FS 
+
+431
+score: 23.440049953458317
+
+Sesso Leonard Cohen Chelsea Hotel 
+E SP SP SP SP 
+
+432
+score: 23.48770126260521
+
+solo a comer 
+B E Sms 
+
+433
+score: 23.503753540208344
+
+Di brutto ! 
+E Sms FS 
+
+434
+score: 23.527630593173186
+
+in attacco ? 
+E Sms FS 
+
+435
+score: 23.529909762504168
+
+@dmaxitalia senza dubbio con Chef Rubio ! 
+Sfs E Sms E SP SP FS 
+
+436
+score: 23.531616422101326
+
+PLEASE COME BACK 
+Sfs E Sfs 
+
+437
+score: 23.531616422101326
+
+CAUSA DA MORTE 
+Sfs E Sfs 
+
+438
+score: 23.541772856340724
+
+Solo a ig 
+B E Sms 
+
+439
+score: 23.55821540641818
+
+Per amore solo per amore per amore solo per amoreeeee http://t.co/gpn0eSKnch 
+E Sms B E Sms E Sms B E Sms N 
+
+440
+score: 23.57910037309096
+
+Con affetto . 
+E Sms FS 
+
+441
+score: 23.580133726211905
+
+In inganno . 
+E Sms FS 
+
+442
+score: 23.58057345094422
+
+Per favore . 
+E Sms FS 
+
+443
+score: 23.588392299215787
+
+Eccetto il neurone in comune 
+E RDms Sms E Sms 
+
+444
+score: 23.594475072586125
+
+Troia di merda 
+Sfs E Sfs 
+
+445
+score: 23.595483393915668
+
+Da solo . 
+E Sms FS 
+
+446
+score: 23.634016715460636
+
+In meglio . 
+E Sms FS 
+
+447
+score: 23.75004835651702
+
+@ligabue aspetto sabato da troppo ... 
+Sms Sms Sms E Sms FF 
+
+448
+score: 23.812170896250873
+
+Merdaaaaaaaaa ... clero di brutto 
+SP FF Sms E Sms 
+
+449
+score: 23.90197599707333
+
+In volo da #Amsterdam. 
+E Sms E N 
+
+450
+score: 23.93611301862507
+
+A dopo 
+E B 
+
+451
+score: 23.941798568143838
+
+A costo di .... 
+E Sms E N 
+
+452
+score: 23.941934287011062
+
+Per sempre 
+E B 
+
+453
+score: 24.058206914966306
+
+Mbaye a Udine per Pereyra ? 
+SP E SP E SP FS 
+
+454
+score: 24.139294109706096
+
+Di . 
+E FS 
+
+455
+score: 24.360718897410358
+
+Ad agosto per Tel Aviv . 
+E Sms E SP SP FS 
+
+456
+score: 24.723422813953253
+
+Con Af ... 
+E SP FF 
+
+457
+score: 24.8283811791013
+
+Mondo di merda 
+Sms E Sfs 
+
+458
+score: 24.8283811791013
+
+Mondo di merda 
+Sms E Sfs 
+
+459
+score: 24.8283811791013
+
+Mondo di merda 
+Sms E Sfs 
+
+460
+score: 24.8283811791013
+
+Mondo di merda 
+Sms E Sfs 
+
+461
+score: 24.98488314491064
+
+In viaggio per Londra ? 
+E Sms E SP FS 
+
+462
+score: 25.15077255996347
+
+Di pazzo ... 
+E Sms FF 
+
+463
+score: 25.168964851497385
+
+Nome in ... 
+Sms E FF 
+
+464
+score: 25.168964851497385
+
+Nome in ... 
+Sms E FF 
+
+465
+score: 25.168964851497385
+
+Nome in ... 
+Sms E FF 
+
+466
+score: 25.168964851497385
+
+Nome in ... 
+Sms E FF 
+
+467
+score: 25.168964851497385
+
+Nome in ... 
+Sms E FF 
+
+468
+score: 25.168964851497385
+
+Nome in ... 
+Sms E FF 
+
+469
+score: 25.168964851497385
+
+Nome in ... 
+Sms E FF 
+
+470
+score: 25.168964851497385
+
+Nome in ... 
+Sms E FF 
+
+471
+score: 25.168964851497385
+
+Nome in ... 
+Sms E FF 
+
+472
+score: 25.168964851497385
+
+Nome in ... 
+Sms E FF 
+
+473
+score: 25.168964851497385
+
+Nome in ... 
+Sms E FF 
+
+474
+score: 25.24088895385341
+
+a piscina cansa-me de morte 
+E Sfs Sms E Sfs 
+
+475
+score: 25.477094169777335
+
+Come motivo di orgoglio . 
+E Sms E Sms FS 
+
+476
+score: 25.478449555074143
+
+Retwitta per favore 
+SP E Sms 
+
+477
+score: 25.479504289013594
+
+Entrambe per lavoro 
+SP E Sms 
+
+478
+score: 25.913877131344766
+
+Ad maiora 
+E Sfs 
+
+479
+score: 25.913877131344766
+
+Ad maiora 
+E Sfs 
+
+480
+score: 25.914899491347406
+
+Da paura 
+E Sfs 
+
+481
+score: 25.9297072217082
+
+con fiducia 
+E Sfs 
+
+482
+score: 25.994224670583787
+
+benvenuto su mediashopping.it 
+Sms E Sms 
+
+483
+score: 25.994224670583787
+
+Odio comer solo 
+Sms E Sms 
+
+484
+score: 26.0026893716809
+
+riscontro con #pregiudicato. 
+Sms E Sms 
+
+485
+score: 26.005103812621826
+
+Aperitivo da solo 
+Sms E Sms 
+
+486
+score: 26.488831526555874
+
+Da ... 
+E FF 
+
+487
+score: 26.49018368010775
+
+In ... 
+E FF 
+
+488
+score: 26.49051347365699
+
+A ... 
+E FF 
+
+489
+score: 26.49051347365699
+
+A ... 
+E FF 
+
+490
+score: 26.49051347365699
+
+A ... 
+E FF 
+
+491
+score: 26.49051347365699
+
+A ... 
+E FF 
+
+492
+score: 26.49051347365699
+
+A ... 
+E FF 
+
+493
+score: 26.49051347365699
+
+A ... 
+E FF 
+
+494
+score: 26.49051347365699
+
+A ... 
+E FF 
+
+495
+score: 26.49051347365699
+
+A ... 
+E FF 
+
+496
+score: 26.49051347365699
+
+A ... 
+E FF 
+
+497
+score: 27.060639847512327
+
+D' Annunzio 
+E SP 
+
+498
+score: 27.4381132389671
+
+Di mal in peggio 
+E SP E Sms 
+
+499
+score: 27.75821653913772
+
+Da solo 
+E Sms 
+
+500
+score: 33.1372442669071
+
+A 
+E 
+
+
+Process finished with exit code 0
+

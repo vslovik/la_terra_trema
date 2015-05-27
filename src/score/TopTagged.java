@@ -12,7 +12,7 @@ import java.io.InputStreamReader;
 
 public class TopTagged {
 
-    protected int N = 1000;
+    protected int N = 500;
     protected MinPQ<ScoredTaggedPhrase> pqT;
     protected MaxPQ<ScoredTaggedPhrase> pqB;
 
@@ -40,8 +40,9 @@ public class TopTagged {
 
         double max = Double.POSITIVE_INFINITY;
         if (!pqB.isEmpty())
-            max = pqT.min().score;
+            max = pqB.max().score;
 
+        //if ((pqB.size() < N || sp.score < max) && sp.score > 0.01) {
         if (pqB.size() < N || sp.score < max) {
 
             pqB.insert(sp);
@@ -95,9 +96,8 @@ public class TopTagged {
 
                 tokens.enqueue(arr[0]);
                 tags.enqueue(arr[1]);
-
-                if(i > 200000)
-                    break;
+//                if(i > 200000)
+//                    break;
                 i++;
             }
 
@@ -154,10 +154,6 @@ public class TopTagged {
                 sp.tokens.enqueue(arr[0]);
                 sp.tags.enqueue(arr[1]);
 
-                if (i % 500000 == 0) {
-                    printTop();
-                    printBottom();
-                }
                 if (i > 1000000) {
                     break;
                 }
@@ -225,8 +221,12 @@ public class TopTagged {
 
         showMemoryUsage(rt);
 
-        top.printTop();
+        //top.printTop();
         top.printBottom();
+
+        System.out.println(nc.size());
+        System.out.println(tnc.size());
+
     }
 
 }

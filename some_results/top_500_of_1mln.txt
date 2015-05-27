@@ -1,0 +1,3008 @@
+/usr/local/jdk1.8.0_40/bin/java -mx1g -Didea.launcher.port=7547 -Didea.launcher.bin.path=/home/lera/idea-IC-135.1230/bin -Dfile.encoding=UTF-8 -classpath /usr/local/jdk1.8.0_40/jre/lib/resources.jar:/usr/local/jdk1.8.0_40/jre/lib/jfr.jar:/usr/local/jdk1.8.0_40/jre/lib/jfxswt.jar:/usr/local/jdk1.8.0_40/jre/lib/deploy.jar:/usr/local/jdk1.8.0_40/jre/lib/plugin.jar:/usr/local/jdk1.8.0_40/jre/lib/rt.jar:/usr/local/jdk1.8.0_40/jre/lib/javaws.jar:/usr/local/jdk1.8.0_40/jre/lib/jsse.jar:/usr/local/jdk1.8.0_40/jre/lib/charsets.jar:/usr/local/jdk1.8.0_40/jre/lib/jce.jar:/usr/local/jdk1.8.0_40/jre/lib/management-agent.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/sunec.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/sunjce_provider.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/zipfs.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/dnsns.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/cldrdata.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/nashorn.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/localedata.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/jfxrt.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/sunpkcs11.jar:/home/lera/Desktop/LAUREA/la_terra_trema/classes:/home/lera/idea-IC-135.1230/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain score.TopTagged /home/lera/Desktop/LAUREA/Training_pos_isst-paisa-devLeg.pos /home/lera/Desktop/LAUREA/corpus_annotato_automaticamente.pos
+Memory usage: 62Mb
+
+Memory usage: 325Mb
+
+1
+score: 0.30713826705323755
+
+Me lo merito ... 
+PC1ns RDms Sms FF 
+
+2
+score: 0.30720241108000523
+
+@StoraceIl Presidente del Consiglio dovrebbe essere superpartes ? cos' è andato a controllare ? 
+N SP EAms SP VMd3s Vf Snn FS PQns VAip3s Vpsms E Vf FS 
+
+3
+score: 0.30734588395166634
+
+Mio padre ha altamente rotto il cazzo 
+APms Sms Vip3s B Vpsms RDms Sms 
+
+4
+score: 0.3077021377669739
+
+Avrebbero vinto in tutte le categorie caso chiuso :) #WeWantOneDirectionNominatedForTheVmas 
+VAd3p Vpsms E Tfp RDfp Sfp Sms Ams N N 
+
+5
+score: 0.3077242166117419
+
+\Quando c' è una sfida come questa 
+N PCnn Vip3s RIfs Sfs E DDfs 
+
+6
+score: 0.30774657104956465
+
+Avete rotto le palle 
+VAip2p Vpsms RDfp Sfp 
+
+7
+score: 0.30774657104956465
+
+AVETE ROTTO LE PALLE 
+VAip2p Vpsms RDfp Sfp 
+
+8
+score: 0.3080149319279754
+
+@hazgdrx @skylergdrs @ockyliegdr devi morire male 
+SW SW SW VMm2s Vf B 
+
+9
+score: 0.30804363625442455
+
+RT @MarilenaPalo: @__FlyOver stanco e bellissimo 
+SW SW SW Ams CC Ams 
+
+10
+score: 0.30818635414621476
+
+Vergogna su coloro che si rimpallano i morti . 
+Vip3s E PDnp PRnn PC3nn Vip3p RDmp Smp FS 
+
+11
+score: 0.3087330873308733
+
+è romanzato 
+VAip3s Vpsms 
+
+12
+score: 0.3087330873308733
+
+è romanzato 
+VAip3s Vpsms 
+
+13
+score: 0.3087709456712706
+
+Devo andare in piscina . 
+VMip1s Vf E Sfs FS 
+
+14
+score: 0.3089259970963182
+
+RT @thanksjonass: 'ste directioners hanno rotto il cazzo ! 
+SW SW SW SW VAip3p Vpsms RDms Sms FS 
+
+15
+score: 0.3089259970963182
+
+RT @thanksjonass: 'ste directioners hanno rotto il cazzo ! 
+SW SW SW SW VAip3p Vpsms RDms Sms FS 
+
+16
+score: 0.3089822898478424
+
+Devo smettere di sperare troppo 
+VMip1s Vf E Vf B 
+
+17
+score: 0.309090909090909
+
+RT @Hakflak: @Misericordia18 @EricaDoddo @rosetoardente @_MaryB @orii151 @agostinoballero @Cathopedia \ 
+SW SW SW SW SW SW SW SW SW X 
+
+18
+score: 0.309090909090909
+
+RT @Hakflak: @Misericordia18 @EricaDoddo @rosetoardente @_MaryB @orii151 @agostinoballero @Cathopedia \ 
+SW SW SW SW SW SW SW SW SW X 
+
+19
+score: 0.3090909090909091
+
+#fortevillageresort #pistidda #bicicenter #handmadeinitaly http://t.co/apJknltZdK 
+SW SW SW SW SW 
+
+20
+score: 0.3090909090909091
+
+#aquafan #riccione #italy #summer http://t.co/0lHRQ5ujuL 
+SW SW SW SW SW 
+
+21
+score: 0.3090909090909091
+
+RT @giiovani_gomez: @PaolaGaviria_ baggh .... 
+SW SW SW SW SW 
+
+22
+score: 0.3090909090909091
+
+RT @geomiglio: @clabradi boh .... 
+SW SW SW SW SW 
+
+23
+score: 0.3090909090909091
+
+RT @100xcentoBio: @InOndaLa7 @ignaziomarino @petergomezblog 
+SW SW SW SW SW 
+
+24
+score: 0.3090909090909091
+
+#inpdap #inps #vacanzastudio #ih #accademiabrittannica 
+SW SW SW SW SW 
+
+25
+score: 0.309095617343414
+
+Voglio mettere un profilo depresso 
+VMip1s Vf RIms Sms Ams 
+
+26
+score: 0.3092412644580579
+
+' c' è stato un problema nella selezione dei problemi di windows ' \ 
+FB PCnn VAip3s Vpsms RIms Sms EAfs Sfs EAmp Smp E Snn FB X 
+
+27
+score: 0.3092507507196383
+
+Ora capiranno che c' è la guerra ! ? " 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS FB 
+
+28
+score: 0.3092507507196383
+
+Ora capiranno che c' è la guerra ! ? " 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS FB 
+
+29
+score: 0.3092507507196383
+
+Ora capiranno che c' è la guerra ! ? " 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS FB 
+
+30
+score: 0.3092611184359568
+
+#GazaUnderAttack è iniziato l' attacco di terra . 
+N VAip3s Vpsms RDns Sms E Sfs FS 
+
+31
+score: 0.3093806921675774
+
+Qualcuno ha sue notizie 
+PIms Vip3s APfp Sfp 
+
+32
+score: 0.3093806921675774
+
+Qualcuno ha sue notizie 
+PIms Vip3s APfp Sfp 
+
+33
+score: 0.3094224329249783
+
+Tutti i dati sul commercio d' armi \ 
+Tmp RDmp Smp EAms Sms E Sfp X 
+
+34
+score: 0.31008447450419035
+
+@Louis_Tomlinson c' è qua mio cugino . 
+N PCnn Vip3s B APms Sms FS 
+
+35
+score: 0.3107339853281773
+
+Ebbene , è iniziata 
+CS FF VAip3s Vpsfs 
+
+36
+score: 0.3107339853281773
+
+Ebbene , è iniziata 
+CS FF VAip3s Vpsfs 
+
+37
+score: 0.3107339853281773
+
+Ebbene , è iniziata 
+CS FF VAip3s Vpsfs 
+
+38
+score: 0.3107339853281773
+
+Ebbene , è iniziata 
+CS FF VAip3s Vpsfs 
+
+39
+score: 0.31077697044121705
+
+La paura di mostrarsi e la voglia di aversi . 
+RDfs Sfs E Vfc CC RDfs Sfs E VAfc FS 
+
+40
+score: 0.31077697044121705
+
+La paura di mostrarsi e la voglia di aversi . 
+RDfs Sfs E Vfc CC RDfs Sfs E VAfc FS 
+
+41
+score: 0.3109362737554281
+
+Tutti i dati sul commercio d' armi http://t.co/yhMs6wmFYN 
+Tmp RDmp Smp EAms Sms E Sfp N 
+
+42
+score: 0.3109422418854055
+
+Se riesco a convincere i miei ci sono ... 
+CS Vip1s E Vf RDmp APmp PCnn Vip3p FF 
+
+43
+score: 0.3110339803545101
+
+Nel mondo c' è posto per tutti . 
+EAms Sms PCnn VAip3s Vpsms E PImp FS 
+
+44
+score: 0.3110339803545101
+
+Nel mondo c' è posto per tutti . 
+EAms Sms PCnn VAip3s Vpsms E PImp FS 
+
+45
+score: 0.3115213161086561
+
+RT @Highlander_Ro: @laMuntagnola86 @cropy03 @NicoSpartaco è questo che volevo dire . 
+SW SW SW SW SW Vip3s PDms PRnn VMii1s Vf FS 
+
+46
+score: 0.31189799367817883
+
+RT @DanieleVotta: Quando sei stanco e la risposta ad ogni domanda è una bestemmia . 
+SW SW CS Vip2s Ams CC RDfs Sfs E DIns Sfs Vip3s RIfs Sfs FS 
+
+47
+score: 0.31190797047864643
+
+( assunzione di colpa del principe di Danimarca ) \ 
+FB Sfs E Sfs EAms Sms E SP FB X 
+
+48
+score: 0.3119398339144913
+
+RT @HimeMisanthropy: Piango troppo aiuto . 
+SW SW Vip1s DIms Sms FS 
+
+49
+score: 0.3119398339144913
+
+RT @HimeMisanthropy: Piango troppo aiuto . 
+SW SW Vip1s DIms Sms FS 
+
+50
+score: 0.3121135673197451
+
+La morte della politica 
+RDfs Sfs EAfs Sfs 
+
+51
+score: 0.3121135673197451
+
+La morte della politica 
+RDfs Sfs EAfs Sfs 
+
+52
+score: 0.3121275740421491
+
+Avete rotto con questa storia 
+VAip2p Vpsms E DDfs Sfs 
+
+53
+score: 0.3126427173613372
+
+Quella voglia di prenderla e baciarla fino alla morte 
+DDfs Sfs E Vfc CC Vfc B EAfs Sfs 
+
+54
+score: 0.31276519928549423
+
+ho abbandonato il mio all 
+VAip1s Vpsms RDms APms Sms 
+
+55
+score: 0.31284568720436
+
+Vale la pena di interessarsi a tutte queste bugie ? 
+Vip3s RDfs Sfs E Vfc E DIfp DDfp Sfp FS 
+
+56
+score: 0.31315879088930487
+
+Ho preso troppo sole ! 
+VAip1s Vpsms DIms Sms FS 
+
+57
+score: 0.31327375905937666
+
+@jaibrooksbrbgdr qual è il tuo problema ? 
+Snn PQns Vip3s RDms APms Sms FS 
+
+58
+score: 0.3133099735132704
+
+Il beneficio del dubbio 
+RDms Sms EAms Sms 
+
+59
+score: 0.3138369967393873
+
+marco è solo uno stronzo \ 
+Sms Vip3s B RIms Sms X 
+
+60
+score: 0.3138507710117992
+
+Troppo facile sparare a zero . 
+B Ans Vf E Sms FS 
+
+61
+score: 0.314379556013236
+
+ogni giorno è una polemica . 
+DIns Sms Vip3s RIfs Sfs FS 
+
+62
+score: 0.3144704660190658
+
+Aereo abbattuto in Ucraina , tutte le prime pagine http://t.co/uKJya584ph 
+SP Vpsms E SP FF Tfp RDfp NOfp Sfp N 
+
+63
+score: 0.3145311907914868
+
+c' è molto da cambiare 
+PCnn Vip3s B E Vf 
+
+64
+score: 0.3145679564276151
+
+vorrei mettere un profilo dedicato a colpa delle stelle 
+VMd1s Vf RIms Sms Vpsms E Sfs EAfp Sfp 
+
+65
+score: 0.3147013267513054
+
+RT @ChiaraCampione: @indivanados @carloebasta decrescita infelice su tutta la linea . 
+SW SW SW SW SW Ans E Tfs RDfs Sfs FS 
+
+66
+score: 0.3147227720360871
+
+@MatteoCorreani Nel tardo pomeriggio . 
+N SP Ams Sms FS 
+
+67
+score: 0.31481540064336366
+
+RT @Pontifex_it: Non c' è mai motivo per perdere la speranza . 
+SW SW BN PCnn Vip3s B Sms E Vf RDfs Sfs FS 
+
+68
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+69
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+70
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+71
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+72
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+73
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+74
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+75
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+76
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+77
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+78
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+79
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+80
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+81
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+82
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+83
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+84
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+85
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+86
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+87
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+88
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+89
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+90
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+91
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+92
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+93
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+94
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+95
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+96
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+97
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+98
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+99
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+100
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+101
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+102
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+103
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+104
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+105
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+106
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+107
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+108
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+109
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+110
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+111
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+112
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+113
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+114
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+115
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+116
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+117
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+118
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+119
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+120
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+121
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+122
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+123
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+124
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+125
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+126
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+127
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+128
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+129
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+130
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+131
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+132
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+133
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+134
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+135
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+136
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+137
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+138
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+139
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+140
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+141
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+142
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+143
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+144
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+145
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+146
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+147
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+148
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+149
+score: 0.31519507186858314
+
+il pantalone 
+RDms Sms 
+
+150
+score: 0.3154356889824699
+
+C' è un girone all' inferno p ... 
+PCnn Vip3s RIms Sms EAns Sms SA FF 
+
+151
+score: 0.3154438599249856
+
+Dovrebbero mettere la tassa sui pensieri . 
+VMd3p Vf RDfs Sfs EAmp Smp FS 
+
+152
+score: 0.3158016807149991
+
+Il silenzio del mondo , il rumore del mondo . 
+RDms Sms EAms Sms FF RDms Sms EAms Sms FS 
+
+153
+score: 0.31615233423330447
+
+Dopo 34 anni , la storia si ripete . 
+E N Smp FF RDfs Sfs PC3nn Vip3s FS 
+
+154
+score: 0.31633629948865766
+
+Allegri ha solo il torto di non poter reggere il confronto . 
+Amp Vip3s B RDms Sms E BN VMf Vf RDms Sms FS 
+
+155
+score: 0.31673011498633363
+
+Ho raggiunto il limite xD 
+VAip1s Vpsms RDms Sms N 
+
+156
+score: 0.3169276659209545
+
+La #destra? 
+RDfs Sfs 
+
+157
+score: 0.3169276659209545
+
+LA MADONNA 
+RDfs Sfs 
+
+158
+score: 0.3169276659209545
+
+LA COERENZA 
+RDfs Sfs 
+
+159
+score: 0.3169276659209545
+
+la mafia 
+RDfs Sfs 
+
+160
+score: 0.3173564823875068
+
+la malattia 
+RDfs Sfs 
+
+161
+score: 0.3173937640864765
+
+@RosaCaputo1D5 doverlo gridare al mondo ad appena venti ann 
+N VMfc Vf EAms Sms E B N SP 
+
+162
+score: 0.31750332011491095
+
+Iscraele ha invaso la Palestina . 
+SP VAip3s Vpsms RDfs SP FS 
+
+163
+score: 0.31751214995418564
+
+RT @EricaSpasari: Fermiamo il genocidio in Palestina . 
+SW SW Vip1p RDms Sms E SP FS 
+
+164
+score: 0.31751214995418564
+
+RT @EricaSpasari: Fermiamo il genocidio in Palestina . 
+SW SW Vip1p RDms Sms E SP FS 
+
+165
+score: 0.3176003273546629
+
+Brava , brava ! 
+Afs FF Afs FS 
+
+166
+score: 0.31769507186858315
+
+Il resto 
+RDms Sms 
+
+167
+score: 0.3179255312070707
+
+O c' è o non c' è . 
+CC PCnn Vip3s CC BN PCnn Vip3s FS 
+
+168
+score: 0.3179255312070707
+
+O c' è o non c' è . 
+CC PCnn Vip3s CC BN PCnn Vip3s FS 
+
+169
+score: 0.31793952151990945
+
+Per un paio di anni mi sono frequentato con una ragazza . 
+E RIms Sms E Smp PC1ns VAip1s Vpsms E RIfs Sfs FS 
+
+170
+score: 0.31839969788649963
+
+Non capisco qual è il problema 
+BN Vip1s PQns Vip3s RDms Sms 
+
+171
+score: 0.3184639698433943
+
+C' è un errore , vero ? 
+PCnn Vip3s RIms Sms FF Sms FS 
+
+172
+score: 0.31859684404553645
+
+Nessuno può scordare il suo amore per la squadra 
+PIms VMip3s Vf RDms APms Sms E RDfs Sfs 
+
+173
+score: 0.3186125235305971
+
+Manco sa aprire un pacco di biscotti senza un aiuto. \ 
+SP VMip3s Vf RIms Sms E Smp E RIms Sms X 
+
+174
+score: 0.3186125235305971
+
+Manco sa aprire un pacco di biscotti senza un aiuto. \ 
+SP VMip3s Vf RIms Sms E Smp E RIms Sms X 
+
+175
+score: 0.3186125235305971
+
+Manco sa aprire un pacco di biscotti senza un aiuto. \ 
+SP VMip3s Vf RIms Sms E Smp E RIms Sms X 
+
+176
+score: 0.31878694197067436
+
+Alla fine aveva ridotto Berli ... 
+EAfs Sfs VAii3s Vpsms SP FF 
+
+177
+score: 0.31885716967965005
+
+ha rotto i coglioni 
+VAip3s Vpsms RDmp Smp 
+
+178
+score: 0.31910515153353025
+
+E mia sorella e mia madre come al solito hanno rotto 
+CC APfs Sfs CC APfs Sfs B EAms Sms VAip3p Vpsms 
+
+179
+score: 0.3191990683616687
+
+c' è gente che ha bisogno di sehun in questo mondo 
+PCnn Vip3s Sfs PRnn Vip3s Sms E Sfs E DDms Sms 
+
+180
+score: 0.3193666903111984
+
+La polemica 
+RDfs Sfs 
+
+181
+score: 0.31980280351627466
+
+Tu devi avere qualche problema 
+PE2ns VMm2s Vf DIns Sms 
+
+182
+score: 0.319814287332287
+
+Non c' è un cinema , non c' è un parco . 
+BN PCnn Vip3s RIms Smn FF BN PCnn Vip3s RIms Sms FS 
+
+183
+score: 0.3200080443671718
+
+Un' altra guerra . 
+RIfs DIfs Sfs FS 
+
+184
+score: 0.32000890031231743
+
+Un capitano c' è solo un capitano ! ! 
+RIms Sms PCnn Vip3s B RIms Sms FS FS 
+
+185
+score: 0.3200910701036306
+
+La Digos esclude che il ferimento del 36enne 
+RDfs SP Vip3s CS RDms Sms EAms Sms 
+
+186
+score: 0.3200910701036306
+
+La Digos esclude che il ferimento del 36enne 
+RDfs SP Vip3s CS RDms Sms EAms Sms 
+
+187
+score: 0.32017801555896885
+
+Un padre troppo rilassato rischia di perdere la nascita di sua figlia ! 
+RIms Sms B Vpsms Vip3s E Vf RDfs Sfs E APfs Sfs FS 
+
+188
+score: 0.3201784273132738
+
+Ma com' è potuto succedere ? 
+CC B VAip3s VMpsms Vf FS 
+
+189
+score: 0.32020416371492005
+
+C' è Fede. \ 
+PCnn Vip3s SP X 
+
+190
+score: 0.32024793388429745
+
+RT @andreascari72: @mariocalabresi #aocchiaperti:fai #viaggiautore,dal26/7 #reggiadivenaria @silvia_lanza @insopportabile @robertamilano ht ... 
+SW SW SW SW SW SW SW SW SW SW FF 
+
+191
+score: 0.32024793388429745
+
+RT @andreascari72: @mariocalabresi #aocchiaperti:fai #viaggiautore,dal26/7 #reggiadivenaria @silvia_lanza @insopportabile @robertamilano ht ... 
+SW SW SW SW SW SW SW SW SW SW FF 
+
+192
+score: 0.32024793388429745
+
+RT @andreascari72: @mariocalabresi #aocchiaperti:fai #viaggiautore,dal26/7 #reggiadivenaria @silvia_lanza @insopportabile @robertamilano ht ... 
+SW SW SW SW SW SW SW SW SW SW FF 
+
+193
+score: 0.32034862249492657
+
+Questa sera ha preso la bamba buona 
+DDfs Sfs VAip3s Vpsms RDfs Sfs Afs 
+
+194
+score: 0.32077665962891244
+
+sti moscini hanno rotto il cazzo 
+SW SW VAip3p Vpsms RDms Sms 
+
+195
+score: 0.3209252916674388
+
+Si tratta di un cancro al ventricolo . 
+PC3nn Vip3s E RIms Sms EAms Sms FS 
+
+196
+score: 0.3209394808552491
+
+RT @lorenzo89r: @Drugo10Drugo hanno rotto il cazzo , devono sganciare 
+SW SW SW VAip3p Vpsms RDms Sms FF VMip3p Vf 
+
+197
+score: 0.3211647467683486
+
+C' è solo il lago di Como ! 
+PCnn Vip3s B RDms Sms E SP FS 
+
+198
+score: 0.3212794796842078
+
+L' odio tra gli esseri umani finiscono per distruggere :( 
+RDns Sms E RDmp Smp Amp Vip3p E Vf N 
+
+199
+score: 0.32151287099919973
+
+" @junaydgdrs: Non posso vincere la tua battaglia persa tutte le volte " 
+FB Snn BN VMip1s Vf RDfs APfs Sfs Afs Tfp RDfp Sfp FB 
+
+200
+score: 0.32161757651185474
+
+C' è in gioco la democrazia . 
+PCnn Vip3s E Sms RDfs Sfs FS 
+
+201
+score: 0.32175273294920326
+
+Cos' è la fede , in fondo ? 
+PQns Vip3s RDfs Sfs FF E Sms FS 
+
+202
+score: 0.32196969696969696
+
+#post #mare #stanchezza #sconvolto #estate http://t.co/OBKlNGy2ET 
+SW SW SW SW SW SW 
+
+203
+score: 0.32196969696969696
+
+#aforismi @rtpertutti @RetwittoilTop @segui_megafono @ReTwittiamo http://t.co/Wbmfb8t2oB 
+SW SW SW SW SW SW 
+
+204
+score: 0.32196969696969696
+
+#impadivi #temerari #selfie #friends #freddo #summer? 
+SW SW SW SW SW SW 
+
+205
+score: 0.3221653732429617
+
+Poco tempo ma non vuoi rinunciare al #benessere? 
+DIms Sms CC BN VMip2s Vf EAms Sms 
+
+206
+score: 0.3222152191212992
+
+me sò rotto il cazzo \ 
+PC1ns VAip3s Vpsms RDms Sms X 
+
+207
+score: 0.32246315524888247
+
+RT @stuppi86: Mi hanno detto che c' è gente che non mangia la pasta . 
+SW SW PC1ns VAip3p Vpsms CS PCnn Vip3s Sfs PRnn BN Vip3s RDfs Sfs FS 
+
+208
+score: 0.3224859924397163
+
+c' è proporzione ! 
+PCnn Vip3s Sfs FS 
+
+209
+score: 0.3228347083831338
+
+Pagliacci , solo dei pagliacci .... 
+SP FF B EAmp Smp N 
+
+210
+score: 0.32307304009442817
+
+Che non dev' essere poi ... 
+PRnn BN VMip3s Vf B FF 
+
+211
+score: 0.32307304009442817
+
+Che non dev' essere poi ... 
+PRnn BN VMip3s Vf B FF 
+
+212
+score: 0.32307304009442817
+
+Che non dev' essere poi ... 
+PRnn BN VMip3s Vf B FF 
+
+213
+score: 0.32307304009442817
+
+Che non dev' essere poi ... 
+PRnn BN VMip3s Vf B FF 
+
+214
+score: 0.32314803068197256
+
+Non c' è il limite di 5 ? 
+BN PCnn Vip3s RDms Sms E N FS 
+
+215
+score: 0.3233455822122592
+
+\e se vale la pena di rischiare 
+Ans CS Vip3s RDfs Sfs E Vf 
+
+216
+score: 0.3235294125637519
+
+C' è il limite d' età ! 
+PCnn Vip3s RDms Sms E Sfn FS 
+
+217
+score: 0.3235294125637519
+
+C' è il limite d' età ! 
+PCnn Vip3s RDms Sms E Sfn FS 
+
+218
+score: 0.3236982994433766
+
+- tentativo di tornare a casa \ 
+FC Sms E Vf E Sfs X 
+
+219
+score: 0.32486631139952293
+
+@OGiannino pare sia stato un tentativo di omicidio di Putin . 
+N Sfp VAcp3s Vpsms RIms Sms E Sms E SP FS 
+
+220
+score: 0.3259421065426973
+
+Peggio di un uomo che bestemmia c' è solo una donna che bestemmia . 
+B E RIms Sms PRnn Vip3s PCnn Vip3s B RIfs Sfs PRnn Sfs FS 
+
+221
+score: 0.3260775031992744
+
+È stato abbattuto 
+VAip3s VApsms Vpsms 
+
+222
+score: 0.32647843777806895
+
+RT @ilfoglio_it: Intanto diverse compagnie aeree hanno deciso di evitare lo spazio aereo ucraino http://t.co/wlfRy3eGUF 
+SW SW SP DIfp Sfp Afp VAip3p Vpsms E Vf RDms Sms Ams Sms N 
+
+223
+score: 0.32647843777806895
+
+RT @ilfoglio_it: Intanto diverse compagnie aeree hanno deciso di evitare lo spazio aereo ucraino http://t.co/wlfRy3eGUF 
+SW SW SP DIfp Sfp Afp VAip3p Vpsms E Vf RDms Sms Ams Sms N 
+
+224
+score: 0.32647843777806895
+
+RT @ilfoglio_it: Intanto diverse compagnie aeree hanno deciso di evitare lo spazio aereo ucraino http://t.co/wlfRy3eGUF 
+SW SW SP DIfp Sfp Afp VAip3p Vpsms E Vf RDms Sms Ams Sms N 
+
+225
+score: 0.32647843777806895
+
+RT @ilfoglio_it: Intanto diverse compagnie aeree hanno deciso di evitare lo spazio aereo ucraino http://t.co/wlfRy3eGUF 
+SW SW SP DIfp Sfp Afp VAip3p Vpsms E Vf RDms Sms Ams Sms N 
+
+226
+score: 0.32647843777806895
+
+RT @ilfoglio_it: Intanto diverse compagnie aeree hanno deciso di evitare lo spazio aereo ucraino http://t.co/wlfRy3eGUF 
+SW SW SP DIfp Sfp Afp VAip3p Vpsms E Vf RDms Sms Ams Sms N 
+
+227
+score: 0.32647843777806895
+
+RT @ilfoglio_it: Intanto diverse compagnie aeree hanno deciso di evitare lo spazio aereo ucraino http://t.co/wlfRy3eGUF 
+SW SW SP DIfp Sfp Afp VAip3p Vpsms E Vf RDms Sms Ams Sms N 
+
+228
+score: 0.32647843777806895
+
+RT @ilfoglio_it: Intanto diverse compagnie aeree hanno deciso di evitare lo spazio aereo ucraino http://t.co/wlfRy3eGUF 
+SW SW SP DIfp Sfp Afp VAip3p Vpsms E Vf RDms Sms Ams Sms N 
+
+229
+score: 0.32647843777806895
+
+RT @ilfoglio_it: Intanto diverse compagnie aeree hanno deciso di evitare lo spazio aereo ucraino http://t.co/wlfRy3eGUF 
+SW SW SP DIfp Sfp Afp VAip3p Vpsms E Vf RDms Sms Ams Sms N 
+
+230
+score: 0.32647843777806895
+
+RT @ilfoglio_it: Intanto diverse compagnie aeree hanno deciso di evitare lo spazio aereo ucraino http://t.co/wlfRy3eGUF 
+SW SW SP DIfp Sfp Afp VAip3p Vpsms E Vf RDms Sms Ams Sms N 
+
+231
+score: 0.32647843777806895
+
+RT @ilfoglio_it: Intanto diverse compagnie aeree hanno deciso di evitare lo spazio aereo ucraino http://t.co/wlfRy3eGUF 
+SW SW SP DIfp Sfp Afp VAip3p Vpsms E Vf RDms Sms Ams Sms N 
+
+232
+score: 0.32664589772111696
+
+RT @DinamoPress: #GazaUnderAttack è iniziato l' attacco di terra . 
+SW SW SW VAip3s Vpsms RDns Sms E Sfs FS 
+
+233
+score: 0.32664589772111696
+
+RT @DinamoPress: #GazaUnderAttack è iniziato l' attacco di terra . 
+SW SW SW VAip3s Vpsms RDns Sms E Sfs FS 
+
+234
+score: 0.32664589772111696
+
+RT @DinamoPress: #GazaUnderAttack è iniziato l' attacco di terra . 
+SW SW SW VAip3s Vpsms RDns Sms E Sfs FS 
+
+235
+score: 0.32664589772111696
+
+RT @DinamoPress: #GazaUnderAttack è iniziato l' attacco di terra . 
+SW SW SW VAip3s Vpsms RDns Sms E Sfs FS 
+
+236
+score: 0.32664589772111696
+
+RT @DinamoPress: #GazaUnderAttack è iniziato l' attacco di terra . 
+SW SW SW VAip3s Vpsms RDns Sms E Sfs FS 
+
+237
+score: 0.32664589772111696
+
+RT @DinamoPress: #GazaUnderAttack è iniziato l' attacco di terra . 
+SW SW SW VAip3s Vpsms RDns Sms E Sfs FS 
+
+238
+score: 0.32664589772111696
+
+RT @DinamoPress: #GazaUnderAttack è iniziato l' attacco di terra . 
+SW SW SW VAip3s Vpsms RDns Sms E Sfs FS 
+
+239
+score: 0.32664589772111696
+
+RT @DinamoPress: #GazaUnderAttack è iniziato l' attacco di terra . 
+SW SW SW VAip3s Vpsms RDns Sms E Sfs FS 
+
+240
+score: 0.32664589772111696
+
+RT @DinamoPress: #GazaUnderAttack è iniziato l' attacco di terra . 
+SW SW SW VAip3s Vpsms RDns Sms E Sfs FS 
+
+241
+score: 0.32664589772111696
+
+RT @DinamoPress: #GazaUnderAttack è iniziato l' attacco di terra . 
+SW SW SW VAip3s Vpsms RDns Sms E Sfs FS 
+
+242
+score: 0.3268443332497993
+
+direi che mio padre mi venera troppo 
+Vd1s CS APms Sms PC1ns Vip3s B 
+
+243
+score: 0.3271749739448706
+
+Non ho parlato con altre squadre 
+BN VAip1s Vpsms E DIfp Sfp 
+
+244
+score: 0.32738663853639205
+
+Le prime immagini dopo lo schianto del boeing Malaysia Airlines \ 
+RDfp NOfp Sfp E RDms Sms EAms Sms SP SP X 
+
+245
+score: 0.32798779742551554
+
+Domani vado a donare il sangue 
+B Vip1s E Vf RDms Sms 
+
+246
+score: 0.32805936092944765
+
+certe volte vorrei scomparire dalla faccia della terra 
+DIfp Sfp VMd1s Vf EAfs Sfs EAfs Sfs 
+
+247
+score: 0.32806521671379174
+
+La crisi ha cambiato un pò tutte le cose . 
+RDfs Sfn VAip3s Vpsms RIms B Tfp RDfp Sfp FS 
+
+248
+score: 0.32848854090073665
+
+Ai russi cosa giova da questo disastro ? 
+EAmp Smp Sfs Vip3s E DDms Sms FS 
+
+249
+score: 0.3289394991105928
+
+quindi ho chiuso tutte le valigie e domani parto ? 
+B VAip1s Vpsms Tfp RDfp Sfp CC B Sms FS 
+
+250
+score: 0.32934449361351054
+
+Tutta colpa del ciclo ! 
+DIfs Sfs EAms Sms FS 
+
+251
+score: 0.3298225283442028
+
+Non è detto che tutte le boy band debbano fare la fine - 
+BN VAip3s Vpsms CS Tfp RDfp SWmn Sfn VMcp3p Vf RDfs Sfs FC 
+
+252
+score: 0.3301620206776189
+
+Quando sei stanco e la risposta ad ogni domanda è una bestemmia . 
+CS Vip2s Ams CC RDfs Sfs E DIns Sfs Vip3s RIfs Sfs FS 
+
+253
+score: 0.3304383944717681
+
+C' è crisi . 
+PCnn Vip3s Sfn FS 
+
+254
+score: 0.3304383944717681
+
+C' è crisi . 
+PCnn Vip3s Sfn FS 
+
+255
+score: 0.33077761780018433
+
+ma tutta la vita , \ 
+CC Tfs RDfs Sfs FF X 
+
+256
+score: 0.33077761780018433
+
+ma tutta la vita , \ 
+CC Tfs RDfs Sfs FF X 
+
+257
+score: 0.33109857350069893
+
+Sul serio . 
+EAms Sms FS 
+
+258
+score: 0.3311688311688311
+
+#285morti http://t.co/6zum0h7D2K #MH17 #Ucraina #Russia #Donetsk http://t.co/7f22lJ7RsK 
+SW SW SW SW SW SW SW 
+
+259
+score: 0.3311688311688311
+
+#renzi #berlusconi #laideintese #profondasintonia #pd #p2 http://t.co/0foXXF1SnN 
+SW SW SW SW SW SW SW 
+
+260
+score: 0.33118319634157245
+
+RT @semprestressato: La voglia di gridare il mio odio . 
+SW SW RDfs Sfs E Vf RDms APms Sms FS 
+
+261
+score: 0.33142893393730877
+
+@paolaguzz @Loden_Mcjohn @ildaddyblog ci dev' essere un errore 
+Snn Snn Snn PCnn VMip3s Vf RIms Sms 
+
+262
+score: 0.33154068731931285
+
+@percabethitsotp @onedsfajth dopo , per il momento sono intenta a piangere tutte le mie lacrime mentre guardo la seconda stagione di Glee 
+SW SW B FF E RDms Sms Vip3p Afs E Vf Tfp RDfp APfp Sfp CS Vip1s RDfs NOfs Sfs E SP 
+
+263
+score: 0.3318433346503896
+
+Si fa una doccia e tutti i problemi svaniscono . 
+PC3nn Vip3s RIfs Sfs CC Tmp RDmp Smp Vip3p FS 
+
+264
+score: 0.3320435272989461
+
+Voglio essere critico nei confronti di questo provvedimento . 
+VMip1s Vf Sms EAmp Smp E DDms Sms FS 
+
+265
+score: 0.33238472213026515
+
+No , scherzo . 
+BN FF Sms FS 
+
+266
+score: 0.33263598738059896
+
+Il video di boom clap con tutte le scene di colpa delle stelle è bellissimo 
+RDms Sms E SWmn Snn E Tfp RDfp Sfp E Sfs EAfp Sfp Vip3s Ams 
+
+267
+score: 0.3329233372249682
+
+@morhazel il problema è che è così tutte le sere 
+Snn RDms Sms Vip3s CS Vip3s B Tfp RDfp Sfp 
+
+268
+score: 0.3330658756463205
+
+Io guardo la bellezza interiore . 
+PE1ns Vip1s RDfs Sfs Ans FS 
+
+269
+score: 0.3330741422800572
+
+te lo giuro , muoio solo al pensieroooooo 
+PC2ns RDms Sms FF Vip1s B EAms Sms 
+
+270
+score: 0.3333333333333333
+
+Potete segnalare @/paradiselena? 
+VMip2p Vf Snn 
+
+271
+score: 0.3333333333333333
+
+Potrei morire 
+VMd1s Vf 
+
+272
+score: 0.3333333333333333
+
+Potrei morire 
+VMd1s Vf 
+
+273
+score: 0.3333333333333333
+
+Potrei morire 
+VMd1s Vf 
+
+274
+score: 0.3333333333333333
+
+Avrei dovuto essere li 
+VAd1s VMpsms Vf PC3mp 
+
+275
+score: 0.3333333333333333
+
+Potrei morire 
+VMd1s Vf 
+
+276
+score: 0.3333333333333333
+
+Potrei morire 
+VMd1s Vf 
+
+277
+score: 0.3333333333333333
+
+Potrei morire 
+VMd1s Vf 
+
+278
+score: 0.3333592469449983
+
+@sissi1501 tanta voglia di penetrarti con violenza 
+Snn DIfs Sfs E Vfc E Sfs 
+
+279
+score: 0.3335522252972259
+
+Fammi capire Galella .... deve piangere tutti i giorni ? 
+Vm2pc Vf SP N VMip3s Vf Tmp RDmp Smp FS 
+
+280
+score: 0.33358615238736755
+
+Hai rotto il cazzo . 
+VAip2s Vpsms RDms Sms FS 
+
+281
+score: 0.33358615238736755
+
+Hai rotto il cazzo . 
+VAip2s Vpsms RDms Sms FS 
+
+282
+score: 0.33363590637988616
+
+@syriapax c' è un errore nel tweet . 
+Snn PCnn Vip3s RIms Sms EAms Sms FS 
+
+283
+score: 0.3342515494884461
+
+RT @ElisaCoriacei: c' è un pezzo di cuore al telefono . 
+SW SW PCnn Vip3s RIms Sms E Sms EAms Sms FS 
+
+284
+score: 0.3342515494884461
+
+RT @ElisaCoriacei: c' è un pezzo di cuore al telefono . 
+SW SW PCnn Vip3s RIms Sms E Sms EAms Sms FS 
+
+285
+score: 0.33437058353556914
+
+I figli della morte hanno iniziato l' invasione . 
+RDmp Smp EAfs Sfs VAip3p Vpsms RDns Sfs FS 
+
+286
+score: 0.3350147805158792
+
+posso morire sul divano 
+VMip1s Vf EAms Sms 
+
+287
+score: 0.3350227003528795
+
+C' è la speranza che i passeggeri .... 
+PCnn Vip3s RDfs Sfs PRnn RDmp Smp N 
+
+288
+score: 0.3352696696736194
+
+RT @musicvato: @percabethitsotp @onedsfajth dopo , per il momento sono intenta a piangere tutte le mie lacrime mentre guardo la seconda stag ... 
+SW SW SW SW B FF E RDms Sms Vip3p Afs E Vf Tfp RDfp APfp Sfp CS Vip1s RDfs Sfs Snn FF 
+
+289
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+290
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+291
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+292
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+293
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+294
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+295
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+296
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+297
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+298
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+299
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+300
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+301
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+302
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+303
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+304
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+305
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+306
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+307
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+308
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+309
+score: 0.3354805971369327
+
+Ora capiranno che c' è la guerra ! ? 
+B Vif3p PRnn PCnn Vip3s RDfs Sfs FS FS 
+
+310
+score: 0.3357511274732496
+
+I mexicani , senz' altro . 
+RDmp Smp FF E PIms FS 
+
+311
+score: 0.335819886871662
+
+Troppo lento e troppe parti inutili . 
+B Ams CC DIfp Sfp Anp FS 
+
+312
+score: 0.33603670779778994
+
+c' è troppo caldo 
+PCnn Vip3s B Sms 
+
+313
+score: 0.33615698840212993
+
+RT @RadioSubasio: \e se vale la pena di rischiare 
+SW SW SW CS Vip3s RDfs Sfs E Vf 
+
+314
+score: 0.33681589875685636
+
+RT @mawkishilaria: @drunkofash Hai rotto il cazzo 
+SW SW SW VAip2s Vpsms RDms Sms 
+
+315
+score: 0.3372524690194504
+
+Qua siamo alla follia . 
+B Vip1p EAfs Sfs FS 
+
+316
+score: 0.3374994877163695
+
+C' è differenza . 
+PCnn Vip3s Sfs FS 
+
+317
+score: 0.33774977462940914
+
+#stopBombing #israelpalestinaconflict questa guerra come tutte le guerre è abominevole 
+N SA DDfs Sfs E Tfp RDfp Sfp Vip3s Ans 
+
+318
+score: 0.33781293348762803
+
+vado a dare un buffetto leggero a mio fratello 
+Vip1s E Vf RIms Sms Ams E APms Sms 
+
+319
+score: 0.33795941908775395
+
+RT @animamorente: Siamo solo un mucchio di stupidi esseri umani in mezzo ad altri stupidi esseri umani in un mondo di stupidi esseri umani . 
+SW SW Vip1p B RIms Sms E Smp Smp Amp E Sms E DImp Smp Smp Amp E RIms Sms E Smp Smp Amp FS 
+
+320
+score: 0.33795941908775395
+
+RT @animamorente: Siamo solo un mucchio di stupidi esseri umani in mezzo ad altri stupidi esseri umani in un mondo di stupidi esseri umani . 
+SW SW Vip1p B RIms Sms E Smp Smp Amp E Sms E DImp Smp Smp Amp E RIms Sms E Smp Smp Amp FS 
+
+321
+score: 0.33795941908775395
+
+RT @animamorente: Siamo solo un mucchio di stupidi esseri umani in mezzo ad altri stupidi esseri umani in un mondo di stupidi esseri umani . 
+SW SW Vip1p B RIms Sms E Smp Smp Amp E Sms E DImp Smp Smp Amp E RIms Sms E Smp Smp Amp FS 
+
+322
+score: 0.33795941908775395
+
+RT @animamorente: Siamo solo un mucchio di stupidi esseri umani in mezzo ad altri stupidi esseri umani in un mondo di stupidi esseri umani . 
+SW SW Vip1p B RIms Sms E Smp Smp Amp E Sms E DImp Smp Smp Amp E RIms Sms E Smp Smp Amp FS 
+
+323
+score: 0.33795941908775395
+
+RT @animamorente: Siamo solo un mucchio di stupidi esseri umani in mezzo ad altri stupidi esseri umani in un mondo di stupidi esseri umani . 
+SW SW Vip1p B RIms Sms E Smp Smp Amp E Sms E DImp Smp Smp Amp E RIms Sms E Smp Smp Amp FS 
+
+324
+score: 0.33795941908775395
+
+RT @animamorente: Siamo solo un mucchio di stupidi esseri umani in mezzo ad altri stupidi esseri umani in un mondo di stupidi esseri umani . 
+SW SW Vip1p B RIms Sms E Smp Smp Amp E Sms E DImp Smp Smp Amp E RIms Sms E Smp Smp Amp FS 
+
+325
+score: 0.33795941908775395
+
+RT @animamorente: Siamo solo un mucchio di stupidi esseri umani in mezzo ad altri stupidi esseri umani in un mondo di stupidi esseri umani . 
+SW SW Vip1p B RIms Sms E Smp Smp Amp E Sms E DImp Smp Smp Amp E RIms Sms E Smp Smp Amp FS 
+
+326
+score: 0.33806818181818177
+
+#renzi #berlusconi #laideintese #profondasintonia #pd #p2 http://t. .. 
+SW SW SW SW SW SW SW SW 
+
+327
+score: 0.33806818181818177
+
+#renzi #berlusconi #laideintese #profondasintonia #pd #p2 http://t. .. 
+SW SW SW SW SW SW SW SW 
+
+328
+score: 0.33806818181818177
+
+#renzi #berlusconi #laideintese #profondasintonia #pd #p2 http://t. .. 
+SW SW SW SW SW SW SW SW 
+
+329
+score: 0.33806818181818177
+
+#renzi #berlusconi #laideintese #profondasintonia #pd #p2 http://t. .. 
+SW SW SW SW SW SW SW SW 
+
+330
+score: 0.33806818181818177
+
+#renzi #berlusconi #laideintese #profondasintonia #pd #p2 http://t. .. 
+SW SW SW SW SW SW SW SW 
+
+331
+score: 0.3382298378523454
+
+posso usare il cellulare solo mezz' ora al giorno piango 
+VMip1s Vf RDms Sms B Afs Sfs EAms Sms Vip1s 
+
+332
+score: 0.3385782458951172
+
+Inquietante l' abbattimento del boeing oh 
+Ans RDns Sms EAms Sms I 
+
+333
+score: 0.33921366757425186
+
+e la voglia di abbracciarsi. \ 
+CC RDfs Sfs E Sfs X 
+
+334
+score: 0.33921366757425186
+
+e la voglia di abbracciarsi. \ 
+CC RDfs Sfs E Sfs X 
+
+335
+score: 0.33921366757425186
+
+e la voglia di abbracciarsi. \ 
+CC RDfs Sfs E Sfs X 
+
+336
+score: 0.33921366757425186
+
+e la voglia di abbracciarsi. \ 
+CC RDfs Sfs E Sfs X 
+
+337
+score: 0.33921366757425186
+
+e la voglia di abbracciarsi. \ 
+CC RDfs Sfs E Sfs X 
+
+338
+score: 0.3392944236511334
+
+Bella serata per gli esseri umani . 
+Afs Sfs E RDmp Smp Amp FS 
+
+339
+score: 0.3399561432113464
+
+@Franimal490 gli possano cadere tutti i capelli all' istante . 
+N PC3ms VMcp3p Vf Tmp RDmp Smp EAns Sms FS 
+
+340
+score: 0.34014891445537204
+
+Un amico . 
+RIms Sms FS 
+
+341
+score: 0.34036126756082097
+
+Ho preso troppo sole oggi , vado a fuoco 
+VAip1s Vpsms DIms Sms B FF Vip1s E Sms 
+
+342
+score: 0.3410395834538624
+
+@M5SpiuL c' è un errore . 
+N PCnn Vip3s RIms Sms FS 
+
+343
+score: 0.34127174768544954
+
+Nel dubbio io vado a mangiare il sushi 
+EAms Sms PE1ns Vip1s E Vf RDms Sms 
+
+344
+score: 0.34147333731062257
+
+\Bisogna uccidere tutte le madri palestinesi \"\ 
+N Vf Tfp RDfp Sfp Anp N 
+
+345
+score: 0.34184892316456517
+
+Intanto diverse compagnie aeree hanno deciso di evitare lo spazio aereo ucraino http://t.co/wlfRy3eGUF 
+B DIfp Sfp Afp VAip3p Vpsms E Vf RDms Sms Ams Sms N 
+
+346
+score: 0.3419222882954662
+
+Andrea mi ha rotto il cazzo 
+SP PC1ns VAip3s Vpsms RDms Sms 
+
+347
+score: 0.3419548427215825
+
+@MediPavia C' è un problema con il sito . 
+Sfs PCnn Vip3s RIms Sms E RDms Sms FS 
+
+348
+score: 0.34221594063004257
+
+corri a darmi un bacio ... 
+Vm2s E Vfc RIms Sms FF 
+
+349
+score: 0.3423895121162821
+
+La morte della certezza del diritto . 
+RDfs Sfs EAfs Sfs EAms Sms FS 
+
+350
+score: 0.3424657534246575
+
+Sono depresso 
+VAip1s Vpsms 
+
+351
+score: 0.3424657534246575
+
+Sono sconvolto 
+VAip1s Vpsms 
+
+352
+score: 0.3425026559794045
+
+la morte , mio dio 
+RDfs Sfs FF APms Sms 
+
+353
+score: 0.34334608766342295
+
+Tutti i maschi simpatici \ 
+Tmp RDmp Smp Amp X 
+
+354
+score: 0.34375
+
+Un abbraccio 
+RIms Sms 
+
+355
+score: 0.34477712723252435
+
+il #PD ha cercato in tutti i modi di far saltare il tavolo . 
+RDms Sms VAip3s Vpsms E Tmp RDmp Smp E Vf Vf RDms Sms FS 
+
+356
+score: 0.3456410590687963
+
+Nessun problema , siamo aperti per voi ! 
+DIms Sms FF VAip1p Vpsmp E PE2np FS 
+
+357
+score: 0.34609929078014184
+
+Una meraviglia 
+RIfs Sfs 
+
+358
+score: 0.34610934484253947
+
+La produzione delle targhe resta a Foggia . 
+RDfs Sfs EAfp Sfp Vip3s E SP FS 
+
+359
+score: 0.3470051151043667
+
+@__MamacitaGomez doverlo gridare al mondo ad appena venti anni 
+N VMfc Vf EAms Sms E B N Smp 
+
+360
+score: 0.3474397537788366
+
+Stiamo guardando il massacro di un popolo . 
+Vip1p Vg RDms Sms E RIms Sms FS 
+
+361
+score: 0.3474397537788366
+
+Stiamo guardando il massacro di un popolo . 
+Vip1p Vg RDms Sms E RIms Sms FS 
+
+362
+score: 0.3474397537788366
+
+Stiamo guardando il massacro di un popolo . 
+Vip1p Vg RDms Sms E RIms Sms FS 
+
+363
+score: 0.3474397537788366
+
+Stiamo guardando il massacro di un popolo . 
+Vip1p Vg RDms Sms E RIms Sms FS 
+
+364
+score: 0.3474397537788366
+
+Stiamo guardando il massacro di un popolo . 
+Vip1p Vg RDms Sms E RIms Sms FS 
+
+365
+score: 0.34821264366679655
+
+Invierò pure una mail coi dettagli . 
+Vif1s B RIfs Sfs EAmp Smp FS 
+
+366
+score: 0.34947506616582785
+
+Grazie per essere venuto a cercarmi . 
+I E VAf Vpsms E Vfc FS 
+
+367
+score: 0.3494838935486564
+
+" C' è una maschera per la famiglia . 
+FB PCnn Vip3s RIfs Sfs E RDfs Sfs FS 
+
+368
+score: 0.3501259611759947
+
+Dietro #UberIceCream c' è tutta la strategia di @Uber. 
+E N PCnn Vip3s Tfs RDfs Sfs E N 
+
+369
+score: 0.3511016130425706
+
+@niakzilam @curlylikehim m' avete rotto il cazzo 
+SW SW SW VAip2p Vpsms RDms Sms 
+
+370
+score: 0.35110488296841136
+
+Qualche problema c' è . 
+DIns Sms PCnn Vip3s FS 
+
+371
+score: 0.35123966942148754
+
+#porn #sex #video #xxxcom #xxx #milf #brunette #toys #pussy #solo http://t.co/7MS3MKmMPv 
+SW SW SW SW SW SW SW SW SW SW SW 
+
+372
+score: 0.3512525104488954
+
+Sapete cos' è ? 
+Vip2p PQns Vip3s FS 
+
+373
+score: 0.35148689006536454
+
+Centinaia di morti . 
+Sfp E Smp FS 
+
+374
+score: 0.3523441989336563
+
+C' è solo pubblicitaaaà 
+PCnn Vip3s B Sms 
+
+375
+score: 0.35289443551953137
+
+C' è solo il fumo .... 
+PCnn Vip3s B RDms Sms N 
+
+376
+score: 0.3534298231803045
+
+La lingua può nascondere la #verità, gli occhi mai 
+RDfs Sfs VMip3s Vf RDfs Sfs RDmp Smp B 
+
+377
+score: 0.35358615238736757
+
+Avete rotto il cazzo . 
+VAip2p Vpsms RDms Sms FS 
+
+378
+score: 0.3539799981582254
+
+Il problema è la sproporzione tra Israele e Palestina . 
+RDms Sms Vip3s RDfs Sfs E SP CC SP FS 
+
+379
+score: 0.3541666666666666
+
+#porn #sex #video #xxxcom #xxx #milf #toys #masturbate #homemade #solo #big http://t.co/bCL5fWkO9p 
+SW SW SW SW SW SW SW SW SW SW SW SW 
+
+380
+score: 0.3560802956212281
+
+Io ho fatto una domanda che riguarda il TOUR . 
+PE1ns VAip1s Vpsms RIfs Sfs PRnn Vip3s RDms SP FS 
+
+381
+score: 0.35611086642728745
+
+Devo sistemare delle cose 
+VMip1s Vf EAfp Sfp 
+
+382
+score: 0.3570211841819956
+
+No , solo un retuit 
+BN FF Ams RIms Sms 
+
+383
+score: 0.35821229887360173
+
+RT @Meilenwheit: Ho paura di non riuscire a fare tutti i compiti delle vacanze 
+SW SW Vip1s Sfs E BN Vf E Vf Tmp RDmp Smp EAfp Sfp 
+
+384
+score: 0.35821229887360173
+
+RT @Meilenwheit: Ho paura di non riuscire a fare tutti i compiti delle vacanze 
+SW SW Vip1s Sfs E BN Vf E Vf Tmp RDmp Smp EAfp Sfp 
+
+385
+score: 0.3584324946017465
+
+RT @cristianosperf: quanta voglia di scappare da quii 
+SW SW DQfs Sfs E Vf E Smp 
+
+386
+score: 0.3589555938783081
+
+Fermiamo il genocidio in Palestina . 
+Vip1p RDms Sms E SP FS 
+
+387
+score: 0.3591427983330231
+
+Una delle mie preferite . 
+PIfs EAfp APfp Sfp FS 
+
+388
+score: 0.361639109231544
+
+In questa frase c' è tutto il problema dell' Italia ! 
+E DDfs Sfs PCnn Vip3s Tms RDms Sms EAns SP FS 
+
+389
+score: 0.36284263179060194
+
+La voglia di gridare il mio odio . 
+RDfs Sfs E Vf RDms APms Sms FS 
+
+390
+score: 0.3631205673758865
+
+Siete impazzite . 
+Vip2p Vpsfp FS 
+
+391
+score: 0.36388689640509575
+
+Ma hanno sbagliato tutte le scelte di casting . 
+CC VAip3p Vpsms Tfp RDfp Sfp E Smn FS 
+
+392
+score: 0.3642582709598855
+
+Nel cuore l' oceano di te 
+EAms Sms RDns Sms E PE2ns 
+
+393
+score: 0.3644440899139113
+
+Insomma , verissimo 
+B FF Ams 
+
+394
+score: 0.3647637097960601
+
+Non c' è nessun problema . 
+BN PCnn Vip3s DIms Sms FS 
+
+395
+score: 0.3647637097960601
+
+Non c' è nessun sopravvissuto . 
+BN PCnn Vip3s DIms Sms FS 
+
+396
+score: 0.364959999980745
+
+Devono avere sostituito le tigri della #Malesia con dei gatti neri 
+VMip3p VAf Vpsms RDfp Sfp EAfs Sfs E EAmp Smp Amp 
+
+397
+score: 0.3653648028472417
+
+Meno male ! 
+B B FS 
+
+398
+score: 0.36548127297081545
+
+Ho bisogno di una pausa di riflessione . 
+VAip1s Sms E RIfs Sfs E Sfs FS 
+
+399
+score: 0.3656003786676967
+
+c' è un pezzo di cuore al telefono . 
+PCnn Vip3s RIms Sms E Sms EAms Sms FS 
+
+400
+score: 0.36666666666666664
+
+posso morire 
+VMip1s Vf 
+
+401
+score: 0.36666666666666664
+
+voglio piangere 
+VMip1s Vf 
+
+402
+score: 0.36666666666666664
+
+Voglio piangere 
+VMip1s Vf 
+
+403
+score: 0.36666666666666664
+
+voglio piangere 
+VMip1s Vf 
+
+404
+score: 0.36666666666666664
+
+Voglio morire 
+VMip1s Vf 
+
+405
+score: 0.36666666666666664
+
+Voglio piangere 
+VMip1s Vf 
+
+406
+score: 0.36666666666666664
+
+Voglio dire 
+VMip1s Vf 
+
+407
+score: 0.36666666666666664
+
+Voglio morire 
+VMip1s Vf 
+
+408
+score: 0.36666666666666664
+
+Voglio morire 
+VMip1s Vf 
+
+409
+score: 0.36666666666666664
+
+Voglio morire 
+VMip1s Vf 
+
+410
+score: 0.36666666666666664
+
+Voglio morire 
+VMip1s Vf 
+
+411
+score: 0.3669794916623133
+
+\Non lasciare che il cervello alzi il volume della paura \"\ 
+N Vf CS RDms Sms Smp RDms Sms EAfs Sfs N 
+
+412
+score: 0.3670280139462695
+
+Quel video si merita tutti i premi pro ... 
+DDms Sms PC3nn Vip3s Tmp RDmp Smp Smn FF 
+
+413
+score: 0.3670280139462695
+
+Quel video si merita tutti i premi pro ... 
+DDms Sms PC3nn Vip3s Tmp RDmp Smp Smn FF 
+
+414
+score: 0.3670280139462695
+
+Quel video si merita tutti i premi pro ... 
+DDms Sms PC3nn Vip3s Tmp RDmp Smp Smn FF 
+
+415
+score: 0.3670280139462695
+
+Quel video si merita tutti i premi pro ... 
+DDms Sms PC3nn Vip3s Tmp RDmp Smp Smn FF 
+
+416
+score: 0.3670280139462695
+
+Quel video si merita tutti i premi pro ... 
+DDms Sms PC3nn Vip3s Tmp RDmp Smp Smn FF 
+
+417
+score: 0.3670280139462695
+
+Quel video si merita tutti i premi pro ... 
+DDms Sms PC3nn Vip3s Tmp RDmp Smp Smn FF 
+
+418
+score: 0.3678030384721429
+
+Villa Fiorita c' è ! ! 
+SP SP PCnn Vip3s FS FS 
+
+419
+score: 0.36931925527726517
+
+Che cos' è la morte ? 
+DQnn PQns Vip3s RDfs Sfs FS 
+
+420
+score: 0.3707118027701021
+
+Ho mangiato troppo prosciutto 
+VAip1s Vpsms DIms Sms 
+
+421
+score: 0.37131884178082786
+
+Piango troppo aiuto . 
+Vip1s DIms Sms FS 
+
+422
+score: 0.37346104920136813
+
+porcoddio mi avete rotto tutti i coglioni 
+Snn PC1ns VAip2p Vpsms Tmp RDmp Smp 
+
+423
+score: 0.37402730824285624
+
+Pensate ai vostri figli ! 
+Vip2p EAmp APmp Smp FS 
+
+424
+score: 0.3770793873197169
+
+Ha rotto il cazzo ! 
+VAip3s Vpsms RDms Sms FS 
+
+425
+score: 0.3773267756090916
+
+Tutto il traffico era stato bloccato ... 
+Tms RDms Sms VAii3s VApsms Vpsms FF 
+
+426
+score: 0.37754504761847485
+
+Vedi Miami . 
+Vm2s SP FS 
+
+427
+score: 0.37867123013050497
+
+A questo punto cagate sulla scrivania del capo 
+E DDms Sms Vpsfp EAfs Sfs EAms Sms 
+
+428
+score: 0.3790811119924782
+
+Non è superfluo . 
+BN Vip3s Ams FS 
+
+429
+score: 0.37914495588071767
+
+Le battaglie devono continuare . 
+RDfp Sfp VMip3p Vf FS 
+
+430
+score: 0.37933557179969585
+
+Chi s' è visto s' è visto 
+PQnn PC3nn VAip3s Vpsms PC3nn VAip3s Vpsms 
+
+431
+score: 0.38079081386040825
+
+Ho tralasciato tutto il senso dei libri . 
+VAip1s Vpsms Tms RDms Sms EAmp Smp FS 
+
+432
+score: 0.38134359506782545
+
+295 morti. un pensiero a tutte le vittime . 
+N SA RIms Sms E Tfp RDfp Sfp FS 
+
+433
+score: 0.38188821224356256
+
+State zitti . 
+Vip2p Smp FS 
+
+434
+score: 0.38421414391426906
+
+Dovete spiegarmela questa cosa . 
+VMii2s Vfc DDfs Sfs FS 
+
+435
+score: 0.38457408035245955
+
+Hanno rotto il cazzo 
+VAip3p Vpsms RDms Sms 
+
+436
+score: 0.3881931321424469
+
+Troppo silenzio . 
+DIms Sms FS 
+
+437
+score: 0.3892254062362758
+
+#Viaggiare dovrebbe essere un #piacere. 
+N VMd3s Vf RIms Sms 
+
+438
+score: 0.38955536716021033
+
+Tutto questo dolore . 
+DIms DDms Sms FS 
+
+439
+score: 0.3918392630701486
+
+C' è un limite alla sopportazione della coscienza . 
+PCnn Vip3s RIms Sms EAfs Sfs EAfs Sfs FS 
+
+440
+score: 0.39214919675337734
+
+Bella , .... 
+Afs FF N 
+
+441
+score: 0.39254335834459847
+
+voglio morire , adesso . 
+VMip1s Vf FF B FS 
+
+442
+score: 0.394534135274876
+
+spero che vincano 
+Vip1s CS Vcp3p 
+
+443
+score: 0.39462307018291665
+
+Il solito pessimo servizio .... 
+RDms Sms Ams Sms N 
+
+444
+score: 0.39509360535888366
+
+Mi sono rotto il cazzo 
+PC1ns VAip1s Vpsms RDms Sms 
+
+445
+score: 0.3952895793344279
+
+Tirare un calcio a un pallone . 
+Vf RIms Sms E RIms Sms FS 
+
+446
+score: 0.3956903595752112
+
+La voglia di sparire . 
+RDfs Sfs E Vf FS 
+
+447
+score: 0.3956903595752112
+
+La voglia di sparire . 
+RDfs Sfs E Vf FS 
+
+448
+score: 0.39658245631014344
+
+Oddio , la mia morte . 
+I FF RDfs APfs Sfs FS 
+
+449
+score: 0.3979591836734694
+
+Nessun problema 
+DIms Sms 
+
+450
+score: 0.3979591836734694
+
+Troppo giuro 
+DIms Sms 
+
+451
+score: 0.3979591836734694
+
+Nessun problema 
+DIms Sms 
+
+452
+score: 0.4025391906495105
+
+Tutte le OO.SS condividono testi 
+Tfp RDfp SP Vip3p Smp 
+
+453
+score: 0.4025391906495105
+
+Tutte le OO.SS condividono testi 
+Tfp RDfp SP Vip3p Smp 
+
+454
+score: 0.4025391906495105
+
+Tutte le OO.SS condividono testi 
+Tfp RDfp SP Vip3p Smp 
+
+455
+score: 0.4041626745707818
+
+è solo la creazione di un precedente . 
+Vip3s B RDfs Sfs E RIms Sms FS 
+
+456
+score: 0.40767158173889323
+
+Caro diario , \ 
+Ams Sms FF X 
+
+457
+score: 0.4101293548737257
+
+Non posso vincere la tua battaglia persa tutte le volte 
+BN VMip1s Vf RDfs APfs Sfs Afs Tfp RDfp Sfp 
+
+458
+score: 0.4109570708577982
+
+non potete morire , dai 
+BN VMip2p Vf FF Vm2s 
+
+459
+score: 0.41351605340838926
+
+quanta voglia di scappare da quii 
+DQfs Sfs E Vf E Smp 
+
+460
+score: 0.4178990602269673
+
+RT @Sostenibilesrl: Cos' è il #coworking? 
+SW SW PQns Vip3s RDms Sms 
+
+461
+score: 0.421214364020871
+
+Siamo alla follia . 
+Vip1p EAfs Sfs FS 
+
+462
+score: 0.42124600464268036
+
+Avete rotto il cazzo 
+VAip2p Vpsms RDms Sms 
+
+463
+score: 0.42124600464268036
+
+Avete rotto il cazzo 
+VAip2p Vpsms RDms Sms 
+
+464
+score: 0.42124600464268036
+
+avete rotto il cazzo 
+VAip2p Vpsms RDms Sms 
+
+465
+score: 0.42124600464268036
+
+Avete rotto il cazzo 
+VAip2p Vpsms RDms Sms 
+
+466
+score: 0.42243269569850117
+
+Di tutti i tipi. \ 
+E Tmp RDmp Smp X 
+
+467
+score: 0.4242316832628714
+
+C' è .... 
+PCnn Vip3s FF 
+
+468
+score: 0.4244015505505531
+
+La voglia di vivere . 
+RDfs Sfs E Vf FS 
+
+469
+score: 0.4244015505505531
+
+La voglia di vivere . 
+RDfs Sfs E Vf FS 
+
+470
+score: 0.4283599786989473
+
+Qui scoppia il finimondo 
+B Vip3s RDms Sms 
+
+471
+score: 0.43169716985185813
+
+Una parola fuori tempo e scoppia il finimondo . 
+RIfs Sfs E Sms CC Vip3s RDms Sms FS 
+
+472
+score: 0.43564759873719594
+
+@tizianantonella ha cercato di salvarsi in tutti i modi ! 
+Snn VAip3s Vpsms E Vfc E Tmp RDmp Smp FS 
+
+473
+score: 0.4395452637551923
+
+spegnete tutti i cellulari ! 
+Vip3s Tmp RDmp Smp FS 
+
+474
+score: 0.4400015077026891
+
+C' è un sacco di vento . 
+PCnn Vip3s RIms Sms E Sms FS 
+
+475
+score: 0.4404905723346995
+
+In tutti i sensi . 
+E Tmp RDmp Smp FS 
+
+476
+score: 0.44136364616657153
+
+Villa Fiorita c' è ! 
+SP SP PCnn Vip3s FS 
+
+477
+score: 0.44527097458559595
+
+RT @ManzoFrancesco: Tutte le tragedie finiscono con la morte , tutte le commedie con un matrimonio . 
+SW SW Tfp RDfp Sfp Vip3p E RDfs Sfs FF DIfp RDfp Sfp E RIms Sms FS 
+
+478
+score: 0.45829512166335684
+
+Mi dispiace per tutte le vittime 
+PC1ns Vip3s E Tfp RDfp Sfp 
+
+479
+score: 0.4606679889035804
+
+Posso morire felice . 
+VMip1s Vf Ans FS 
+
+480
+score: 0.4606679889035804
+
+Posso morire felice . 
+VMip1s Vf Ans FS 
+
+481
+score: 0.4612772466807818
+
+devi morire , porca puttana 
+VMm2s Vf FF Afs Sfs 
+
+482
+score: 0.4720437249443188
+
+Tutte le guerre sono insensate . 
+Tfp RDfp Sfp Vip3p Afp FS 
+
+483
+score: 0.48365219109916835
+
+Invece tutte le sere ? 
+B Tfp RDfp Sfp FS 
+
+484
+score: 0.49668214794227683
+
+è bloccato da venti minuti 
+VAip3s Vpsms E N Smp 
+
+485
+score: 0.5
+
+devi morire 
+VMm2s Vf 
+
+486
+score: 0.5
+
+Volevo morire 
+VMii1s Vf 
+
+487
+score: 0.5065685927590131
+
+Molti i bambini . 
+Tmp RDmp Smp FS 
+
+488
+score: 0.5065685927590131
+
+Molti i bambini . 
+Tmp RDmp Smp FS 
+
+489
+score: 0.5065685927590131
+
+Molti i bambini . 
+Tmp RDmp Smp FS 
+
+490
+score: 0.5065685927590131
+
+Molti i bambini . 
+Tmp RDmp Smp FS 
+
+491
+score: 0.5065685927590131
+
+Molti i bambini . 
+Tmp RDmp Smp FS 
+
+492
+score: 0.5065685927590131
+
+Molti i bambini . 
+Tmp RDmp Smp FS 
+
+493
+score: 0.5065685927590131
+
+Molti i bambini . 
+Tmp RDmp Smp FS 
+
+494
+score: 0.5065685927590131
+
+Molti i bambini . 
+Tmp RDmp Smp FS 
+
+495
+score: 0.5065685927590131
+
+Molti i bambini . 
+Tmp RDmp Smp FS 
+
+496
+score: 0.507060174823996
+
+C' è un problema 
+PCnn Vip3s RIms Sms 
+
+497
+score: 0.5165776903624614
+
+Cioè ? 
+B FS 
+
+498
+score: 0.5165776903624614
+
+seriamente . 
+B FS 
+
+499
+score: 0.5414733716830581
+
+Panico . 
+Sms FS 
+
+500
+score: 0.6714975845410628
+
+Volevo scrivere bloccare 
+VMii1s Vf Vf 
+
+
+Process finished with exit code 0
+

@@ -1,0 +1,3008 @@
+/usr/local/jdk1.8.0_40/bin/java -mx1g -Didea.launcher.port=7534 -Didea.launcher.bin.path=/home/lera/idea-IC-135.1230/bin -Dfile.encoding=UTF-8 -classpath /usr/local/jdk1.8.0_40/jre/lib/resources.jar:/usr/local/jdk1.8.0_40/jre/lib/jfr.jar:/usr/local/jdk1.8.0_40/jre/lib/jfxswt.jar:/usr/local/jdk1.8.0_40/jre/lib/deploy.jar:/usr/local/jdk1.8.0_40/jre/lib/plugin.jar:/usr/local/jdk1.8.0_40/jre/lib/rt.jar:/usr/local/jdk1.8.0_40/jre/lib/javaws.jar:/usr/local/jdk1.8.0_40/jre/lib/jsse.jar:/usr/local/jdk1.8.0_40/jre/lib/charsets.jar:/usr/local/jdk1.8.0_40/jre/lib/jce.jar:/usr/local/jdk1.8.0_40/jre/lib/management-agent.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/sunec.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/sunjce_provider.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/zipfs.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/dnsns.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/cldrdata.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/nashorn.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/localedata.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/jfxrt.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/sunpkcs11.jar:/home/lera/Desktop/LAUREA/la_terra_trema/classes:/home/lera/idea-IC-135.1230/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain score.TopTagged /home/lera/Desktop/LAUREA/Training_pos_isst-paisa-devLeg.pos /home/lera/Desktop/LAUREA/corpus_annotato_automaticamente.pos
+Memory usage: 62Mb
+
+Memory usage: 93Mb
+
+1
+score: 0.0
+
+#MH17 
+N 
+
+2
+score: 0.0
+
+:) 
+N 
+
+3
+score: 0.0
+
+? 
+FS 
+
+4
+score: 0.0
+
+http://t.co/Jg4KhbvfOe 
+N 
+
+5
+score: 0.0
+
+\ 
+X 
+
+6
+score: 0.0
+
+#Mah 
+N 
+
+7
+score: 0.0
+
+\ 
+X 
+
+8
+score: 0.0
+
+http://t.co/7RHyRnyEo7 
+N 
+
+9
+score: 0.0
+
+\ 
+X 
+
+10
+score: 0.0
+
+\ 
+X 
+
+11
+score: 0.0
+
+\ 
+X 
+
+12
+score: 0.0
+
+\ 
+X 
+
+13
+score: 0.0
+
+http://t.co/GC4Py635wz 
+N 
+
+14
+score: 0.0
+
+http://t.co/dY812IxZqh 
+N 
+
+15
+score: 0.0
+
+\ 
+X 
+
+16
+score: 0.0
+
+http://t.co/d51B1fRq4r 
+N 
+
+17
+score: 0.0
+
+\ 
+X 
+
+18
+score: 0.0
+
+#TIM4U 
+Sms 
+
+19
+score: 0.0
+
+Ahahah 
+SP 
+
+20
+score: 0.0
+
+\ 
+X 
+
+21
+score: 0.0
+
+http://t.co/GB4O3LArbN 
+N 
+
+22
+score: 0.0
+
+http://t.co/tADoP7Li1A 
+N 
+
+23
+score: 0.0
+
+\ 
+X 
+
+24
+score: 0.0
+
+http://t.co/VMedfXQxMr 
+N 
+
+25
+score: 0.0
+
+\ 
+X 
+
+26
+score: 0.0
+
+#TheOC 
+N 
+
+27
+score: 0.0
+
+#MalaysiaAirlines 
+N 
+
+28
+score: 0.0
+
+http://t.co/6JM02CqaVx 
+N 
+
+29
+score: 0.0
+
+\ 
+X 
+
+30
+score: 0.0
+
+http://t.co/z9GTTUIe8y 
+N 
+
+31
+score: 0.0
+
+http://t.co/kCCIXGlSsN 
+N 
+
+32
+score: 0.0
+
+http://t.co/42zQiKHiCn 
+N 
+
+33
+score: 0.0
+
+#siamoincontentabili 
+Anp 
+
+34
+score: 0.0
+
+haha 
+Snn 
+
+35
+score: 0.0
+
+#... 
+N 
+
+36
+score: 0.0
+
+\ 
+X 
+
+37
+score: 0.0
+
+http://t.co/3ioUjDpLlX 
+N 
+
+38
+score: 0.0
+
+@trvsher grave 
+Snn Ans 
+
+39
+score: 0.0
+
+http://t.co/bIVIdPNuuk 
+N 
+
+40
+score: 0.0
+
+\ 
+X 
+
+41
+score: 0.0
+
+\ 
+X 
+
+42
+score: 0.0
+
+http://t.co/6JM02CqaVx 
+N 
+
+43
+score: 0.0
+
+\ 
+X 
+
+44
+score: 0.0
+
+\ 
+X 
+
+45
+score: 0.0
+
+Vi aspetto 
+PCnn Sms 
+
+46
+score: 0.0
+
+http://t.co/oEL8NuG5d7 
+N 
+
+47
+score: 0.0
+
+@BLelouch grave 
+N Ans 
+
+48
+score: 0.0
+
+\ 
+X 
+
+49
+score: 0.0
+
+\ 
+X 
+
+50
+score: 0.0
+
+@Sara_Spitali insopportabile 
+N Ans 
+
+51
+score: 0.0
+
+Cit 
+SP 
+
+52
+score: 0.0
+
+Ciao cara 
+I Sfs 
+
+53
+score: 0.0
+
+http://t.co/VrYAAPgEJZ 
+N 
+
+54
+score: 0.0
+
+http://t.co/IYZXcCYDR6 
+N 
+
+55
+score: 0.0
+
+\ 
+X 
+
+56
+score: 0.0
+
+\ 
+X 
+
+57
+score: 0.0
+
+http://t.co/NdFhv5RxU3 
+N 
+
+58
+score: 0.0
+
+\ 
+X 
+
+59
+score: 0.0
+
+\ 
+X 
+
+60
+score: 0.0
+
+\ 
+X 
+
+61
+score: 0.0
+
+http://t.co/Jg4KhbvfOe 
+N 
+
+62
+score: 0.0
+
+\ 
+X 
+
+63
+score: 0.0
+
+\ 
+X 
+
+64
+score: 0.0
+
+#MH17 
+N 
+
+65
+score: 0.0
+
+\ 
+X 
+
+66
+score: 0.0
+
+\ 
+X 
+
+67
+score: 0.0
+
+xD 
+N 
+
+68
+score: 0.0
+
+Fiduciosa 
+SP 
+
+69
+score: 0.0
+
+http://t.co/Q5a2C7brAR 
+N 
+
+70
+score: 0.0
+
+#SenzaParole 
+N 
+
+71
+score: 0.0
+
+XD 
+N 
+
+72
+score: 0.0
+
+:-) 
+N 
+
+73
+score: 0.0
+
+\ 
+X 
+
+74
+score: 0.0
+
+#TheOC" 
+N 
+
+75
+score: 0.0
+
+\ 
+X 
+
+76
+score: 0.0
+
+Vi aspetto 
+PCnn Sms 
+
+77
+score: 0.0
+
+\ 
+X 
+
+78
+score: 0.0
+
+Ma quanti .... 
+CC PRmp N 
+
+79
+score: 0.0
+
+http://t.co/JS74gBwWSc 
+N 
+
+80
+score: 0.0
+
+\ 
+X 
+
+81
+score: 0.0
+
+#TheOC 
+N 
+
+82
+score: 0.0
+
+@Domsmustang grave 
+N Ans 
+
+83
+score: 0.0
+
+\ 
+X 
+
+84
+score: 0.0
+
+Saluti 
+Smp 
+
+85
+score: 0.0
+
+http://t.co/mrb7FTf4vx 
+N 
+
+86
+score: 0.0
+
+http://t.co/rJQgC0i5tP 
+N 
+
+87
+score: 0.0
+
+\ 
+X 
+
+88
+score: 0.0
+
+Spacchiamooooo 
+SP 
+
+89
+score: 0.0
+
+\ 
+X 
+
+90
+score: 0.0
+
+http://t.co/rqnbS8JWHM 
+N 
+
+91
+score: 0.0
+
+\ 
+X 
+
+92
+score: 0.0
+
+\ 
+X 
+
+93
+score: 0.0
+
+\ 
+X 
+
+94
+score: 0.0
+
+#MalaysiaAirlines 
+N 
+
+95
+score: 0.0
+
+http://t.co/Ay60R5xFu2 
+N 
+
+96
+score: 0.0
+
+#... 
+N 
+
+97
+score: 0.0
+
+\ 
+X 
+
+98
+score: 0.0
+
+Punto 
+B 
+
+99
+score: 0.0
+
+#MH17 
+N 
+
+100
+score: 0.0
+
+#TheOC 
+N 
+
+101
+score: 0.0
+
+http://t.co/6fziVXktx6 
+N 
+
+102
+score: 0.0
+
+\ 
+X 
+
+103
+score: 0.0
+
+http://t.co/5vxtCQX0Nm 
+N 
+
+104
+score: 0.0
+
+http://t.co/42zQiKHiCn 
+N 
+
+105
+score: 0.0
+
+? ? 
+FS FS 
+
+106
+score: 0.0
+
+\ 
+X 
+
+107
+score: 0.0
+
+\ 
+X 
+
+108
+score: 0.0
+
+http://t.co/XtyTzDb6dP 
+N 
+
+109
+score: 0.0
+
+http://t.co/eIfPFmorbL 
+N 
+
+110
+score: 0.0
+
+http://t.co/9pfmYqdcDM 
+N 
+
+111
+score: 0.0
+
+\ 
+X 
+
+112
+score: 0.0
+
+\ 
+X 
+
+113
+score: 0.0
+
+\ 
+X 
+
+114
+score: 0.0
+
+@ceccoangiolier6\ 
+Snn 
+
+115
+score: 0.0
+
+http://t.co/N3g7HkyRGg 
+N 
+
+116
+score: 0.0
+
+\ 
+X 
+
+117
+score: 0.0
+
+\ 
+X 
+
+118
+score: 0.0
+
+#... 
+N 
+
+119
+score: 0.0
+
+\ 
+X 
+
+120
+score: 0.0
+
+http://t.co/WVFdhgme9W 
+N 
+
+121
+score: 0.0
+
+\ 
+X 
+
+122
+score: 0.0
+
+Emerson 
+SP 
+
+123
+score: 0.0
+
+\ 
+X 
+
+124
+score: 0.0
+
+\ 
+X 
+
+125
+score: 0.0
+
+\ 
+X 
+
+126
+score: 0.0
+
+\ 
+X 
+
+127
+score: 0.0
+
+http://t.co/mrb7FTf4vx 
+N 
+
+128
+score: 0.0
+
+XD 
+N 
+
+129
+score: 0.0
+
+grave 
+Ans 
+
+130
+score: 0.0
+
+http://t.co/N3g7HkyRGg 
+N 
+
+131
+score: 0.0
+
+\ 
+X 
+
+132
+score: 0.0
+
+\ 
+X 
+
+133
+score: 0.0
+
+@bombe... 
+Snn 
+
+134
+score: 0.0
+
+\ 
+X 
+
+135
+score: 0.0
+
+buahahah 
+Snn 
+
+136
+score: 0.0
+
+\ 
+X 
+
+137
+score: 0.0
+
+#PrayForMH17 
+N 
+
+138
+score: 0.0
+
+\ 
+X 
+
+139
+score: 0.0
+
+\ 
+X 
+
+140
+score: 0.0
+
+#fatemicapire 
+Sms 
+
+141
+score: 0.0
+
+@sorridodiharry sto piangendo diosanto. \ 
+Snn Vip1s Vg Snn X 
+
+142
+score: 0.0
+
+? ? 
+FS FS 
+
+143
+score: 0.0
+
+http://t.co/bRni1rLynj 
+N 
+
+144
+score: 0.0
+
+http://t.co/XLbZQIRic3 
+N 
+
+145
+score: 0.0
+
+http://t.co/jxVQTlSJZA 
+N 
+
+146
+score: 0.0
+
+Solo tu \ 
+B PE2ns X 
+
+147
+score: 0.0
+
+\ 
+X 
+
+148
+score: 0.0
+
+\ 
+X 
+
+149
+score: 0.0
+
+\ 
+X 
+
+150
+score: 0.0
+
+\ 
+X 
+
+151
+score: 0.0
+
+\ 
+X 
+
+152
+score: 0.0
+
+http://t.co/YdIrQGn4HL 
+N 
+
+153
+score: 0.0
+
+^^\ 
+N 
+
+154
+score: 0.0
+
+\ 
+X 
+
+155
+score: 0.0
+
+http://t.co/DaQHsOUrQo 
+N 
+
+156
+score: 0.0
+
+Caconi 
+SP 
+
+157
+score: 0.0
+
+\ 
+X 
+
+158
+score: 0.0
+
+Vi aspetto 
+PCnn Sms 
+
+159
+score: 0.0
+
+\ 
+X 
+
+160
+score: 0.0
+
+Uffaaaa 
+SP 
+
+161
+score: 0.0
+
+http://t.co/Jtdjv1ew2y 
+N 
+
+162
+score: 0.0
+
+http://t.co/hLmpcwPpWb 
+N 
+
+163
+score: 0.0
+
+#mostro 
+Sms 
+
+164
+score: 0.0
+
+\ 
+X 
+
+165
+score: 0.0
+
+Vi aspetto 
+PCnn Sms 
+
+166
+score: 0.0
+
+rido 
+Vip1s 
+
+167
+score: 0.0
+
+\ 
+X 
+
+168
+score: 0.0
+
+\ 
+X 
+
+169
+score: 0.0
+
+http://t.co/JS74gBwWSc 
+N 
+
+170
+score: 0.0
+
+Solo TU ? 
+B PE2ns FS 
+
+171
+score: 0.0
+
+Vi aspetto 
+PCnn Sms 
+
+172
+score: 0.0
+
+#TheOC 
+N 
+
+173
+score: 0.0
+
+http://t.co/5cUJZI4sST 
+N 
+
+174
+score: 0.0
+
+http://t.co/Jg4KhbvfOe 
+N 
+
+175
+score: 0.0
+
+\ 
+X 
+
+176
+score: 0.0
+
+#MH17 
+N 
+
+177
+score: 0.0
+
+@TeamPAPii) 
+N 
+
+178
+score: 0.0
+
+http://t.co/cjJur3hL6E 
+N 
+
+179
+score: 0.0
+
+\ 
+X 
+
+180
+score: 0.0
+
+\ 
+X 
+
+181
+score: 0.0
+
+Grave 
+Ans 
+
+182
+score: 0.0
+
+Goethe 
+SP 
+
+183
+score: 0.0
+
+http://t.co/7RHyRnyEo7 
+N 
+
+184
+score: 0.0
+
+\ 
+X 
+
+185
+score: 0.0
+
+\ 
+X 
+
+186
+score: 0.0
+
+http://t.co/HuWvRqM0NC 
+N 
+
+187
+score: 0.0
+
+Ovceanzay 
+SP 
+
+188
+score: 0.0
+
+\ 
+X 
+
+189
+score: 0.0
+
+http://t.co/5qmh6XzPET 
+N 
+
+190
+score: 0.0
+
+http://t.co/R6ttPqLPtJ 
+N 
+
+191
+score: 0.0
+
+\ 
+X 
+
+192
+score: 0.0
+
+http://t.co/Jg4KhbvfOe 
+N 
+
+193
+score: 0.0
+
+\ 
+X 
+
+194
+score: 0.0
+
+http://t.co/jgIuP2x4L8 
+N 
+
+195
+score: 0.0
+
+#FILMAUROSTORY\ 
+Sms 
+
+196
+score: 0.0
+
+#..." 
+N 
+
+197
+score: 0.0
+
+\ 
+X 
+
+198
+score: 0.0
+
+#WWIII 
+Smp 
+
+199
+score: 0.0
+
+\ 
+X 
+
+200
+score: 0.0
+
+#mostro 
+Sms 
+
+201
+score: 0.0
+
+^_^ 
+N 
+
+202
+score: 0.0
+
+http://t.co/uXm7B94Ncp 
+N 
+
+203
+score: 0.0
+
+@carl0_g00dlife \ 
+Snn X 
+
+204
+score: 0.0
+
+\ 
+X 
+
+205
+score: 0.0
+
+Tremendo 
+SP 
+
+206
+score: 0.0
+
+\ 
+X 
+
+207
+score: 0.0
+
+\ 
+X 
+
+208
+score: 0.0
+
+http://t.co/vrIuq0J8MQ 
+N 
+
+209
+score: 0.0
+
+http://t.co/5cUJZI4sST 
+N 
+
+210
+score: 0.0
+
+\ 
+X 
+
+211
+score: 0.0
+
+\ 
+X 
+
+212
+score: 0.0
+
+\ 
+X 
+
+213
+score: 0.0
+
+@Lucagrossi66 
+N 
+
+214
+score: 0.0
+
+\ 
+X 
+
+215
+score: 0.0
+
+http://t.co/ytpGONVRPx 
+N 
+
+216
+score: 0.0
+
+\ 
+X 
+
+217
+score: 0.0
+
+@Quaaaaartz grave 
+N Ans 
+
+218
+score: 0.0
+
+\ 
+X 
+
+219
+score: 0.0
+
+\ 
+X 
+
+220
+score: 0.0
+
+\ 
+X 
+
+221
+score: 0.0
+
+Grazie 
+I 
+
+222
+score: 0.0
+
+\ 
+X 
+
+223
+score: 0.0
+
+\ 
+X 
+
+224
+score: 0.0
+
+@TwLetteratura 
+N 
+
+225
+score: 0.0
+
+@ilmentaIista 
+N 
+
+226
+score: 0.0
+
+#WeWantOneDirectio... 
+N 
+
+227
+score: 0.0
+
+\ 
+X 
+
+228
+score: 0.0
+
+http://t.co/LalBqhQrRO 
+N 
+
+229
+score: 0.0
+
+\ 
+X 
+
+230
+score: 0.0
+
+\ 
+X 
+
+231
+score: 0.0
+
+http://t.co/94l3DKtvKo 
+N 
+
+232
+score: 0.0
+
+http://t.co/ZQqkznT7ec 
+N 
+
+233
+score: 0.0
+
+\ 
+X 
+
+234
+score: 0.0
+
+http://t.co/hBlrPhQUiC 
+N 
+
+235
+score: 0.0
+
+http://t.co/ML3XGYNaFp 
+N 
+
+236
+score: 0.0
+
+http://t.co/XIr5wA46tX 
+N 
+
+237
+score: 0.0
+
+#MH17 
+N 
+
+238
+score: 0.0
+
+#WeWantOneDirectionNominatedForTheVmas 
+N 
+
+239
+score: 0.0
+
+\ 
+X 
+
+240
+score: 0.0
+
+@IlBomma 
+N 
+
+241
+score: 0.0
+
+http://t.co/qzeQhxAGek 
+N 
+
+242
+score: 0.0
+
+tremendo 
+Ams 
+
+243
+score: 0.0
+
+\ 
+X 
+
+244
+score: 0.0
+
+http://t.co/3q6ALeMxsI 
+N 
+
+245
+score: 0.0
+
+http://t.co/8W3MStd6Oi 
+N 
+
+246
+score: 0.0
+
+http://t.co/RoZdMTFexb 
+N 
+
+247
+score: 0.0
+
+\ 
+X 
+
+248
+score: 0.0
+
+http://t.co/DaQHsOUrQo 
+N 
+
+249
+score: 0.0
+
+solo tu ? 
+B PE2ns FS 
+
+250
+score: 0.0
+
+\ 
+X 
+
+251
+score: 0.0
+
+\ 
+X 
+
+252
+score: 0.0
+
+http://t.co/BgLOZjylfl 
+N 
+
+253
+score: 0.0
+
+\ 
+X 
+
+254
+score: 0.0
+
+http://t.co/XlJDOiMdhZ 
+N 
+
+255
+score: 0.0
+
+\ 
+X 
+
+256
+score: 0.0
+
+http://t.co/AwWT4U0Ylx 
+N 
+
+257
+score: 0.0
+
+\ 
+X 
+
+258
+score: 0.0
+
+\ 
+X 
+
+259
+score: 0.0
+
+#MH17 
+N 
+
+260
+score: 0.0
+
+Okay http://t.co/J7r0NBvfxS 
+I N 
+
+261
+score: 0.0
+
+\ 
+X 
+
+262
+score: 0.0
+
+http://t.co/TSGoCAzGxk 
+N 
+
+263
+score: 0.0
+
+http://t.co/Jg4KhbvfOe 
+N 
+
+264
+score: 0.0
+
+http://t.co/VsHwNdEbTZ 
+N 
+
+265
+score: 0.0
+
+http://t.co/cJuVdoBrDR 
+N 
+
+266
+score: 0.0
+
+\ 
+X 
+
+267
+score: 0.0
+
+Amen 
+I 
+
+268
+score: 0.0
+
+\ 
+X 
+
+269
+score: 0.0
+
+#juventus 
+Snn 
+
+270
+score: 0.0
+
+\ 
+X 
+
+271
+score: 0.0
+
+\ 
+X 
+
+272
+score: 0.0
+
+Haha 
+SP 
+
+273
+score: 0.0
+
+* * \ 
+X X X 
+
+274
+score: 0.0
+
+:) 
+N 
+
+275
+score: 0.0
+
+#Giappone\ 
+N 
+
+276
+score: 0.0
+
+#WeWantOneDirectionNominatedForTheVmas 
+N 
+
+277
+score: 0.0
+
+\ 
+X 
+
+278
+score: 0.0
+
+http://t.co/Y1bxFX5A7E 
+N 
+
+279
+score: 0.0
+
+http://t.co/NHdSbSazNa 
+N 
+
+280
+score: 0.0
+
+\ 
+X 
+
+281
+score: 0.0
+
+\ 
+X 
+
+282
+score: 0.0
+
+http://t.co/nsZNEryvn9 
+N 
+
+283
+score: 0.0
+
+@TwLetteratura 
+N 
+
+284
+score: 0.0
+
+#Cronaca. 
+N 
+
+285
+score: 0.0
+
+\ 
+X 
+
+286
+score: 0.0
+
+http://t.co/6A1jljOE2v 
+N 
+
+287
+score: 0.0
+
+\ 
+X 
+
+288
+score: 0.0
+
+http://t.co/JfZv01PBic 
+N 
+
+289
+score: 0.0
+
+\ 
+X 
+
+290
+score: 0.0
+
+lol 
+Snn 
+
+291
+score: 0.0
+
+http://t.co/Ge06CWMbQU 
+N 
+
+292
+score: 0.0
+
+\ 
+X 
+
+293
+score: 0.0
+
+\ 
+X 
+
+294
+score: 0.0
+
+http://t.co/Jg4KhbvfOe 
+N 
+
+295
+score: 0.0
+
+\ 
+X 
+
+296
+score: 0.0
+
+http://t.co/KIDRBB7fL9 
+N 
+
+297
+score: 0.0
+
+:) 
+N 
+
+298
+score: 0.0
+
+http://t.co/7RHyRnyEo7 
+N 
+
+299
+score: 0.0
+
+\ 
+X 
+
+300
+score: 0.0
+
+@QueenStoessel_ grave 
+N Ans 
+
+301
+score: 0.0
+
+http://t.co/7okCCb1Fnb 
+N 
+
+302
+score: 0.0
+
+xnothingelse \ 
+Snn X 
+
+303
+score: 0.0
+
+\ 
+X 
+
+304
+score: 0.0
+
+.... 
+N 
+
+305
+score: 0.0
+
+Vi aspetto 
+PCnn Sms 
+
+306
+score: 0.0
+
+http://t.co/vwcX79Yd0Y 
+N 
+
+307
+score: 0.0
+
+http://t.co/kwRrZYw4mn 
+N 
+
+308
+score: 0.0
+
+#sapevatelo 
+Sms 
+
+309
+score: 0.0
+
+\ 
+X 
+
+310
+score: 0.0
+
+http://t.co/BbyAIACY2y 
+N 
+
+311
+score: 0.0
+
+#WeWantOneDirectionNominatedForTheVmas 
+N 
+
+312
+score: 0.0
+
+http://t.co/7BFEreZqe9 
+N 
+
+313
+score: 0.0
+
+http://t.co/GQsiZDUcTp 
+N 
+
+314
+score: 0.0
+
+#WeWantOneDirectionNominatedForTheVmas 
+N 
+
+315
+score: 0.0
+
+deheh 
+Snn 
+
+316
+score: 0.0
+
+#perdire 
+Sms 
+
+317
+score: 0.0
+
+http://t.co/YQfBGC63ek 
+N 
+
+318
+score: 0.0
+
+\ 
+X 
+
+319
+score: 0.0
+
+#ItalyNeedsGotCakeTour\ 
+N 
+
+320
+score: 0.0
+
+\ 
+X 
+
+321
+score: 0.0
+
+http://t.co/58eHBFOalT 
+N 
+
+322
+score: 0.0
+
+#italianmahomieswantatour\ 
+Snn 
+
+323
+score: 0.0
+
+#ItalyWantsMagcon\ 
+N 
+
+324
+score: 0.0
+
+#TheOC" 
+N 
+
+325
+score: 0.0
+
+? 
+FS 
+
+326
+score: 0.0
+
+\ 
+X 
+
+327
+score: 0.0
+
+#TheOC" 
+N 
+
+328
+score: 0.0
+
+KSHAKHKKSHKJH 
+Sms 
+
+329
+score: 0.0
+
+\ 
+X 
+
+330
+score: 0.0
+
+http://t.co/DaQHsOUrQo 
+N 
+
+331
+score: 0.0
+
+#panzerwagen 
+Snn 
+
+332
+score: 0.0
+
+\ 
+X 
+
+333
+score: 0.0
+
+Guitry 
+SP 
+
+334
+score: 0.0
+
+#WeWantOneDirectionNominatedFo... 
+N 
+
+335
+score: 0.0
+
+#ilmiocellnonèuniphone 
+Sms 
+
+336
+score: 0.0
+
+\ 
+X 
+
+337
+score: 0.0
+
+Colpevole 
+Sns 
+
+338
+score: 0.0
+
+Grave 
+Ans 
+
+339
+score: 0.0
+
+#TwPrimi..." 
+N 
+
+340
+score: 0.0
+
+... 
+FF 
+
+341
+score: 0.0
+
+Mi sentite piangere vbb 
+PC1ns Afp Vf Snn 
+
+342
+score: 0.0
+
+@hazzakamysmile grazie mille 
+Snn I N 
+
+343
+score: 0.0
+
+http://t.co/EHTZpzaeJz 
+N 
+
+344
+score: 0.0
+
+\ 
+X 
+
+345
+score: 0.0
+
+@FedericaBlecich 
+N 
+
+346
+score: 0.0
+
+\ 
+X 
+
+347
+score: 0.0
+
+http://t.co/7cz7KzJm3v 
+N 
+
+348
+score: 0.0
+
+\ 
+X 
+
+349
+score: 0.0
+
+\ 
+X 
+
+350
+score: 0.0
+
+\ 
+X 
+
+351
+score: 0.0
+
+\ 
+X 
+
+352
+score: 0.0
+
+\ 
+X 
+
+353
+score: 0.0
+
+#TheOC 
+N 
+
+354
+score: 0.0
+
+http://t.co/kunuMbHIQS 
+N 
+
+355
+score: 0.0
+
+@Stefano_Benni 
+N 
+
+356
+score: 0.0
+
+\ 
+X 
+
+357
+score: 0.0
+
+\ 
+X 
+
+358
+score: 0.0
+
+\ 
+X 
+
+359
+score: 0.0
+
+#iversicheamo 
+Sms 
+
+360
+score: 0.0
+
+\ 
+X 
+
+361
+score: 0.0
+
+http://t.co/FUdmSPsx4b 
+N 
+
+362
+score: 0.0
+
+Aiutoooooo 
+SP 
+
+363
+score: 0.0
+
+http://t.co/Pwvl5ZEO2y 
+N 
+
+364
+score: 0.0
+
+\ 
+X 
+
+365
+score: 0.0
+
+http://t.co/tz8kupaWDi 
+N 
+
+366
+score: 0.0
+
+#sapevat... 
+Snn 
+
+367
+score: 0.0
+
+\ 
+X 
+
+368
+score: 0.0
+
+\ 
+X 
+
+369
+score: 0.0
+
+@NiallOfficial grave 
+N Ans 
+
+370
+score: 0.0
+
+http://t.co/hKndNYRuw5 
+N 
+
+371
+score: 0.0
+
+@vitaindiretta 
+Sfs 
+
+372
+score: 0.0
+
+\ 
+X 
+
+373
+score: 0.0
+
+http://t.co/QjGqjm9AVr 
+N 
+
+374
+score: 0.0
+
+#WeWantOneDirectionNominatedForTheVmas 
+N 
+
+375
+score: 0.0
+
+\ 
+X 
+
+376
+score: 0.0
+
+http://t.co/HJGeJMU2F6 
+N 
+
+377
+score: 0.0
+
+#Incontropdm5s 
+N 
+
+378
+score: 0.0
+
+http://t.co/X6hQCTZbPY 
+N 
+
+379
+score: 0.0
+
+http://t.co/BS5n7g3eZq 
+N 
+
+380
+score: 0.0
+
+http://t.co/7vrogXCx8o 
+N 
+
+381
+score: 0.0
+
+\ 
+X 
+
+382
+score: 0.0
+
+http://t.co/cfCikT3ydt 
+N 
+
+383
+score: 0.0
+
+\ 
+X 
+
+384
+score: 0.0
+
+http://t.co/IxaLIx8VCY 
+N 
+
+385
+score: 0.0
+
+\ 
+X 
+
+386
+score: 0.0
+
+http://t.co/IvZC9iovXV 
+N 
+
+387
+score: 0.0
+
+Scusa 
+Vip3s 
+
+388
+score: 0.0
+
+betwarry 
+Snn 
+
+389
+score: 0.0
+
+http://t.co/iFKSd8IOp2 
+N 
+
+390
+score: 0.0
+
+#Gaza 
+N 
+
+391
+score: 0.0
+
+\ 
+X 
+
+392
+score: 0.0
+
+\ 
+X 
+
+393
+score: 0.0
+
+#WeWantOneDirectionNominatedForTheVmas 
+N 
+
+394
+score: 0.0
+
+http://t.co/BtwLkLBhyh 
+N 
+
+395
+score: 0.0
+
+http://t.co/IvZC9iovXV 
+N 
+
+396
+score: 0.0
+
+@ceccoangiolier6\ 
+Snn 
+
+397
+score: 0.0
+
+#... 
+N 
+
+398
+score: 0.0
+
+http://t.co/Kw2zjjBH9r 
+N 
+
+399
+score: 0.0
+
+\ 
+X 
+
+400
+score: 0.0
+
+http://t.co/m51Edz4rK0 
+N 
+
+401
+score: 0.0
+
+\ 
+X 
+
+402
+score: 0.0
+
+Foruncoli \ 
+Smp X 
+
+403
+score: 0.0
+
+#MH17 
+N 
+
+404
+score: 0.0
+
+http://t.co/0cLbzBnTUP 
+N 
+
+405
+score: 0.0
+
+#WeWantOneDirectionNominatedForTheV... 
+N 
+
+406
+score: 0.0
+
+\ 
+X 
+
+407
+score: 0.0
+
+\ 
+X 
+
+408
+score: 0.0
+
+@lukeyslove grazie mille 
+Snn I N 
+
+409
+score: 0.0
+
+\ 
+X 
+
+410
+score: 0.0
+
+http://t.co/3WOiueFNpJ 
+N 
+
+411
+score: 0.0
+
+\ 
+X 
+
+412
+score: 0.0
+
+#theOC 
+N 
+
+413
+score: 0.0
+
+\ 
+X 
+
+414
+score: 0.0
+
+http://t.co/Jg4KhbvfOe 
+N 
+
+415
+score: 0.0
+
+http://t.co/53ENUoWdAq 
+N 
+
+416
+score: 0.0
+
+\ 
+X 
+
+417
+score: 0.0
+
+http://t.co/BtwLkLBhyh 
+N 
+
+418
+score: 0.0
+
+http://t.co/Kliuvl6XS6 
+N 
+
+419
+score: 0.0
+
+http://t.co/WI0lU4IUK6 
+N 
+
+420
+score: 0.0
+
+http://t.co/8GzGy7sGeC 
+N 
+
+421
+score: 0.0
+
+http://t.co/pbF11GoRp4 
+N 
+
+422
+score: 0.0
+
+Indvouis 
+SP 
+
+423
+score: 0.0
+
+@rubio_chef 
+Snn 
+
+424
+score: 0.0
+
+#WeWantOneDirectionNominatedForTheVmas 
+N 
+
+425
+score: 0.0
+
+\ 
+X 
+
+426
+score: 0.0
+
+@cutieloueh grave 
+Snn Ans 
+
+427
+score: 0.0
+
+@pisnilab \ 
+Snn X 
+
+428
+score: 0.0
+
+inquieste \ 
+Sfp X 
+
+429
+score: 0.0
+
+http://t.co/GsKrM3iI2f 
+N 
+
+430
+score: 0.0
+
+#finoallafine 
+Sms 
+
+431
+score: 0.0
+
+#israelle? 
+Snn 
+
+432
+score: 0.0
+
+* - * 
+X FC X 
+
+433
+score: 0.0
+
+http://t.co/rqnbS8JWHM 
+N 
+
+434
+score: 0.0
+
+\ 
+X 
+
+435
+score: 0.0
+
+\ 
+X 
+
+436
+score: 0.0
+
+Vedi binho 
+Vm2s Sms 
+
+437
+score: 0.0
+
+A 
+E 
+
+438
+score: 0.0
+
+#idiota 
+Snn 
+
+439
+score: 0.0
+
+http://t.co/qzeQhxAGek 
+N 
+
+440
+score: 0.0
+
+\ 
+X 
+
+441
+score: 0.0
+
+\ 
+X 
+
+442
+score: 0.0
+
+ah okay 
+I Smn 
+
+443
+score: 0.0
+
+http://t.co/UUEgexIPRD 
+N 
+
+444
+score: 0.0
+
+^.^) 
+N 
+
+445
+score: 0.0
+
+http://t.co/UeHC7TmeZT 
+N 
+
+446
+score: 0.0
+
+\ 
+X 
+
+447
+score: 0.0
+
+\ 
+X 
+
+448
+score: 0.0
+
+\ 
+X 
+
+449
+score: 0.0
+
+#Gaza 
+N 
+
+450
+score: 0.0
+
+stronzi \ 
+Smp X 
+
+451
+score: 0.0
+
+#2019SI 
+Smp 
+
+452
+score: 0.0
+
+http://t.co/FM5PaVvR95 
+N 
+
+453
+score: 0.0
+
+arabe 
+Afp 
+
+454
+score: 0.0
+
+\ 
+X 
+
+455
+score: 0.0
+
+\ 
+X 
+
+456
+score: 0.0
+
+http://t.co/69lncxI4Vu 
+N 
+
+457
+score: 0.0
+
+\ 
+X 
+
+458
+score: 0.0
+
+#PrayForMH17 
+N 
+
+459
+score: 0.0
+
+\ 
+X 
+
+460
+score: 0.0
+
+XD 
+N 
+
+461
+score: 0.0
+
+\ 
+X 
+
+462
+score: 0.0
+
+:) 
+N 
+
+463
+score: 0.0
+
+\ 
+X 
+
+464
+score: 0.0
+
+http://t.co/SI36hdOVZ4 
+N 
+
+465
+score: 0.0
+
+\ 
+X 
+
+466
+score: 0.0
+
+http://t.co/gnvSVkKBmR 
+N 
+
+467
+score: 0.0
+
+GRAVE 
+Ans 
+
+468
+score: 0.0
+
+\ 
+X 
+
+469
+score: 0.0
+
+\ 
+X 
+
+470
+score: 0.0
+
+http://t.co/sg75E8fWxe 
+N 
+
+471
+score: 0.0
+
+http://t.co/8jD6A00hAX 
+N 
+
+472
+score: 0.0
+
+http://t.co/tIfPLAc2jr 
+N 
+
+473
+score: 0.0
+
+#IlMondoCh... 
+N 
+
+474
+score: 0.0
+
+\ 
+X 
+
+475
+score: 0.0
+
+\ 
+X 
+
+476
+score: 0.0
+
+#sadstory" 
+Snn 
+
+477
+score: 0.0
+
+\ 
+X 
+
+478
+score: 0.0
+
+\ 
+X 
+
+479
+score: 0.0
+
+\ 
+X 
+
+480
+score: 0.0
+
+#uanemaropriatorio 
+Sms 
+
+481
+score: 0.0
+
+http://t.co/999Pl6yhwB 
+N 
+
+482
+score: 0.0
+
+http://t.co/ajE4TTz9rm 
+N 
+
+483
+score: 0.0
+
+... 
+FF 
+
+484
+score: 0.0
+
+@rubio_chef 
+Snn 
+
+485
+score: 0.0
+
+\ 
+X 
+
+486
+score: 0.0
+
+\ 
+X 
+
+487
+score: 0.0
+
+http://t.co/jDl4Dhrl6h 
+N 
+
+488
+score: 0.0
+
+- 
+FC 
+
+489
+score: 0.0
+
+http://t.co/qLySU8WlOh 
+N 
+
+490
+score: 0.0
+
+arabe 
+Afp 
+
+491
+score: 0.0
+
+#amala ricordati 
+Snn Vm2sc 
+
+492
+score: 0.0
+
+cronisti \ 
+Smp X 
+
+493
+score: 0.0
+
+... 
+FF 
+
+494
+score: 0.0
+
+#TIM4U 
+Sms 
+
+495
+score: 0.0
+
+@HbibiLeMaroc grave 
+N Ans 
+
+496
+score: 0.0
+
+#Max\ 
+N 
+
+497
+score: 0.0
+
+@a_meluzzi \ 
+Smp X 
+
+498
+score: 0.0
+
+#malaysian 
+Snn 
+
+499
+score: 0.0
+
+\ 
+X 
+
+500
+score: 0.0
+
+http://t.co/HwD5ittnOG 
+N 
+
+
+Process finished with exit code 0
+

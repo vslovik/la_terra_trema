@@ -1,0 +1,3008 @@
+/usr/local/jdk1.8.0_40/bin/java -mx1g -Didea.launcher.port=7546 -Didea.launcher.bin.path=/home/lera/idea-IC-135.1230/bin -Dfile.encoding=UTF-8 -classpath /usr/local/jdk1.8.0_40/jre/lib/resources.jar:/usr/local/jdk1.8.0_40/jre/lib/jfr.jar:/usr/local/jdk1.8.0_40/jre/lib/jfxswt.jar:/usr/local/jdk1.8.0_40/jre/lib/deploy.jar:/usr/local/jdk1.8.0_40/jre/lib/plugin.jar:/usr/local/jdk1.8.0_40/jre/lib/rt.jar:/usr/local/jdk1.8.0_40/jre/lib/javaws.jar:/usr/local/jdk1.8.0_40/jre/lib/jsse.jar:/usr/local/jdk1.8.0_40/jre/lib/charsets.jar:/usr/local/jdk1.8.0_40/jre/lib/jce.jar:/usr/local/jdk1.8.0_40/jre/lib/management-agent.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/sunec.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/sunjce_provider.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/zipfs.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/dnsns.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/cldrdata.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/nashorn.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/localedata.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/jfxrt.jar:/usr/local/jdk1.8.0_40/jre/lib/ext/sunpkcs11.jar:/home/lera/Desktop/LAUREA/la_terra_trema/classes:/home/lera/idea-IC-135.1230/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain score.TopTagged /home/lera/Desktop/LAUREA/Training_pos_isst-paisa-devLeg.pos /home/lera/Desktop/LAUREA/corpus_annotato_automaticamente.pos
+Memory usage: 62Mb
+
+Memory usage: 321Mb
+
+1
+score: 0.011316730152953328
+
+non sto piangendo , no #temptationisland 
+BN Vip1s Vg FF BN Snn 
+
+2
+score: 0.011316730152953328
+
+non sto piangendo , no #temptationisland 
+BN Vip1s Vg FF BN Snn 
+
+3
+score: 0.011316730152953328
+
+non sto piangendo , no #temptationisland 
+BN Vip1s Vg FF BN Snn 
+
+4
+score: 0.011316730152953328
+
+non sto piangendo , no #temptationisland 
+BN Vip1s Vg FF BN Snn 
+
+5
+score: 0.011316730152953328
+
+non sto piangendo , no #temptationisland 
+BN Vip1s Vg FF BN Snn 
+
+6
+score: 0.011316730152953328
+
+non sto piangendo , no #temptationisland 
+BN Vip1s Vg FF BN Snn 
+
+7
+score: 0.011316730152953328
+
+non sto piangendo , no #temptationisland 
+BN Vip1s Vg FF BN Snn 
+
+8
+score: 0.011316730152953328
+
+non sto piangendo , no #temptationisland 
+BN Vip1s Vg FF BN Snn 
+
+9
+score: 0.011316730152953328
+
+non sto piangendo , no #temptationisland 
+BN Vip1s Vg FF BN Snn 
+
+10
+score: 0.011316730152953328
+
+non sto piangendo , no #temptationisland 
+BN Vip1s Vg FF BN Snn 
+
+11
+score: 0.011305716481209191
+
+@jaxofficial sto guardando rtl 102.5 tv ! 
+Snn Vip1s Vg Snn N Sfn FS 
+
+12
+score: 0.011296768963200334
+
+http://t.co/aY4gMuweso Io direi 1878 E lei @vannifrediani cosa pronostica , 
+N PE1ns Vd1s N CC PE3ns Smp Sfs Vip3s FF 
+
+13
+score: 0.011293405070624795
+
+@obrieninsanity come facciamo ? 
+Snn B Vip1p FS 
+
+14
+score: 0.011291120020749128
+
+@mattiaibraturra solo solo tu ! ! 
+Snn B B PE2ns FS FS 
+
+15
+score: 0.011277081329876025
+
+@peppernights è assurdo si ! 
+Snn Vip3s Ams PC3nn FS 
+
+16
+score: 0.011274251493389472
+
+Poi passa . 
+B Vip3s FS 
+
+17
+score: 0.011274251493389472
+
+Solo vive ? 
+B Vip3s FS 
+
+18
+score: 0.011274251493389472
+
+Anche BASTA ! 
+B Vip3s FS 
+
+19
+score: 0.011262554862277575
+
+Da non perdere http://t.co/hoWDSxjmfN 
+E BN Vf N 
+
+20
+score: 0.011262554862277575
+
+Da non perdere http://t.co/hoWDSxjmfN 
+E BN Vf N 
+
+21
+score: 0.011258366800535475
+
+Non ho niente \ 
+BN VAip1s PIns X 
+
+22
+score: 0.011258366800535475
+
+Non ho niente. \ 
+BN VAip1s SA X 
+
+23
+score: 0.011255271961119862
+
+Anche chi amiamo . 
+B PRnn Vip1p FS 
+
+24
+score: 0.011255271961119862
+
+Anche chi amiamo . 
+B PRnn Vip1p FS 
+
+25
+score: 0.011255271961119862
+
+Anche chi amiamo . 
+B PRnn Vip1p FS 
+
+26
+score: 0.011254019292604502
+
+@lospastico Troppo 
+Ams B 
+
+27
+score: 0.011239935587761674
+
+Non li resistere . 
+BN PC3mp Vf FS 
+
+28
+score: 0.011225560966138486
+
+@flldwn Povero :( \ 
+Sms SP N X 
+
+29
+score: 0.01122324884142845
+
+@99_Alessandro_ un po si e un po no ... 
+N RIms SP PC3nn CC RIms SP BN FF 
+
+30
+score: 0.011213759285396724
+
+3 - Giuro ci sei solo tu \ 
+N FC SP PC1np N B PE2ns X 
+
+31
+score: 0.01120780823125055
+
+@Shinebrightonly awwwww grazie ! ! 
+N Snn I FS FS 
+
+32
+score: 0.011206534951805373
+
+@itsRavioli_ ho paura miriam 
+N Vip1s Sfs SP 
+
+33
+score: 0.01119744058840984
+
+lindo solo el asdfghjkl 
+Ams B SP Snn 
+
+34
+score: 0.011192907898645098
+
+@Lorenzopitassi non piangere 
+N BN Vf 
+
+35
+score: 0.011175035020195187
+
+E non dimenticare : : : \ 
+CC BN Vf FC FC FC X 
+
+36
+score: 0.011175035020195187
+
+E non dimenticare : : : \ 
+CC BN Vf FC FC FC X 
+
+37
+score: 0.011175035020195187
+
+E non dimenticare : : : \ 
+CC BN Vf FC FC FC X 
+
+38
+score: 0.011175035020195187
+
+E non dimenticare : : : \ 
+CC BN Vf FC FC FC X 
+
+39
+score: 0.011172512551871499
+
+( solo x voi ) http://t.co/UVG4ABUS4y 
+FB B Ann PE2np FB N 
+
+40
+score: 0.011164926964478364
+
+@Unsustainablesy @Giulia_Minardi ma li stiamo offendendo ? 
+N N CC PC3mp Vip1p Vg FS 
+
+41
+score: 0.011153778110788506
+
+Ora non ... 
+B BN FF 
+
+42
+score: 0.011149478627358173
+
+@mazzasbottle non mi fai paura SCUSA 
+Sms BN PC1ns Vm2s Sfs Vip3s 
+
+43
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+44
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+45
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+46
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+47
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+48
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+49
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+50
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+51
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+52
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+53
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+54
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+55
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+56
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+57
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+58
+score: 0.01114364762686674
+
+" Adesso si " \ 
+FB B PC3nn FB X 
+
+59
+score: 0.011128421989761852
+
+Pazza ? ? ? ! ! ! ! 
+Sfs FS FS FS FS FS FS FS 
+
+60
+score: 0.011119112067226865
+
+" @paola_saluzzi: Aereo abbattuto . 
+FB Snn SP Vpsms FS 
+
+61
+score: 0.011115812140843492
+
+@FedCara grazie non esci mai de casa hahahahahha 
+N I BN Vip2s B Sms Sfs Snn 
+
+62
+score: 0.011112276627375742
+
+@victorlaszlo88 Ti lovvo troppo ! 
+Snn SP Snn B FS 
+
+63
+score: 0.011111111111111112
+
+Non ... 
+BN FF 
+
+64
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+65
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+66
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+67
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+68
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+69
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+70
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+71
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+72
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+73
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+74
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+75
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+76
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+77
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+78
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+79
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+80
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+81
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+82
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+83
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+84
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+85
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+86
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+87
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+88
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+89
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+90
+score: 0.011111111111111112
+
+non ... 
+BN FF 
+
+91
+score: 0.011092150170648464
+
+SI VEDRà 
+PC3nn Vif3s 
+
+92
+score: 0.01106896723316282
+
+Proprio orribile eh 
+B Ans I 
+
+93
+score: 0.01106896723316282
+
+Troppo esuberante ....... 
+B Ans N 
+
+94
+score: 0.01106896723316282
+
+troppo scopabile http://t.co/bQbVRFseF3 
+B Ans N 
+
+95
+score: 0.011068543025664512
+
+Buona Pasqua. \ 
+Afs SP X 
+
+96
+score: 0.011068543025664512
+
+BUONA PERMANENZA. \ 
+Afs SP X 
+
+97
+score: 0.011051793574974244
+
+Finalmente ! ! 
+B FS FS 
+
+98
+score: 0.011051793574974244
+
+Davvero ? \ 
+B FS X 
+
+99
+score: 0.011044573752895318
+
+Oppure diranno terrorismo 
+CC Vif3p Sms 
+
+100
+score: 0.011038452653467559
+
+Stomaco sta decedendo . 
+SP Vip3s Vg FS 
+
+101
+score: 0.011036030751063542
+
+elena sei troppo bellina così 
+SP N B Afs B 
+
+102
+score: 0.011032430213464695
+
+- Dillo ! \ 
+FC Vm2sc FS X 
+
+103
+score: 0.011032430213464695
+
+- Dillo ! \ 
+FC Vm2sc FS X 
+
+104
+score: 0.011028757122507123
+
+PERCHÉ DICO IO . 
+CS Vip1s PE1ns FS 
+
+105
+score: 0.011028131237029944
+
+Buonanotte non depresso . 
+Sfs BN Vpsms FS 
+
+106
+score: 0.011017290937141905
+
+* Ridacchia * 
+X SP X 
+
+107
+score: 0.011017290937141905
+
+* FRAGILE \ 
+X SP X 
+
+108
+score: 0.011017290937141905
+
+* Village \ 
+X SP X 
+
+109
+score: 0.011016836713010786
+
+@_Livelysncgdr Allora andiamo ! 
+N B Vip1p FS 
+
+110
+score: 0.011006331798984156
+
+Devono solo ringraziarmi : - P 
+VMip3p B Vfc FC FC RDmp 
+
+111
+score: 0.011005906713850778
+
+Solo para ti 8 ' 
+B Sfs PC2ns N FB 
+
+112
+score: 0.010986289698968733
+
+Ph : irenecasarini \ 
+SP FC Smp X 
+
+113
+score: 0.010975824739563293
+
+@claregdrs mi skoccia nn rompere le balls ? ? ? ? 
+Snn PC1ns Sfs Snn Vf RDfp Snn FS FS FS FS 
+
+114
+score: 0.01096879125430339
+
+Creo que morire . 
+Vip1s SP Vf FS 
+
+115
+score: 0.010968585903858925
+
+Solo informazioni errate \ 
+B Sfp Vpsfp X 
+
+116
+score: 0.010963075618672503
+
+@xbiebersdiary no no no no odio gli horror e mi fanno paura 
+Snn BN BN BN BN Sms RDmp Snn CC PC1ns Vip3p Sfs 
+
+117
+score: 0.010958322554111692
+
+@LaTiniDeMiVida + critico 
+N X Sms 
+
+118
+score: 0.010954670594039678
+
+- Ma che stai dicendo pazzo AHAHAHAHAHHAHA http://t.co/ZZFGwalWaQ 
+FC CC PRnn Vip2s Vg Sms SP N 
+
+119
+score: 0.010888497277633233
+
+@kekkogio Troppo buono tu . 
+Sms B Ams PE2ns FS 
+
+120
+score: 0.010888442361913046
+
+no comunque voglio cristian arrabbiato #temptationisland 
+BN B VMip1s SP Vpsms Snn 
+
+121
+score: 0.010882746803720207
+
+è agghiacciante @S_Emarti. 
+Vip3s Ans N 
+
+122
+score: 0.010869565217391304
+
+Mi sentite piangere ? 
+PC1ns Afp Vf FS 
+
+123
+score: 0.010869565217391304
+
+Mi sentite piangere ? 
+PC1ns Afp Vf FS 
+
+124
+score: 0.010869565217391304
+
+Facci divertire ! ! 
+Vm2sc Vf FS FS 
+
+125
+score: 0.010869565217391304
+
+Ti puó distruggere . 
+PC2ns Snn Vf FS 
+
+126
+score: 0.010869565217391304
+
+Mi sentite piangere ? 
+PC1ns Afp Vf FS 
+
+127
+score: 0.010869565217391304
+
+Cosa sappiamo fare ? 
+PQns Vip1p Vf FS 
+
+128
+score: 0.010869565217391304
+
+@Jacopo_Bottazzi Lasciamo perdere . 
+N Vip1p Vf FS 
+
+129
+score: 0.010869565217391304
+
+Mi fate sapere ? 
+PC1ns Sfp Vf FS 
+
+130
+score: 0.010855138414865377
+
+SCHIFOSI ! ! ! ! ! ! ! 
+Smp FS FS FS FS FS FS FS 
+
+131
+score: 0.010851064717799454
+
+@Mrs_Gaga_ @imcurryicecream sono stra deluso dalle nomination ai vmas 
+N Sms Vip3p SP Vpsms EAfp Snn EAmp Snn 
+
+132
+score: 0.010845809934466872
+
+@Angelo_Corrias via Twitter certamente parlarne è difficile .... 
+N Sfs SP B Vfc Vip3s Ans N 
+
+133
+score: 0.01084459027988522
+
+video > \ 
+Sms N X 
+
+134
+score: 0.01084459027988522
+
+RYDO TROPPO. \ 
+Sms N X 
+
+135
+score: 0.01084459027988522
+
+RYDO TROPPO. \ 
+Sms N X 
+
+136
+score: 0.01084459027988522
+
+RYDO TROPPO. \ 
+Sms N X 
+
+137
+score: 0.01084459027988522
+
+video > \ 
+Sms N X 
+
+138
+score: 0.01084459027988522
+
+RYDO TROPPO. \ 
+Sms N X 
+
+139
+score: 0.01084459027988522
+
+video > \ 
+Sms N X 
+
+140
+score: 0.01084459027988522
+
+video > \ 
+Sms N X 
+
+141
+score: 0.01084459027988522
+
+video > \ 
+Sms N X 
+
+142
+score: 0.01084459027988522
+
+video > \ 
+Sms N X 
+
+143
+score: 0.01084459027988522
+
+video > \ 
+Sms N X 
+
+144
+score: 0.01084459027988522
+
+RYDO TROPPO. \ 
+Sms N X 
+
+145
+score: 0.01084459027988522
+
+RYDO TROPPO. \ 
+Sms N X 
+
+146
+score: 0.01084459027988522
+
+video > \ 
+Sms N X 
+
+147
+score: 0.01084459027988522
+
+video > \ 
+Sms N X 
+
+148
+score: 0.01084459027988522
+
+@carloalberto @TizianaBtz \ 
+Sms N X 
+
+149
+score: 0.01084459027988522
+
+video > \ 
+Sms N X 
+
+150
+score: 0.01084459027988522
+
+RYDO TROPPO. \ 
+Sms N X 
+
+151
+score: 0.01084459027988522
+
+Paragrafo 4.4 \ 
+Sms N X 
+
+152
+score: 0.01084459027988522
+
+video > \ 
+Sms N X 
+
+153
+score: 0.01084459027988522
+
+video > \ 
+Sms N X 
+
+154
+score: 0.01084459027988522
+
+video > \ 
+Sms N X 
+
+155
+score: 0.01084459027988522
+
+Tipo .... \ 
+Sms N X 
+
+156
+score: 0.01084459027988522
+
+@ignaziomarino @La7tv \ 
+Sms N X 
+
+157
+score: 0.01084459027988522
+
+RYDO TROPPO. \ 
+Sms N X 
+
+158
+score: 0.01084459027988522
+
+video > \ 
+Sms N X 
+
+159
+score: 0.01084459027988522
+
+RYDO TROPPO. \ 
+Sms N X 
+
+160
+score: 0.01084459027988522
+
+video > \ 
+Sms N X 
+
+161
+score: 0.01082693424920001
+
+@Niallsdrew Io amo solo me e @zaynmalik, tu ami solo te e @Ashton5SOS 
+N PE1ns Sms B PC1ns CC Snn PE2ns Smp B PE2ns CC N 
+
+162
+score: 0.010822510822510822
+
+VARANO http://t.co/fNGyUCK61H 
+Vip3p N 
+
+163
+score: 0.010822510822510822
+
+Arrivano #iRadioAttivi\ 
+Vip3p N 
+
+164
+score: 0.010803377743587535
+
+- muore tris \ 
+FB Vip3s Smn X 
+
+165
+score: 0.010801889201956459
+
+@manuelsalas2 Uno solo ? 
+Vip3s N B FS 
+
+166
+score: 0.010800926511154366
+
+SOLO LAXANTE .... 
+B SP N 
+
+167
+score: 0.010800926511154366
+
+Solo Dave http://t.co/PanLl54MBc 
+B SP N 
+
+168
+score: 0.010800926511154366
+
+Solo F2 http://t.co/UXRePxs37l 
+B SP N 
+
+169
+score: 0.010800926511154366
+
+Solo fun http://t.co/U3FabbANlc 
+B SP N 
+
+170
+score: 0.010800926511154366
+
+Solo Mio :) 
+B SP N 
+
+171
+score: 0.01079937293445436
+
+- moldo bene \ 
+FC Sms B X 
+
+172
+score: 0.01079937293445436
+
+- moldo bene \ 
+FC Sms B X 
+
+173
+score: 0.010795805058605798
+
+\Se qualcuno ...... \" ma dicevo 
+N PIms N N CC Vii1s 
+
+174
+score: 0.010788226490396608
+
+A dopo 
+E B 
+
+175
+score: 0.010783484708705032
+
+soprattutto nelle Persone \ 
+B EAfp SP X 
+
+176
+score: 0.010781172325847797
+
+@justindbgdrs solo tuo 
+Snn B Ams 
+
+177
+score: 0.01077081577222066
+
+poi comunista \ 
+B Ans X 
+
+178
+score: 0.01077081577222066
+
+troppo forte \ 
+B Ans X 
+
+179
+score: 0.010759979016917692
+
+@gnoma23 non la ho .... la cercherò . 
+Snn BN PC3fs Vip1s N RDfs Vif1s FS 
+
+180
+score: 0.01075766760968162
+
+Scrivo e scarto \ 
+Vip1s CC Sms X 
+
+181
+score: 0.01075766760968162
+
+Scrivo e scarto \ 
+Vip1s CC Sms X 
+
+182
+score: 0.010757359986893098
+
+Tan solo velte e e e 
+SP B Sfs CC CC CC 
+
+183
+score: 0.010756019790134791
+
+Foto : oceano-di-dolore : ? 
+Sfn FC Sms FC FS 
+
+184
+score: 0.01075268817204301
+
+: / HAHAHAHHAHAHAHAHHAHAHAHAHAHA 
+FC X SP 
+
+185
+score: 0.01075268817204301
+
+* scherzoooo * 
+X Sms X 
+
+186
+score: 0.010734114743985192
+
+@ilCandido @RadicalParty @matteorenzi @emmabonino \ 
+N N SA Sms X 
+
+187
+score: 0.01073092736056976
+
+@antonelagodoy15 solo pasooo .... 
+N B Sms N 
+
+188
+score: 0.010723358437295659
+
+pazzo ci nasci , sono chinaski 
+Sms PCnn Vm2s FF Vip3p Smp 
+
+189
+score: 0.010715414473546235
+
+MA SE PER POCO NON SCOPAVATE #temptationisland 
+CC CS E DIms BN SP Snn 
+
+190
+score: 0.010715414473546235
+
+MA SE PER POCO NON SCOPAVATE #temptationisland 
+CC CS E DIms BN SP Snn 
+
+191
+score: 0.010714285714285714
+
+Grazie ? ? ? ? 
+I FS FS FS FS 
+
+192
+score: 0.010697644469420248
+
+Solo rt seguimi ... 
+B Ann Vm2sc FF 
+
+193
+score: 0.010668973471741637
+
+Insinuate - 
+Sfp FC 
+
+194
+score: 0.010640167799815347
+
+Squallore e infelicitá \ 
+Sms CC Snn X 
+
+195
+score: 0.01063895589781654
+
+Ti amo \"\ 
+PC2ns Sms N 
+
+196
+score: 0.01063895589781654
+
+Ti amo \"\ 
+PC2ns Sms N 
+
+197
+score: 0.01063895589781654
+
+ho freddo :-( 
+VAip1s Sms N 
+
+198
+score: 0.01063895589781654
+
+Ti prego .... 
+PC2ns Sms N 
+
+199
+score: 0.01063895589781654
+
+@alexmarquez23 pazzo XD 
+Snn Sms N 
+
+200
+score: 0.010638656336759443
+
+#MengoniLiveConElisa SONO TROPPO EUFORICA 
+N SP B Afs 
+
+201
+score: 0.010637653700032229
+
+@mikeylaughs_ ti amo piccola mia 
+Snn PC2ns Sms Afs APfs 
+
+202
+score: 0.010632055159806392
+
+@FranSolar @WriteAppStories Solo para iPhone .... : / 
+N N B Sfs N SA FC X 
+
+203
+score: 0.010602284948667568
+
+@TheMarcyM HAHAHAHAHAH a me in questa mi fà morire HAHAAHHAAH http://t.co/uJL5YrEsnj 
+N SP E PE1ns E DDfs PC1ns Snn Vf SP N 
+
+204
+score: 0.010594286689141698
+
+CLIMA ARTICO \ 
+Sms SP X 
+
+205
+score: 0.010594286689141698
+
+PRE ORDER \ 
+Sms SP X 
+
+206
+score: 0.010594286689141698
+
+Risotto Ubriaco \ 
+Sms SP X 
+
+207
+score: 0.010594286689141698
+
+Odio Andy. \ 
+Sms SP X 
+
+208
+score: 0.010594286689141698
+
+CLIMA ARTICO \ 
+Sms SP X 
+
+209
+score: 0.010594286689141698
+
+LECCO NEWS \ 
+Sms SP X 
+
+210
+score: 0.010594286689141698
+
+LECCO NEWS \ 
+Sms SP X 
+
+211
+score: 0.010594286689141698
+
+LECCO NEWS \ 
+Sms SP X 
+
+212
+score: 0.010594286689141698
+
+ROTOLO SINGOLO \ 
+Sms SP X 
+
+213
+score: 0.010594286689141698
+
+LECCO NEWS \ 
+Sms SP X 
+
+214
+score: 0.010591321900866965
+
+Nigga are U sleeping ! ? ! ? 
+SP Sfp SP Snn FS FS FS FS 
+
+215
+score: 0.010581374854399972
+
+@julycamiletti Uno solo te mande UNO ! 
+Vip3s N B PE2ns Vip3s PIms FS 
+
+216
+score: 0.010577101503061792
+
+Odio almorzar solo 
+Sms Sms B 
+
+217
+score: 0.010571809515954997
+
+Non sei stupido .... 
+BN Vip2s Sms N 
+
+218
+score: 0.010559471169010142
+
+solo se valessimo di più. \ 
+B CS Vci1p E SA X 
+
+219
+score: 0.010552432552983543
+
+- disgustato " 
+FC Vpsms FB 
+
+220
+score: 0.010550988531469305
+
+a ti solo te puntuo 8 - vale http://t.co/kbi6juXRa6 
+E PC2ns B PE2ns Sms N FC Vip3s N 
+
+221
+score: 0.010532780795646658
+
+@Louis_Tattoos_ ma si ahah non ti preoccupare :) 
+N CC PC3nn Snn BN PC2ns Vf N 
+
+222
+score: 0.010531840939738385
+
+@manubea82 lascia perdere .... T_T 
+Snn Vip3s Vf N SP 
+
+223
+score: 0.010531813865147198
+
+Non credo ! 
+BN Vip1s FS 
+
+224
+score: 0.010531813865147198
+
+Non credo ! 
+BN Vip1s FS 
+
+225
+score: 0.010531813865147198
+
+Non credo ! 
+BN Vip1s FS 
+
+226
+score: 0.010531813865147198
+
+Non capisco . 
+BN Vip1s FS 
+
+227
+score: 0.010531813865147198
+
+NON SO ! 
+BN Vip1s FS 
+
+228
+score: 0.010531813865147198
+
+Non credo ! 
+BN Vip1s FS 
+
+229
+score: 0.010531813865147198
+
+Non credo ! 
+BN Vip1s FS 
+
+230
+score: 0.010531813865147198
+
+Nn so . 
+BN Vip1s FS 
+
+231
+score: 0.010531813865147198
+
+Non credo ! 
+BN Vip1s FS 
+
+232
+score: 0.010531813865147198
+
+Non credo ! 
+BN Vip1s FS 
+
+233
+score: 0.010531813865147198
+
+Non credo ! 
+BN Vip1s FS 
+
+234
+score: 0.010531813865147198
+
+Non credo ! 
+BN Vip1s FS 
+
+235
+score: 0.01050983899821109
+
+@WonderIman grave : p 
+N Ans FC SA 
+
+236
+score: 0.01050983899821109
+
+@cutvnce grave : / 
+Snn Ans FC X 
+
+237
+score: 0.010497454807086812
+
+Hahahahahahaha troppo tenero http://t.co/JrXBqaP2Om 
+Snn B Ams N 
+
+238
+score: 0.010466453975711236
+
+QUA SIAMO DA .... http://t.co/9iVyNpavDJ 
+B Vip1p SP N N 
+
+239
+score: 0.01044931687636561
+
+ma Luhan cosa diavolo stai facendo 
+CC SP Sfs Sms Vm2s Vg 
+
+240
+score: 0.010447971921420302
+
+@cipilidoro @pmiele0 no ! 
+Sms N BN FS 
+
+241
+score: 0.010446857479046162
+
+- una Casa \ 
+FC RIfs SP X 
+
+242
+score: 0.010442899816892335
+
+- Le ricevo :) http://t.co/Rh1MNZaHUP 
+FC RDfp Vip1s N N 
+
+243
+score: 0.010436209439422025
+
+@malulerasporelm @FanClubMalu solo una ? ? ? ? 
+SW N B PIfs FS FS FS FS 
+
+244
+score: 0.010435064022799341
+
+@simoeffe76 grazie troppo buona 
+Snn I B Afs 
+
+245
+score: 0.010427793857858355
+
+ma che patato 
+CC CS Snn 
+
+246
+score: 0.010426417494252962
+
+@AriiSezii_x3 @EnanoKaponii haha no el solo hahaha . I . 
+N N Snn BN SP B Snn FC RDmp FS 
+
+247
+score: 0.010416666666666666
+
+dai raccontaci ? ? 
+EAmp Vm2sc FS FS 
+
+248
+score: 0.010416666666666666
+
+dai raccontaci ? ? 
+EAmp Vm2sc FS FS 
+
+249
+score: 0.010416666666666666
+
+#DONW?EDO perdonami ! ! 
+Sms Vm2sc FS FS 
+
+250
+score: 0.010412414515695785
+
+@ReaLHermanito troppo bello 
+N B Ams 
+
+251
+score: 0.010412414515695785
+
+#AffariAQuattroRuote, troppo bellooooo 
+N B Ams 
+
+252
+score: 0.0104033185438487
+
+\"\" Solo quando respiro \"" 
+N B CS Vip1s N 
+
+253
+score: 0.010396178701882551
+
+ALLORA " 
+B FB 
+
+254
+score: 0.010388533980191742
+
+@Peppi_Nocera abbattuto ? ! ? 
+N Vpsms FS FS FS 
+
+255
+score: 0.010383958321129526
+
+poi é difficile perdere i kg. ahahahahah 
+B Snn Ans Vf RDmp SA Snn 
+
+256
+score: 0.010376318634892724
+
+sbagliato e grave 
+Vpsms CC Ans 
+
+257
+score: 0.010373375150690745
+
+@SausageRr Grave : / 
+N SP FC X 
+
+258
+score: 0.010373375150690745
+
+@MomoPiard Grave : p 
+N SP FC SA 
+
+259
+score: 0.010365378567581199
+
+@hugmetightzayn SEI CRUDELE PERò . 
+Snn N SP B FS 
+
+260
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+261
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+262
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+263
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+264
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+265
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+266
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+267
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+268
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+269
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+270
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+271
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+272
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+273
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+274
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+275
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+276
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+277
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+278
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+279
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+280
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+281
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+282
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+283
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+284
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+285
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+286
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+287
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+288
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+289
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+290
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+291
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+292
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+293
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+294
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+295
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+296
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+297
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+298
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+299
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+300
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+301
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+302
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+303
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+304
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+305
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+306
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+307
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+308
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+309
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+310
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+311
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+312
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+313
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+314
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+315
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+316
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+317
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+318
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+319
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+320
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+321
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+322
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+323
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+324
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+325
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+326
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+327
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+328
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+329
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+330
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+331
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+332
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+333
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+334
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+335
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+336
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+337
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+338
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+339
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+340
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+341
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+342
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+343
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+344
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+345
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+346
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+347
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+348
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+349
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+350
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+351
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+352
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+353
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+354
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+355
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+356
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+357
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+358
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+359
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+360
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+361
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+362
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+363
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+364
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+365
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+366
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+367
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+368
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+369
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+370
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+371
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+372
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+373
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+374
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+375
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+376
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+377
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+378
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+379
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+380
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+381
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+382
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+383
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+384
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+385
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+386
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+387
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+388
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+389
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+390
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+391
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+392
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+393
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+394
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+395
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+396
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+397
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+398
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+399
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+400
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+401
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+402
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+403
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+404
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+405
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+406
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+407
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+408
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+409
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+410
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+411
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+412
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+413
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+414
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+415
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+416
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+417
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+418
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+419
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+420
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+421
+score: 0.01036075036075036
+
+io sono official_saby \ 
+PE1ns Vip3p Snn X 
+
+422
+score: 0.01033890560288283
+
+ODDIO NOO AIUTO BASTA SONO TROPPO BELLI NONONL #temptationisland 
+I Sms Sms Vip3s Sms B Amp SP Snn 
+
+423
+score: 0.010332383844675292
+
+@JustElisabetta assurdo ! ! ! ! ! ! ! ! 
+N Ams FS FS FS FS FS FS FS FS 
+
+424
+score: 0.010329683924042803
+
+Facci sapere Gabri 
+Vm2pc Sms SP 
+
+425
+score: 0.010329683924042803
+
+DIO MIO GRAZIE 
+Sms SP I 
+
+426
+score: 0.010326508781134142
+
+" E lui le guardava le labbra ascoltando distratto . 
+FB CC PE3ms PC3fn Vii3s RDfp Smp Vg Vpsms FS 
+
+427
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+428
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+429
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+430
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+431
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+432
+score: 0.010319507838856917
+
+Bo corre \ 
+SP Vip3s X 
+
+433
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+434
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+435
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+436
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+437
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+438
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+439
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+440
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+441
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+442
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+443
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+444
+score: 0.010319507838856917
+
+Digiuna pensa te 
+SP Vip3s PE2ns 
+
+445
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+446
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+447
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+448
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+449
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+450
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+451
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+452
+score: 0.010319507838856917
+
+Mosca smentisce \ 
+SP Vip3s X 
+
+453
+score: 0.01030640811389702
+
+#inonda Chiamare assenteisti x chiedere xè ? 
+Sfs Vf Smp Ann Vf I FS 
+
+454
+score: 0.010302706552706552
+
+@enver non concordo . 
+Snn BN Vip1s FS 
+
+455
+score: 0.010302706552706552
+
+@aronpeppe88 Non credo . 
+Snn BN Vip1s FS 
+
+456
+score: 0.01029033043921418
+
+Solo un poco .... 
+B RIms DIms N 
+
+457
+score: 0.010283723578869796
+
+Mi mancherà . 
+PC1ns Vif3s FS 
+
+458
+score: 0.010283723578869796
+
+Mi mancherà . 
+PC1ns Vif3s FS 
+
+459
+score: 0.010282274912888757
+
+http://t.co/wLxrZHmy23 " X questo alcool usato x dimenticare ! 
+N FB DIns PDms SWmn Vpsms Snn Vf FS 
+
+460
+score: 0.010279266691874154
+
+( non volevo perchè = ce troppo caldo ) :| 
+FB BN VMii1s B N PCnn B Sms FB N 
+
+461
+score: 0.01026752156387986
+
+Peccato .... volevo tanto arrestare Stanley .... #rizzoliandislesitalia #topcrime 
+Vpsms N VMii1s B Vf SP N Sfs Ans 
+
+462
+score: 0.01024058559669146
+
+non me lo spiegherà nessuno 
+BN PC1ns PC3ms Vif3s PIms 
+
+463
+score: 0.010235468725349337
+
+" Lo sciopero proclamato ? 
+FB PC3ms Sms Vpsms FS 
+
+464
+score: 0.010221902796728893
+
+@miroticsun grazie : 3 \ 
+Snn I FC N X 
+
+465
+score: 0.010178901912399754
+
+cirino pomicino .... ? ? \ 
+SP Vcp3p N FS FS X 
+
+466
+score: 0.010158889615843776
+
+da solo nn conto un C .... 
+E B Sms Sms RIms SP N 
+
+467
+score: 0.010157772942695134
+
+SOLO -3 @mengonimarco TI STIAMO ASPETTANDO ! ! 
+B N Sms PC2ns Vip1p Vg FS FS 
+
+468
+score: 0.010150846870099265
+
+ADESSO É TROPPO 
+B Sfs B 
+
+469
+score: 0.010150462296650524
+
+@tossina_libera solo che sto lavorando. \ 
+Snn Ams CS Vip1s Snn X 
+
+470
+score: 0.010131863244925614
+
+@ninoo_ck : grave : / 
+Snn FC Sms FC X 
+
+471
+score: 0.010123098447248338
+
+No cristian non piangere ...... 
+BN SP BN Vf N 
+
+472
+score: 0.010114666555320711
+
+@puttanhazza ahahah troppo forte 
+Sfs Snn B Ans 
+
+473
+score: 0.010113193542401188
+
+DDDDDDDDDDDDD : 
+Sms FC 
+
+474
+score: 0.010110797377247236
+
+E IO SE TIFO MA ... 
+CC PE1ns CS Sms CC FF 
+
+475
+score: 0.010109589645211792
+
+Cazzate non fare \ 
+SP BN Vf X 
+
+476
+score: 0.010109589645211792
+
+Pls non morire \ 
+SP BN Vf X 
+
+477
+score: 0.010107671404359805
+
+@MaKEYveli u solo ? 
+N Snn B FS 
+
+478
+score: 0.010094748606748794
+
+@CopelliSimone solo perché l' hai messa tu ahaha 
+N Ams CS RDns Vip2s Sfs PE2ns Snn 
+
+479
+score: 0.010084584649790614
+
+@NiallOfficial comunque ti amo tanto e volevo solo dirteloo ciao 
+N B PC2ns Sms B CC VMii1s B Sms I 
+
+480
+score: 0.010070052539404553
+
+E basta. \ 
+CC Sms X 
+
+481
+score: 0.010070052539404553
+
+E basta. \ 
+CC Sms X 
+
+482
+score: 0.010070052539404553
+
+Ma tipo \ 
+CC Sms X 
+
+483
+score: 0.010068027408132832
+
+Niall ieri .... 
+SP B N 
+
+484
+score: 0.010064515536559883
+
+ED IO .... http://t.co/k2QcNq1JLE 
+CC PE1ns N N 
+
+485
+score: 0.010061201316566123
+
+' esco ' \ 
+FB Vip1s FB X 
+
+486
+score: 0.010061201316566123
+
+' esco ' \ 
+FB Vip1s FB X 
+
+487
+score: 0.010061201316566123
+
+' esco ' \ 
+FB Vip1s FB X 
+
+488
+score: 0.010061201316566123
+
+' esco ' \ 
+FB Vip1s FB X 
+
+489
+score: 0.010061201316566123
+
+' esco ' \ 
+FB Vip1s FB X 
+
+490
+score: 0.010061201316566123
+
+' esco ' \ 
+FB Vip1s FB X 
+
+491
+score: 0.010061201316566123
+
+' esco ' \ 
+FB Vip1s FB X 
+
+492
+score: 0.010061201316566123
+
+' esco ' \ 
+FB Vip1s FB X 
+
+493
+score: 0.010061201316566123
+
+' esco ' \ 
+FB Vip1s FB X 
+
+494
+score: 0.010061201316566123
+
+' esco ' \ 
+FB Vip1s FB X 
+
+495
+score: 0.010061201316566123
+
+' esco ' \ 
+FB Vip1s FB X 
+
+496
+score: 0.010042031523642731
+
+ma noooo loro dipingevano ... 
+CC Sms PE3np Vii3p FF 
+
+497
+score: 0.010040185129860654
+
+\@porteniaJu: Idolo tremendo ! ! ! ! ! ! ! ? 
+N SP Ams FS FS FS FS FS FS FS FS 
+
+498
+score: 0.010011768907803637
+
+@Vale_Quagliaro @Lulii_pe ne , ami solo 
+N N PCnn FF I B 
+
+499
+score: 0.010008616443124299
+
+Zero sovranità e nulla x cittadini 
+Sms Sfn CC PIns Snn Smp 
+
+500
+score: 0.01000312920111471
+
+Tremendo dia .... :) 
+SP Vcp3s N N 
+
+
+Process finished with exit code 0
+

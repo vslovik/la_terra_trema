@@ -197,7 +197,7 @@ public class NGramCollector implements PhraseScoreTool {
             if (i == 0) {
                 node = tokenIndex.get(token);
                 if (node == null) return score;
-                //score += (double) node.freq / tokenIndexR.size();
+                score += (double) node.freq / tokenIndexR.size();
             } else {
 
                 node = takeNext(prev, token);
@@ -271,13 +271,27 @@ public class NGramCollector implements PhraseScoreTool {
      */
     public void addPhrase(Queue<String> tokens)
     {
-        for (String token: tokens) {
+        Queue<String> copy = new Queue<String>();
+        for(String token: tokens) {
+            copy.enqueue(token);
+        }
+        for (String token: copy) {
             addNode(token);
         }
-         while(tokens.size() > 0) {
-            addNGram(tokens);
-            tokens.dequeue();
+         while(copy.size() > 0) {
+            addNGram(copy);
+            copy.dequeue();
         }
+    }
+
+    /**
+     *  Size
+     *
+     * @return collection size
+     */
+    public int size()
+    {
+        return tokenIndex.size();
     }
 
     /**
