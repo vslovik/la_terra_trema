@@ -3,7 +3,6 @@ package features;
 import algorithms.ST;
 import algorithms.Queue;
 import algorithms.TST;
-import score.PhraseScoreTool;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -13,11 +12,13 @@ import java.io.InputStreamReader;
 /**
  * The <tt>NGramCollector</tt> class represents N-Gram collection
  */
-public class NGramCollector implements PhraseScoreTool {
+public class NGramCollector {
 
-    protected int N = 3;
+    public int N = 3;
     protected TST<Node> tokenIndex;
     protected ST<Integer, String> tokenIndexR;
+    protected ST<Integer, Integer> phraseLengths;
+    protected double factor;
 
     class Node
     {
@@ -28,11 +29,11 @@ public class NGramCollector implements PhraseScoreTool {
 
     /**
      * N-gram collector constructor
-     *
      */
     public NGramCollector() {
-        tokenIndex = new TST<Node>();
-        tokenIndexR = new ST<Integer, String>();
+        tokenIndex = new TST<>();
+        tokenIndexR = new ST<>();
+        phraseLengths = new ST<>();
     }
 
     /**
@@ -42,8 +43,9 @@ public class NGramCollector implements PhraseScoreTool {
      */
     public NGramCollector(String corpusFile)
     {
-        tokenIndex = new TST<Node>();
-        tokenIndexR = new ST<Integer, String>();
+        tokenIndex = new TST<>();
+        tokenIndexR = new ST<>();
+        phraseLengths = new ST<>();
 
         String line;
         BufferedReader br;
@@ -51,13 +53,13 @@ public class NGramCollector implements PhraseScoreTool {
         try {
             br = new BufferedReader(new InputStreamReader(new FileInputStream(corpusFile), "utf8"));
 
-            tokens = new Queue<String>();
+            tokens = new Queue<>();
 
             while ((line = br.readLine()) != null) {
 
                 if(line.equals("") && tokens.size() > 0) {
                     addPhrase(tokens);
-                    tokens = new Queue<String>();
+                    tokens = new Queue<>();
                     continue;
                 }
 
@@ -73,27 +75,8 @@ public class NGramCollector implements PhraseScoreTool {
             e.printStackTrace();
             System.out.println(e.toString());
         }
-    }
 
-    /**
-     * Calculate phrase score
-     *
-     * @param tokens Phrase tokens
-     * @return score
-     */
-    public double score(Queue<String> tokens)
-    {
-        Queue<String> copy = new Queue<String>();
-        for(String token: tokens) {
-            copy.enqueue(token);
-        }
-        double score = 0;
-        while(copy.size() > 0) {
-            score += scoreNGram(copy);
-            copy.dequeue();
-        }
-
-        return score / tokens.size();
+        calculateFactor();
     }
 
     /**
@@ -106,29 +89,6 @@ public class NGramCollector implements PhraseScoreTool {
         Node node = printUniGram(token);
         if (node == null) return;
         printNGrams(token, node.neighbors);
-    }
-
-    /**
-     * Add N-gram to the collector
-     *
-     * @param tokens Tokens
-     */
-    protected void addNGram(Queue<String> tokens)
-    {
-        if (tokens.size() == 0) throw new IllegalArgumentException("Empty tokens queue.");
-
-        Node prev = null, node;
-        int i = 0;
-        for (String token: tokens) {
-
-            node = tokenIndex.get(token);
-            if (prev != null && i < N) {
-                node = addNeighbor(prev, node.index);
-            }
-
-            prev = node;
-            i++;
-        }
     }
 
     /**
@@ -156,6 +116,33 @@ public class NGramCollector implements PhraseScoreTool {
     }
 
     /**
+     * Add N-gram to the collector
+     *
+     * @param tokens Tokens
+     */
+    protected void addFirstGram(Queue<String> tokens)
+    {
+        if (tokens.size() == 0) throw new IllegalArgumentException("Empty tokens queue.");
+
+        Node prev = null, node;
+        int i = 0;
+        for (String token: tokens) {
+
+            node = tokenIndex.get(token);
+            if (prev != null) {
+                node = addNeighbor(prev, node.index);
+            }
+
+            i++;
+            if (i == N) {
+                break;
+            } else {
+                prev = node;
+            }
+        }
+    }
+
+    /**
      * Add neighbor to node
      *
      * @param prev Previous node
@@ -180,38 +167,53 @@ public class NGramCollector implements PhraseScoreTool {
     }
 
     /**
-     * Count N-Gram score
+     * Score n-gram
      *
-     * @param tokens Token queue
+     * @param q n-gram queue
+     * @param n n-gram rang
      * @return score
      */
-    protected double scoreNGram(Queue<String> tokens)
+    public double scoreGram(Queue<String> q, int n)
     {
-        double score = 0;
-        int i = 0;
-        Node node, prev = null;
+        if (q.size() < n) throw new IllegalArgumentException();
 
-        for (String token : tokens) {
-            if (i >= N) break;
-
-            if (i == 0) {
+        String token;
+        Node prev = null, node = null;
+        while (q.size() > 0) {
+            token = q.dequeue();
+            prev = node;
+            if (prev == null) {
                 node = tokenIndex.get(token);
-                if (node == null) return score;
-                score += (double) node.freq / tokenIndexR.size();
+                if (node == null) {
+                    System.out.println("lll  1:" + token); // ToDo Handle unknown words
+                    return 0;
+                }
             } else {
-
                 node = takeNext(prev, token);
-                if (node == null) return score;
-                if (i == 1) {
-                    score += (double) node.freq / prev.freq;
+                if (node == null) {
+                    System.out.println("lll  2:" + token); // ToDo Handle unknown words
+                    return 0;
                 }
             }
-
-            prev = node;
-            i++;
         }
 
-        return score;
+        if (n == 1 && node != null) {
+            return (double) node.freq / tokenIndex.get("START").freq ;
+        } else if (n > 1 && node != null && prev != null){
+            return (double) node.freq / (double) prev.freq;
+        }
+
+        return 0;
+    }
+
+    public double scorePhaseLength(Queue<String> tokens)
+    {
+        if (null == phraseLengths.get(tokens.size() - 2)) {
+            System.out.println("tokens size          " + tokens.size()); // ToDo handle unknown phrase length
+            return (double) 1 / (double) tokenIndex.get("START").freq;
+        } else {
+            return (double) phraseLengths.get(tokens.size() - 2) / (double) tokenIndex.get("START").freq;
+        }
     }
 
     /**
@@ -225,6 +227,7 @@ public class NGramCollector implements PhraseScoreTool {
     {
         for (int index: prev.neighbors.keys()) {
             String t = tokenIndexR.get(index);
+
             if (t.equals(token)) {
                 return prev.neighbors.get(index);
             }
@@ -265,13 +268,42 @@ public class NGramCollector implements PhraseScoreTool {
     }
 
     /**
+     * Calculate factor
+     */
+    public void calculateFactor()
+    {
+        for (String token: tokenIndex.keys()) {
+            Node node = tokenIndex.get(token);
+            calculateFactor(null, node);
+        }
+    }
+
+    /**
+     * Calculate factor
+     */
+    protected void calculateFactor(Node prev, Node node) {
+        if (node.neighbors.size() == 0) {
+            if (prev != null) {
+                factor += (double) node.freq / (double) prev.freq;
+            }
+        } else {
+            for(int index: node.neighbors.keys()) {
+                Node n = node.neighbors.get(index);
+                calculateFactor(node, n);
+            }
+        }
+    }
+
+    /**
      * Add phrase to the collector
      *
      * @param tokens Token queue
      */
     public void addPhrase(Queue<String> tokens)
     {
-        Queue<String> copy = new Queue<String>();
+        addLength(tokens);
+
+        Queue<String> copy = new Queue<>();
         for(String token: tokens) {
             copy.enqueue(token);
         }
@@ -279,9 +311,26 @@ public class NGramCollector implements PhraseScoreTool {
             addNode(token);
         }
          while(copy.size() > 0) {
-            addNGram(copy);
+            addFirstGram(copy);
             copy.dequeue();
         }
+    }
+
+    /**
+     * Keep phrase length frequencies
+     *
+     * @param tokens Token queue
+     */
+    protected void addLength(Queue<String> tokens)
+    {
+        int lenKey = tokens.size() - 2;
+        int lenValue;
+        if (!phraseLengths.contains(lenKey)) {
+            lenValue = 1;
+        } else {
+            lenValue = 1 + phraseLengths.get(lenKey);
+        }
+        phraseLengths.put(lenKey, lenValue);
     }
 
     /**
@@ -304,39 +353,6 @@ public class NGramCollector implements PhraseScoreTool {
 
         for(String token: nc.tokenIndex.keys()) {
             nc.printNGrams(token);
-        }
-
-        String file1 = "/home/lera/Desktop/LAUREA/la_terra_trema/test_data/montale0.txt";
-
-        String[] files = {file, file1};
-        for (String f: files) {
-            String line;
-            BufferedReader br;
-            Queue<String> tokens;
-            try {
-                br = new BufferedReader(new InputStreamReader(new FileInputStream(f), "utf8"));
-
-                tokens = new Queue<String>();
-
-                while ((line = br.readLine()) != null) {
-
-                    if(line.equals("") && tokens.size() > 0) {
-                        System.out.println(tokens.toString() + ": " + nc.score(tokens));
-                        continue;
-                    }
-
-                    tokens.enqueue(line);
-                }
-
-                if(tokens.size() > 0) {
-                    System.out.println(tokens.toString() + ": " + nc.score(tokens));
-                }
-
-                br.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-                System.out.println(e.toString());
-            }
         }
     }
 

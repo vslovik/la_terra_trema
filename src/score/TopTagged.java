@@ -12,7 +12,7 @@ import java.io.InputStreamReader;
 
 public class TopTagged {
 
-    protected int N = 500;
+    protected int N = 5000;
     protected MinPQ<ScoredTaggedPhrase> pqT;
     protected MaxPQ<ScoredTaggedPhrase> pqB;
 
@@ -74,16 +74,22 @@ public class TopTagged {
             br = new BufferedReader(new InputStreamReader(new FileInputStream(trainingFile), "utf8"));
 
             tokens = new Queue<String>();
+            tokens.enqueue("START"); // start of sentence marker
             tags = new Queue<String>();
+            tags.enqueue("START"); // start of sentence marker
 
             int i = 0;
             while ((line = br.readLine()) != null) {
 
                 if(line.equals("") && tokens.size() > 0) {
+                    tokens.enqueue("STOP"); // end of sentence marker
+                    tags.enqueue("STOP"); // end of sentence marker
                     nc.addPhrase(tokens);
                     tokens = new Queue<String>();
+                    tokens.enqueue("START"); // start of sentence marker
                     tnc.addPhrase(tags);
                     tags = new Queue<String>();
+                    tags.enqueue("START"); // start of sentence marker
                     continue;
                 }
 
@@ -101,7 +107,7 @@ public class TopTagged {
                 i++;
             }
 
-            if(tokens.size() > 0) {
+            if(tokens.size() >= N) {
                 nc.addPhrase(tokens);
                 tnc.addPhrase(tags);
             }
@@ -111,6 +117,9 @@ public class TopTagged {
             e.printStackTrace();
             System.out.println(e.toString());
         }
+
+        nc.calculateFactor();
+        tnc.calculateFactor();
     }
 
     /**
@@ -129,17 +138,28 @@ public class TopTagged {
             br = new BufferedReader(new InputStreamReader(new FileInputStream(corpusFile), "utf8"));
 
             sp = new ScoredTaggedPhrase();
+            sp.tokens.enqueue("START"); // start of sentence marker);
+            sp.tags.enqueue("START"); // start of sentence marker);
 
             int i  = 0;
             while ((line = br.readLine()) != null) {
 
-                if(line.equals("") && sp.tokens.size() > 0) {
+                if(line.equals("") ) {
 
-                    sp.score += nc.score(sp.tokens);
-                    sp.score += tnc.score(sp.tags);
+                    if (sp.tokens.size() > 1) {
+                        sp.tokens.enqueue("STOP"); // start of sentence marker);
+                        sp.score += score(nc, sp.tokens);
+                        if (sp.tags.size() > 1) {
+                            sp.tags.enqueue("STOP"); // start of sentence marker);
+                            sp.score += score(tnc, sp.tags);
+                        }
 
-                    collectPhrase(sp);
+                        collectPhrase(sp);
+                    }
                     sp = new ScoredTaggedPhrase();
+                    sp.tokens.enqueue("START"); // start of sentence marker);
+                    sp.tags.enqueue("START"); // start of sentence marker);
+
 
                     continue;
                 }
@@ -160,9 +180,13 @@ public class TopTagged {
                 i++;
             }
 
-            if(sp.tokens.size() > 0) {
-                sp.score += nc.score(sp.tokens);
-                sp.score += tnc.score(sp.tags);
+            if(sp.tokens.size() > 1) {
+                sp.tokens.enqueue("STOP"); // start of sentence marker);
+                sp.score += score(nc, sp.tokens);
+                if (sp.tags.size() > 1) {
+                    sp.tags.enqueue("STOP"); // start of sentence marker);
+                    sp.score += score(tnc, sp.tags);
+                }
                 collectPhrase(sp);
             }
 
@@ -171,6 +195,65 @@ public class TopTagged {
             e.printStackTrace();
             System.out.println(e.toString());
         }
+    }
+
+    /**
+     * Calculate phrase score
+     *
+     * @param nc Token collector
+     * @param tokens Phrase tokens
+     * @return score
+     */
+    public double score(NGramCollector nc, Queue<String> tokens)
+    {
+        Queue<String> copy = new Queue<String>(); // ToDo Do we need the copy?
+        for(String token: tokens) {
+            copy.enqueue(token);
+        }
+        return scoreFirstGram(nc, copy, nc.N - 1) + scorePhrase(nc, copy);
+    }
+
+    /**
+     * Count N-Gram score
+     *
+     * @param nc Token collector
+     * @param tokens Token queue
+     * @return score
+     */
+    protected double scorePhrase(NGramCollector nc, Queue<String> tokens)
+    {
+        if(tokens.size() < nc.N) throw new IllegalArgumentException();
+
+        double ph_sc = nc.scorePhaseLength(tokens);
+        double score = scoreFirstGram(nc, tokens, nc.N);
+        while(tokens.size() > nc.N) {
+            tokens.dequeue();
+            score += scoreFirstGram(nc, tokens, nc.N);
+        }
+
+        return ph_sc * score / (tokens.size() - nc.N + 1);
+    }
+
+    /**
+     * Score first gram
+     *
+     * @param nc Token collector
+     * @param tokens Token queue
+     * @param n nGram rang
+     * @return score
+     */
+    protected double scoreFirstGram(NGramCollector nc, Queue<String> tokens, int n) {
+        if (tokens.size() < n) throw new IllegalArgumentException();
+
+        Queue<String> q = new Queue<>();
+        for (String token : tokens) {
+            q.enqueue(token);
+            if (q.size() == n) {
+                break;
+            }
+        }
+
+        return nc.scoreGram(q, n);
     }
 
     public void printTop()
@@ -206,8 +289,11 @@ public class TopTagged {
         System.gc();
         Runtime rt = Runtime.getRuntime();
 
-        String trainingFile  = args[0]; // /home/lera/Desktop/LAUREA/Training_pos_isst-paisa-devLeg.pos
-        String corpusFile  = args[1]; // /home/lera/Desktop/LAUREA/corpus_annotato_automaticamente.pos
+//        String trainingFile  = args[0]; // /home/lera/LAUREA/input/Training_pos_isst-paisa-devLeg.pos
+//        String corpusFile  = args[1]; // /home/lera/jproject/gold/gold
+
+        String trainingFile  = "/home/lera/LAUREA/input/Training_pos_isst-paisa-devLeg-head-80732.pos";
+        String corpusFile  = "/home/lera/jproject/gold/gold";
 
         NGramCollector nc = new NGramCollector();
         NGramCollector tnc = new NGramCollector();
@@ -217,12 +303,14 @@ public class TopTagged {
 
         showMemoryUsage(rt);
 
+        //System.out.println(tnc.get("STOP"));
+
         top.score(corpusFile, nc, tnc);
 
         showMemoryUsage(rt);
 
-        //top.printTop();
-        top.printBottom();
+        top.printTop();
+        //top.printBottom();
 
         System.out.println(nc.size());
         System.out.println(tnc.size());
