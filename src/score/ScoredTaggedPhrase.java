@@ -215,11 +215,7 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase> {
         for (String tag : tags) {
             token = tokensCopy.dequeue();
             if (q.size() == n - 1) {
-                int count = tnc.count(tag);
-                if (count == 0) {
-                    return 0.0;
-                }
-                tdScore = (double) td.count(token, tag) / (double) count;
+                tdScore = tdScore(tnc, td, token, tag);
             }
             q.enqueue(tag);
 
@@ -230,4 +226,29 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase> {
 
         return tnc.scoreGram(q, n)*tdScore;
     }
+
+    /**
+     * Output probability score
+     *
+     * @param tnc NGramCollector
+     * @param td TagDictionary
+     * @param token String
+     * @param tag String
+     * @return output probability score
+     */
+    protected double tdScore(NGramCollector tnc, TagDictionary td, String token, String tag)
+    {
+        int count = tnc.count(tag);
+        if (count == 0) {
+            return 0.0; // ToDo: right exception here (check exceptions type)
+        }
+
+        double tdCount = td.count(token, tag);
+        if (tdCount == 0) {
+            return td.suffixCount(token, tag) / (double) count;
+        }
+
+        return td.count(token, tag) / (double) count;
+    }
+
 }

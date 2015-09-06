@@ -18,13 +18,17 @@ public class NGramCollector {
     protected TST<Node> tokenIndex;
     protected ST<Integer, String> tokenIndexR;
     protected ST<Integer, Integer> phraseLengths;
-    protected double factor;
+
+    protected TST<Node> suffixIndex;
+    protected ST<Integer, String> suffixIndexR;
+    protected int suffixThreshold = 10;
+    protected int maxSuffixLength = 4;
 
     class Node
     {
         protected int freq;
         protected int index;
-        protected ST<Integer, Node> neighbors = new ST<Integer, Node>();
+        protected ST<Integer, Node> neighbors = new ST<>();
     }
 
     /**
@@ -71,12 +75,47 @@ public class NGramCollector {
             }
 
             br.close();
+
+            buildSuffixIndex();
+
         } catch (IOException e) {
             e.printStackTrace();
             System.out.println(e.toString());
         }
+    }
 
-        calculateFactor();
+    /**
+     * buildSuffixIndex
+     */
+    public void buildSuffixIndex() {
+        String suffix;
+        for (String token : tokenIndex.keys()) {
+            Node node = tokenIndex.get(token);
+            if (node.freq < suffixThreshold) {
+                suffix = getSuffix(token);
+                while (suffix.length() > 0) {
+                    addSuffix(suffix);
+                    suffix = suffix.substring(1, suffix.length() - 1);
+                }
+            }
+        }
+    }
+
+    /**
+     * getSuffix
+     *
+     * @param token Token
+     * @return Suffix
+     */
+    protected String getSuffix(String token)
+    {
+        if (token.length() == 0) throw new IllegalArgumentException("Empty token");
+        int length = token.length();
+        if (length > maxSuffixLength) {
+            return token.substring(length - maxSuffixLength, length - 1);
+        } else {
+            return token;
+        }
     }
 
     /**
@@ -94,20 +133,40 @@ public class NGramCollector {
     /**
      * Add Node to the collector
      *
-     * @param token Token
-     * @return Node
+     * @param token Suffix
      */
     protected Node addNode(String token)
     {
+        return addNode(tokenIndex, tokenIndexR, token);
+    }
+
+    /**
+     * Add Node to the collector
+     *
+     * @param suffix Suffix
+     */
+    protected Node addSuffix(String suffix)
+    {
+        return addNode(suffixIndex, suffixIndexR, suffix);
+    }
+
+    /**
+     * Add Node to the collector
+     *
+     * @param token Token
+     * @return Node
+     */
+    protected Node addNode(TST<Node> index, ST<Integer, String> indexR, String token)
+    {
         Node node;
         if (token.length() == 0) throw new IllegalArgumentException("Empty token.");
-        node = tokenIndex.get(token);
+        node = index.get(token);
         if (node == null) {
             node = new Node();
-            node.index = tokenIndex.size();
+            node.index = index.size();
             node.freq = 1;
-            tokenIndex.put(token, node);
-            tokenIndexR.put(node.index, token);
+            index.put(token, node);
+            indexR.put(node.index, token);
         } else {
             node.freq += 1;
         }
@@ -185,27 +244,90 @@ public class NGramCollector {
             if (prev == null) {
                 node = tokenIndex.get(token);
                 if (node == null) {
-                    System.out.println("lll  1:" + token); // ToDo Handle unknown words
-                    return 0;
+                    System.out.println("unknown  1:" + token);
                 }
             } else {
                 node = takeNext(prev, token);
                 if (node == null) {
-                    System.out.println("lll  2:" + token); // ToDo Handle unknown words
-                    return 0;
+                    System.out.println("unknown  2:" + token); // ToDo: smoothing for trigram counts
                 }
             }
         }
 
-        if (n == 1 && node != null) {
+        if (node == null) {
+            return scoreSuffixGram(q, n);
+        }
+
+        if (n == 1) {
             return (double) node.freq / tokenIndex.get("START").freq ;
-        } else if (n > 1 && node != null && prev != null){
+        } else if (n > 1 && prev != null) {
             return (double) node.freq / (double) prev.freq;
         }
 
         return 0;
     }
 
+    /**
+     * Score n-gram
+     *
+     * @param q n-gram queue
+     * @param n n-gram rang
+     * @return score
+     */
+    public double scoreSuffixGram(Queue<String> q, int n)
+    {
+        if (q.size() < n) throw new IllegalArgumentException();
+
+        String token, suffix;
+        Node prev = null, node = null;
+        while (q.size() > 0) {
+            token = q.dequeue();
+            prev = node;
+            if (prev == null) {
+                node = suffixNode(token);
+                if (node == null) {
+                    System.out.println("s unknown  1:" + token);
+                }
+            } else {
+                node = takeNextSuffixNode(prev, token);
+                if (node == null) {
+                    System.out.println("s unknown  2:" + token); // ToDo: smoothing for trigram counts
+                }
+            }
+        }
+
+        if (node == null) {
+            return scoreSuffixGram(q, n);
+        }
+
+        if (n == 1) {
+            return (double) node.freq / tokenIndex.get("START").freq ;
+        } else if (n > 1 && prev != null) {
+            return (double) node.freq / (double) prev.freq;
+        }
+
+        return 0;
+    }
+
+    protected Node suffixNode(String token)
+    {
+        Node node = null;
+        String suffix = getSuffix(token);
+        while(suffix.length() > 0) {
+            node = suffixIndex.get(suffix);
+            if (node != null) break;
+            suffix = suffix.substring(1, suffix.length() - 1);
+        }
+
+        return node;
+    }
+
+    /**
+     * scorePhaseLength
+     *
+     * @param tokens Token queue
+     * @return score
+     */
     public double scorePhaseLength(Queue<String> tokens)
     {
         if (null == phraseLengths.get(tokens.size() - 2)) {
@@ -237,6 +359,30 @@ public class NGramCollector {
     }
 
     /**
+     * Take next node
+     *
+     * @param prev Previous node
+     * @param token Token
+     * @return Node
+     */
+    protected Node takeNextSuffixNode(Node prev, String token)
+    {
+        String suffix = getSuffix(token);
+        while(suffix.length() > 0) {
+            for (int index : prev.neighbors.keys()) {
+                String t = suffixIndexR.get(index);
+
+                if (t.equals(suffix)) {
+                    return prev.neighbors.get(index);
+                }
+            }
+            suffix = suffix.substring(1, suffix.length() - 1);
+        }
+
+        return null;
+    }
+
+    /**
      * Print uni gram
      *
      * @param token Token
@@ -264,33 +410,6 @@ public class NGramCollector {
             Node n = neighbors.get(index);
             System.out.println(history + " " + tokenIndexR.get(index) +  " " + n.freq);
             printNGrams(history + " " + tokenIndexR.get(index), n.neighbors);
-        }
-    }
-
-    /**
-     * Calculate factor
-     */
-    public void calculateFactor()
-    {
-        for (String token: tokenIndex.keys()) {
-            Node node = tokenIndex.get(token);
-            calculateFactor(null, node);
-        }
-    }
-
-    /**
-     * Calculate factor
-     */
-    protected void calculateFactor(Node prev, Node node) {
-        if (node.neighbors.size() == 0) {
-            if (prev != null) {
-                factor += (double) node.freq / (double) prev.freq;
-            }
-        } else {
-            for(int index: node.neighbors.keys()) {
-                Node n = node.neighbors.get(index);
-                calculateFactor(node, n);
-            }
         }
     }
 
@@ -356,6 +475,27 @@ public class NGramCollector {
         }
 
         return node.freq;
+    }
+
+    /**
+     * suffixSmoothingFactor
+     *
+     * @return factor
+     */
+    public double suffixSmoothingFactor()
+    {
+        int sum = 0;
+        for(String token: tokenIndex.keys()) {
+            sum += tokenIndex.get(token).freq;
+        }
+        double avg = (double) sum / (double) tokenIndex.size();
+
+        double teta = 0.0;
+        for(String token: tokenIndex.keys()) {
+            teta += Math.pow(tokenIndex.get(token).freq - avg, 2);
+        }
+
+        return teta / (double) tokenIndex.size();
     }
 
     /**

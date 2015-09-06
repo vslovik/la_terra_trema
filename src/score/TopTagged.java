@@ -90,13 +90,13 @@ public class TopTagged {
             }
 
             br.close();
+
+            td.buildSuffixIndex(tnc.suffixSmoothingFactor());
+
         } catch (IOException e) {
             e.printStackTrace();
             System.out.println(e.toString());
         }
-
-        nc.calculateFactor();
-        tnc.calculateFactor();
     }
 
     /**

@@ -15,12 +15,15 @@ import java.io.InputStreamReader;
 public class TagDictionary {
 
     protected TST<Node> tokenIndex;
+    protected TST<Node> suffixIndex;
+    protected int suffixThreshold = 10;
+    protected int maxSuffixLength = 4;
 
     class Node
     {
         protected int freq;
         protected String token;
-        protected ST<String, Integer> tags = new ST<>();
+        protected ST<String, Double> tags = new ST<>();
     }
 
     /**
@@ -70,10 +73,82 @@ public class TagDictionary {
             }
 
             br.close();
+
+            buildSuffixIndex();
+
         } catch (IOException e) {
             e.printStackTrace();
             System.out.println(e.toString());
         }
+    }
+
+    /**
+     * buildSuffixIndex
+     */
+    public void buildSuffixIndex() {
+        String suffix;
+        for (String token : tokenIndex.keys()) {
+            Node node = tokenIndex.get(token);
+            if (node.freq < suffixThreshold) {
+                suffix = getSuffix(token);
+                for (String tag : node.tags.keys()) {
+                    while (suffix.length() > 0) {
+                        addSuffix(suffix, tag);
+                        suffix = suffix.substring(1, suffix.length() - 1);
+                    }
+                }
+            }
+        }
+    }
+
+    /**
+     * buildSuffixIndex
+     *
+     * @param teta Smoothing factor
+     */
+    public void buildSuffixIndex(double teta)
+    {
+        buildSuffixIndex();
+        smoothSuffixCounts(teta);
+    }
+
+    /**
+     * getSuffix
+     *
+     * @param token Token
+     * @return Suffix
+     */
+    protected String getSuffix(String token)
+    {
+        if (token.length() == 0) throw new IllegalArgumentException("Empty token");
+        int length = token.length();
+        if (length > maxSuffixLength) {
+            return token.substring(length - maxSuffixLength, length - 1);
+        } else {
+            return token;
+        }
+    }
+
+    /**
+     * Add Node to the token-tag dictionary
+     *
+     * @param token Token
+     * @param tag Tag
+     */
+    protected void addNode(String token, String tag)
+    {
+        addNode(tokenIndex, token, tag);
+    }
+
+    /**
+     * Add Node to the suffix-tag dictionary
+     *
+     * @param suffix Suffix
+     * @param tag Tag
+     */
+    protected void addSuffix(String suffix, String tag)
+    {
+        addNode(suffixIndex, suffix, tag);
     }
 
     /**
@@ -82,24 +157,24 @@ public class TagDictionary {
      * @param token Token
      * @param tag Tag
      */
-    protected void addNode(String token, String tag)
+    protected void addNode(TST<Node> index, String token, String tag)
     {
         Node node;
         if (token.length() == 0) throw new IllegalArgumentException("Empty token.");
         if (tag.length() == 0) throw new IllegalArgumentException("Empty tag.");
-        node = tokenIndex.get(token);
+        node = index.get(token);
         if (node == null) {
             node = new Node();
             node.freq = 1;
             node.token = token;
             node.tags = new ST<>();
-            node.tags.put(tag, 1);
+            node.tags.put(tag, 1.0);
         } else {
             node.freq += 1;
             if (node.tags.contains(tag)) {
-                node.tags.put(tag, node.tags.get(tag) + 1);
+                node.tags.put(tag, node.tags.get(tag) + 1.0);
             } else {
-                node.tags.put(tag, 1);
+                node.tags.put(tag, 1.0);
             }
         }
     }
@@ -140,17 +215,78 @@ public class TagDictionary {
      * @param tag Tag
      * @return count
      */
-    public int count(String token, String tag) {
-        Node node = tokenIndex.get(token);
+    public double count(String token, String tag) {
+        Node node;
+        node = tokenIndex.get(token);
+
         if (node == null) {
-           return 0;
+            return 0;
         }
+
         if (!node.tags.contains(tag)) {
-           return 0;
+            throw new IllegalArgumentException("Empty tags.");
         }
 
         return node.tags.get(tag);
     }
+
+    /**
+     * Count
+     *
+     * @param token Token
+     * @param tag Tag
+     * @return count
+     */
+    public double suffixCount(String token, String tag) {
+        Node node = null;
+        String suffix = getSuffix(token);
+        while(suffix.length() > 0) {
+            node = suffixIndex.get(suffix);
+            if (node != null) {
+                break;
+            }
+            suffix = suffix.substring(1, suffix.length() - 1);
+        }
+
+        if (node == null) {
+            return 0;
+        }
+
+        if (!node.tags.contains(tag)) {
+            throw new IllegalArgumentException("Empty tags."); // ToDo: change type of exeptio
+        }
+
+        return (double) node.tags.get(tag);
+    }
+
+    /**
+     * smoothSuffixCounts
+     *
+     * @param teta smoothing factor
+     */
+     public void smoothSuffixCounts(double teta)
+     {
+         Node n, prev = null;
+         double freq;
+         String suffix;
+         for(String token: tokenIndex.keys()) {
+             Node node = tokenIndex.get(token);
+             if (node.freq < suffixThreshold) {
+                 suffix = getSuffix(token);
+                 for(String tag: node.tags.keys()) {
+                     while(suffix.length() > 0) {
+                         n = suffixIndex.get(suffix);
+                         if (prev != null) {
+                             freq = (node.tags.get(tag) + teta * prev.tags.get(tag)) / (1 + teta);
+                             node.tags.put(tag, freq);
+                         }
+                         suffix = suffix.substring(1, suffix.length() - 1);
+                         prev = n;
+                     }
+                 }
+             }
+         }
+     }
 
     /**
      * Unit tests the <tt>NGramCollector</tt> data type.
