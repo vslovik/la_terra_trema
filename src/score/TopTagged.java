@@ -2,8 +2,8 @@ package score;
 
 import algorithms.MinPQ;
 import algorithms.MaxPQ;
-import algorithms.Queue;
 import features.NGramCollector;
+import features.TagDictionary;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -62,12 +62,10 @@ public class TopTagged {
      * @param nc Token collector
      * @param tnc Tag collector
      */
-    public void collect(String trainingFile, NGramCollector nc, NGramCollector tnc)
+    public void collect(String trainingFile, NGramCollector nc, NGramCollector tnc, TagDictionary td)
     {
         String line;
         BufferedReader br;
-        Queue<String> tokens;
-        Queue<String> tags;
         try {
             br = new BufferedReader(new InputStreamReader(new FileInputStream(trainingFile), "utf8"));
 
@@ -77,7 +75,7 @@ public class TopTagged {
 
                 if(line.equals("") ) {
                     if (sp.tokens.size() > 0) {
-                        sp.add(nc, tnc);
+                        sp.add(nc, tnc, td);
                         sp = new ScoredTaggedPhrase();
                     }
 
@@ -88,7 +86,7 @@ public class TopTagged {
             }
 
             if(sp.tokens.size() >= N) {
-                sp.add(nc, tnc);
+                sp.add(nc, tnc, td);
             }
 
             br.close();
@@ -108,7 +106,7 @@ public class TopTagged {
      * @param nc Token collector
      * @param tnc Training collector
      */
-    public void score(String corpusFile, NGramCollector nc, NGramCollector tnc)
+    public void score(String corpusFile, NGramCollector nc, NGramCollector tnc, TagDictionary td)
     {
         String line;
         BufferedReader br;
@@ -123,7 +121,7 @@ public class TopTagged {
                 if(line.equals("") ) {
 
                     if (sp.tokens.size() > 0) {
-                        sp.score(nc, tnc);
+                        sp.score(nc, tnc, td);
                         collectPhrase(sp);
                         sp = new ScoredTaggedPhrase();
                     }
@@ -136,7 +134,7 @@ public class TopTagged {
             }
 
             if(sp.tokens.size() > 1) {
-                sp.score(nc, tnc);
+                sp.score(nc, tnc, td);
                 collectPhrase(sp);
             }
 
@@ -188,15 +186,14 @@ public class TopTagged {
 
         NGramCollector nc = new NGramCollector();
         NGramCollector tnc = new NGramCollector();
+        TagDictionary td = new TagDictionary();
         TopTagged top = new TopTagged();
 
-        top.collect(trainingFile, nc, tnc);
+        top.collect(trainingFile, nc, tnc, td);
 
         showMemoryUsage(rt);
 
-        //System.out.println(tnc.get("STOP"));
-
-        top.score(corpusFile, nc, tnc);
+        top.score(corpusFile, nc, tnc, td);
 
         showMemoryUsage(rt);
 

@@ -24,7 +24,14 @@ public class TagDictionary {
     }
 
     /**
-     * N-gram collector constructor
+     * Tag dictionary constructor
+     */
+    public TagDictionary() {
+        tokenIndex = new TST<>();
+    }
+
+    /**
+     * Tag dictionary constructor
      *
      * @param corpusFile Corpus file
      */
@@ -34,25 +41,32 @@ public class TagDictionary {
 
         String line;
         BufferedReader br;
-        Queue<String> pairs;
+        Queue<String> tokens, tags;
         try {
             br = new BufferedReader(new InputStreamReader(new FileInputStream(corpusFile), "utf8"));
 
-            pairs = new Queue<>();
+            tokens = new Queue<>();
+            tags = new Queue<>();
 
             while ((line = br.readLine()) != null) {
 
-                if(line.equals("") && pairs.size() > 0) {
-                    addTaggedPhrase(pairs);
-                    pairs = new Queue<>();
+                if(line.equals("")) {
+                    if (tokens.size() > 0) {
+                        addTaggedPhrase(tokens, tags);
+                        tokens = new Queue<>();
+                        tags = new Queue<>();
+                    }
                     continue;
                 }
 
-                pairs.enqueue(line);
+                String[] arr = line.split("\t");
+                if (arr.length < 2) throw new IllegalArgumentException("Invalid token\ttag line");
+                tokens.enqueue(arr[0]);
+                tags.enqueue(arr[1]);
             }
 
-            if(pairs.size() > 0) {
-                addTaggedPhrase(pairs);
+            if(tokens.size() > 0) {
+                addTaggedPhrase(tokens, tags);
             }
 
             br.close();
@@ -65,15 +79,11 @@ public class TagDictionary {
     /**
      * Add Node to the collector
      *
-     * @param pair Token - Tag pair
+     * @param token Token
+     * @param tag Tag
      */
-    protected void addNode(String pair)
+    protected void addNode(String token, String tag)
     {
-        String[] arr = pair.split("\t");
-        if (arr.length < 2) throw new IllegalArgumentException("Invalid Token - Tag pair.");
-        String token = arr[0];
-        String tag = arr[1];
-
         Node node;
         if (token.length() == 0) throw new IllegalArgumentException("Empty token.");
         if (tag.length() == 0) throw new IllegalArgumentException("Empty tag.");
@@ -97,16 +107,19 @@ public class TagDictionary {
     /**
      * Add tagged phrase to the dictionary
      *
-     * @param pairs Token\tTag queue
+     * @param tokens Token queue
+     * @param tags Tag queue
      */
-    public void addTaggedPhrase(Queue<String> pairs)
+    public void addTaggedPhrase(Queue<String> tokens, Queue<String> tags)
     {
-        Queue<String> copy = new Queue<String>();
-        for(String pair: pairs) {
-            copy.enqueue(pair);
+        Queue<String> tagsCopy = new Queue<String>();
+        for(String tag: tags) {
+            tagsCopy.enqueue(tag);
         }
-        for (String pair: copy) {
-            addNode(pair);
+        String tag;
+        for (String token: tokens) {
+            tag = tagsCopy.dequeue();
+            addNode(token, tag);
         }
     }
 
@@ -118,6 +131,25 @@ public class TagDictionary {
     public int size()
     {
         return tokenIndex.size();
+    }
+
+    /**
+     * Count
+     *
+     * @param token Token
+     * @param tag Tag
+     * @return count
+     */
+    public int count(String token, String tag) {
+        Node node = tokenIndex.get(token);
+        if (node == null) {
+           return 0;
+        }
+        if (!node.tags.contains(tag)) {
+           return 0;
+        }
+
+        return node.tags.get(tag);
     }
 
     /**

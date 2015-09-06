@@ -344,6 +344,21 @@ public class NGramCollector {
     }
 
     /**
+     * Count
+     *
+     * @param token Token
+     * @return count
+     */
+    public int count(String token) {
+        Node node = tokenIndex.get(token);
+        if (node == null) {
+            return 0;
+        }
+
+        return node.freq;
+    }
+
+    /**
      * Unit tests the <tt>NGramCollector</tt> data type.
      */
     public static void main(String[] args)
