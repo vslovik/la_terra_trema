@@ -12,7 +12,7 @@ import java.io.InputStreamReader;
 
 public class TopTagged {
 
-    protected int N = 5000;
+    protected int N = 50;
     protected MinPQ<ScoredTaggedPhrase> pqT;
     protected MaxPQ<ScoredTaggedPhrase> pqB;
 
@@ -92,6 +92,9 @@ public class TopTagged {
             br.close();
 
             td.buildSuffixIndex(tnc.suffixSmoothingFactor());
+            nc.smoothTrigramCounts();
+            tnc.smoothTrigramCounts();
+            nc.buildSuffixIndex();
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -147,31 +150,36 @@ public class TopTagged {
 
     public void printTop()
     {
-        int i = 0;
+        String token, tag;
         for (ScoredTaggedPhrase ph: pqT){
-            i++;
-            System.out.println(Integer.toString(i));
-            System.out.println("score: " + Double.toString(ph.score));
-            System.out.println("");
-            System.out.println(ph.tokens.toString());
-            System.out.println(ph.tags.toString());
-            System.out.println("");
+            //System.out.println("score: " + Double.toString(ph.score));
+            while(ph.tokens.size() > 0) {
+                token = ph.tokens.dequeue();
+                tag = ph.tags.dequeue();
+                if (!token.equals("START") && !token.equals("STOP")) {
+                    System.out.println(token + "\t" + tag);
+                }
+            }
+            System.out.println();
         }
     }
 
     public void printBottom()
     {
-        int i = 0;
+        String token, tag;
         for (ScoredTaggedPhrase ph: pqB){
-            i++;
-            System.out.println(Integer.toString(i));
-            System.out.println("score: " + Double.toString(ph.score));
-            System.out.println("");
-            System.out.println(ph.tokens.toString());
-            System.out.println(ph.tags.toString());
-            System.out.println("");
+            //System.out.println("score: " + Double.toString(ph.score));
+            while(ph.tokens.size() > 0) {
+                token = ph.tokens.dequeue();
+                tag = ph.tags.dequeue();
+                if (!token.equals("START") && !token.equals("STOP")) {
+                    System.out.println(token + "\t" + tag);
+                }
+            }
+            System.out.println();
         }
     }
+
 
     public static void main(String[] args)
     {
@@ -191,17 +199,17 @@ public class TopTagged {
 
         top.collect(trainingFile, nc, tnc, td);
 
-        showMemoryUsage(rt);
+        //showMemoryUsage(rt);
 
         top.score(corpusFile, nc, tnc, td);
 
-        showMemoryUsage(rt);
+        //showMemoryUsage(rt);
 
         top.printTop();
         //top.printBottom();
 
-        System.out.println(nc.size());
-        System.out.println(tnc.size());
+        //System.out.println(nc.size());
+        //System.out.println(tnc.size());
 
     }
 

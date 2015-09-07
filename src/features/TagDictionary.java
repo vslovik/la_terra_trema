@@ -31,6 +31,7 @@ public class TagDictionary {
      */
     public TagDictionary() {
         tokenIndex = new TST<>();
+        suffixIndex = new TST<>();
     }
 
     /**
@@ -41,6 +42,7 @@ public class TagDictionary {
     public TagDictionary(String corpusFile)
     {
         tokenIndex = new TST<>();
+        suffixIndex = new TST<>();
 
         String line;
         BufferedReader br;
@@ -94,7 +96,7 @@ public class TagDictionary {
                 for (String tag : node.tags.keys()) {
                     while (suffix.length() > 0) {
                         addSuffix(suffix, tag);
-                        suffix = suffix.substring(1, suffix.length() - 1);
+                        suffix = suffix.length() == 1 ? "" : suffix.substring(1, suffix.length());
                     }
                 }
             }
@@ -245,7 +247,7 @@ public class TagDictionary {
             if (node != null) {
                 break;
             }
-            suffix = suffix.substring(1, suffix.length() - 1);
+            suffix = suffix.length() == 1 ? "" : suffix.substring(1, suffix.length());
         }
 
         if (node == null) {
@@ -280,7 +282,7 @@ public class TagDictionary {
                              freq = (node.tags.get(tag) + teta * prev.tags.get(tag)) / (1 + teta);
                              node.tags.put(tag, freq);
                          }
-                         suffix = suffix.substring(1, suffix.length() - 1);
+                         suffix = suffix.length() == 1 ? "" : suffix.substring(1, suffix.length());
                          prev = n;
                      }
                  }
