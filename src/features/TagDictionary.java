@@ -3,22 +3,23 @@ package features;
 import algorithms.Queue;
 import algorithms.ST;
 import algorithms.TST;
-
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import utils.Utils;
 
 /**
- * The <tt>TagDictionary</tt> class represents Token - Tag dictionary
+ * The <tt>TagDictionary</tt> class represents token - tag dictionary
+ *
+ * @author Valeriya Slovikovskaya vslovik@gmail.com
  */
 public class TagDictionary {
 
     protected TST<Node> tokenIndex;
     protected TST<Node> suffixIndex;
-    protected int suffixThreshold = 10;
+    protected int suffixThreshold = 5;
     protected int maxSuffixLength = 4;
 
+    /**
+     * Node to keep in index
+     */
     class Node
     {
         protected int freq;
@@ -35,76 +36,16 @@ public class TagDictionary {
     }
 
     /**
-     * Tag dictionary constructor
-     *
-     * @param corpusFile Corpus file
-     */
-    public TagDictionary(String corpusFile)
-    {
-        tokenIndex = new TST<>();
-        suffixIndex = new TST<>();
-
-        String line;
-        BufferedReader br;
-        Queue<String> tokens, tags;
-        try {
-            br = new BufferedReader(new InputStreamReader(new FileInputStream(corpusFile), "utf8"));
-
-            tokens = new Queue<>();
-            tags = new Queue<>();
-
-            while ((line = br.readLine()) != null) {
-
-                if(line.equals("")) {
-                    if (tokens.size() > 0) {
-                        addTaggedPhrase(tokens, tags);
-                        tokens = new Queue<>();
-                        tags = new Queue<>();
-                    }
-                    continue;
-                }
-
-                String[] arr = line.split("\t");
-                if (arr.length < 2) throw new IllegalArgumentException("Invalid token\ttag line");
-                tokens.enqueue(arr[0]);
-                tags.enqueue(arr[1]);
-            }
-
-            if(tokens.size() > 0) {
-                addTaggedPhrase(tokens, tags);
-            }
-
-            br.close();
-
-            buildSuffixIndex();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println(e.toString());
-        }
-    }
-
-    /**
-     * buildSuffixIndex
+     * Builds suffix index
      */
     public void buildSuffixIndex() {
-        String suffix;
         for (String token : tokenIndex.keys()) {
-            Node node = tokenIndex.get(token);
-            if (node.freq < suffixThreshold) {
-                suffix = getSuffix(token);
-                for (String tag : node.tags.keys()) {
-                    while (suffix.length() > 0) {
-                        addSuffix(suffix, tag);
-                        suffix = suffix.length() == 1 ? "" : suffix.substring(1, suffix.length());
-                    }
-                }
-            }
+            addSuffixes(token);
         }
     }
 
     /**
-     * buildSuffixIndex
+     * Build suffix index with smoothing
      *
      * @param teta Smoothing factor
      */
@@ -115,20 +56,44 @@ public class TagDictionary {
     }
 
     /**
-     * getSuffix
+     * Add suffixes of max to min length
      *
      * @param token Token
-     * @return Suffix
+     */
+    protected void addSuffixes(String token)
+    {
+        Node node = tokenIndex.get(token);
+        if (node.freq >= suffixThreshold) return;
+
+        for (String tag : node.tags.keys())
+            addSuffixes(token, tag);
+    }
+
+    /**
+     * Add suffixes for token and tag
+     *
+     * @param token Token
+     * @param tag Tag
+     */
+    protected void addSuffixes(String token, String tag) {
+        String s = getSuffix(token);;
+        while (s.length() > 0) {
+            addSuffix(s, tag);
+            s = Utils.cutSuffix(s);
+        }
+    }
+
+    /**
+     * Gets token ending to keep in suffix index
+     *
+     * @param token Token
+     * @return suffix
      */
     protected String getSuffix(String token)
     {
-        if (token.length() == 0) throw new IllegalArgumentException("Empty token");
         int length = token.length();
-        if (length > maxSuffixLength) {
-            return token.substring(length - maxSuffixLength, length - 1);
-        } else {
-            return token;
-        }
+        if (length == 0) throw new IllegalArgumentException("Empty token");
+        return length > maxSuffixLength ? token.substring(length - maxSuffixLength, length) : token;
     }
 
     /**
@@ -171,13 +136,10 @@ public class TagDictionary {
             node.token = token;
             node.tags = new ST<>();
             node.tags.put(tag, 1.0);
+            index.put(token, node);
         } else {
             node.freq += 1;
-            if (node.tags.contains(tag)) {
-                node.tags.put(tag, node.tags.get(tag) + 1.0);
-            } else {
-                node.tags.put(tag, 1.0);
-            }
+            node.tags.put(tag, node.tags.contains(tag) ? node.tags.get(tag) + 1.0 : 1.0);
         }
     }
 
@@ -189,11 +151,11 @@ public class TagDictionary {
      */
     public void addTaggedPhrase(Queue<String> tokens, Queue<String> tags)
     {
-        Queue<String> tagsCopy = new Queue<String>();
-        for(String tag: tags) {
-            tagsCopy.enqueue(tag);
-        }
+        if (tokens.size() == 0) throw new IllegalArgumentException("Empty tokens");
+        if (tags.size() == 0) throw new IllegalArgumentException("Empty tags");
+        if (tags.size() != tokens.size()) throw new IllegalArgumentException("Invalid tokens/tags queues");
         String tag;
+        Queue<String> tagsCopy = Utils.copy(tags);
         for (String token: tokens) {
             tag = tagsCopy.dequeue();
             addNode(token, tag);
@@ -218,18 +180,17 @@ public class TagDictionary {
      * @return count
      */
     public double count(String token, String tag) {
-        Node node;
-        node = tokenIndex.get(token);
 
+        Node node = tokenIndex.get(token);
         if (node == null) {
-            return 0;
+           return suffixCount(token, tag);
         }
 
-        if (!node.tags.contains(tag)) {
+        if (node.tags.size() == 0) {
             throw new IllegalArgumentException("Empty tags.");
         }
 
-        return node.tags.get(tag);
+        return node.tags.contains(tag) ? node.tags.get(tag) : 0;
     }
 
     /**
@@ -240,65 +201,75 @@ public class TagDictionary {
      * @return count
      */
     public double suffixCount(String token, String tag) {
-        Node node = null;
+
         String suffix = getSuffix(token);
-        while(suffix.length() > 0) {
+        Node node = null;
+        while (suffix.length() > 0) {
             node = suffixIndex.get(suffix);
             if (node != null) {
                 break;
             }
-            suffix = suffix.length() == 1 ? "" : suffix.substring(1, suffix.length());
+            suffix = Utils.cutSuffix(suffix);
         }
 
-        if (node == null) {
+        if (node == null || suffix.length() == 0) {
             return 0;
         }
 
-        if (!node.tags.contains(tag)) {
-            throw new IllegalArgumentException("Empty tags."); // ToDo: change type of exeptio
+        if (node.tags.size() == 0) {
+            throw new IllegalArgumentException("Empty tags.");
         }
 
-        return (double) node.tags.get(tag);
+        return node.tags.contains(tag) ? node.tags.get(tag) : 0;
     }
 
+
     /**
-     * smoothSuffixCounts
+     * Smooth suffix counts
      *
      * @param teta smoothing factor
      */
      public void smoothSuffixCounts(double teta)
      {
-         Node n, prev = null;
-         double freq;
-         String suffix;
+         Node node;
          for(String token: tokenIndex.keys()) {
-             Node node = tokenIndex.get(token);
+             node = tokenIndex.get(token);
              if (node.freq < suffixThreshold) {
-                 suffix = getSuffix(token);
-                 for(String tag: node.tags.keys()) {
-                     while(suffix.length() > 0) {
-                         n = suffixIndex.get(suffix);
-                         if (prev != null) {
-                             freq = (node.tags.get(tag) + teta * prev.tags.get(tag)) / (1 + teta);
-                             node.tags.put(tag, freq);
-                         }
-                         suffix = suffix.length() == 1 ? "" : suffix.substring(1, suffix.length());
-                         prev = n;
-                     }
-                 }
+                 for(String tag: node.tags.keys())
+                     smoothSuffix(getSuffix(token), tag, teta);
              }
          }
      }
 
     /**
-     * Unit tests the <tt>NGramCollector</tt> data type.
+     * Smoothes tag counts for tokens with suffixes
+     *
+     * @param suffix Suffix to smooth count for
+     * @param tag Tag of token with suffix
+     * @param teta Smoothing factor
      */
-    public static void main(String[] args) // ToDo write the test
+    protected void smoothSuffix(String suffix, String tag, double teta)
     {
-        String file = "/home/lera/Desktop/LAUREA/la_terra_trema/test_data/montale.txt";
-        TagDictionary nc = new TagDictionary(file);
-
-        // print
+        double freq;
+        Node node, prev = null;
+        while(suffix.length() > 0) {
+            node = suffixIndex.get(suffix);
+            if(node == null) {
+                throw new IllegalArgumentException("Missing suffix: " + suffix);
+            }
+            if(node.tags.size() == 0) {
+                throw new IllegalArgumentException("Empty tags for suffix: " + suffix);
+            }
+            if(!node.tags.contains(tag)) {
+                throw new IllegalArgumentException("Missing tag: " + tag + " for suffix: " + suffix);
+            }
+            if (prev != null) {
+                freq = (node.tags.get(tag) + teta * (prev.tags.contains(tag) ? prev.tags.get(tag) : 0)) / (1 + teta);
+                node.tags.put(tag, freq);
+            }
+            suffix = Utils.cutSuffix(suffix);
+            prev = node;
+        }
     }
 
 }

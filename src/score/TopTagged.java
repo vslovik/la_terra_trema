@@ -1,5 +1,11 @@
 package score;
 
+/***********************************************************************************
+ * Execution:
+ * java score.TopTagged [file to extract features from] [file with phrases to score]
+ *
+ * ********************************************************************************/
+
 import algorithms.MinPQ;
 import algorithms.MaxPQ;
 import features.NGramCollector;
@@ -10,20 +16,111 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ *  The <tt>TopTagged</tt> class represents a client that scores
+ *  every phrase in the input stream and collects <em>N</em>
+ *  high/low scored items.
+ *
+ *  @author Valeriya Slovikovskaya vslovik@gmail.com
+ */
 public class TopTagged {
 
-    protected int N = 50;
+    protected int N = 450;
     protected MinPQ<ScoredTaggedPhrase> pqT;
     protected MaxPQ<ScoredTaggedPhrase> pqB;
 
-    public TopTagged()
-    {
+    public TopTagged() {
         pqT = new MinPQ<>();
         pqB = new MaxPQ<>();
     }
 
-    public void collectPhrase(ScoredTaggedPhrase sp)
-    {
+    /**
+     * Collect NGrams from input file
+     *
+     * @param inputFile Input file
+     * @param nc Token NGram collector
+     * @param tnc Tag NGram collector
+     */
+    public void collect(String inputFile, NGramCollector nc, NGramCollector tnc, TagDictionary td) {
+        String line;
+        BufferedReader br;
+        try {
+            br = new BufferedReader(new InputStreamReader(new FileInputStream(inputFile), "utf8"));
+
+            ScoredTaggedPhrase sp = new ScoredTaggedPhrase();
+
+            while ((line = br.readLine()) != null) {
+                if (line.equals("")) {
+                    sp.add(nc, tnc, td);
+                    sp = new ScoredTaggedPhrase();
+                    continue;
+                }
+                sp.enqueue(line);
+            }
+
+            br.close();
+
+            if (sp.tokens.size() > 0)
+                sp.add(nc, tnc, td);
+
+            td.buildSuffixIndex(tnc.suffixSmoothingFactor());
+            nc.smoothTrigramCounts();
+            tnc.smoothTrigramCounts();
+            nc.buildSuffixIndex();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println(e.toString());
+        }
+    }
+
+    /**
+     * Scores phrases from input file
+     *
+     * @param inputFile Input file
+     * @param nc Token NGram collector
+     * @param tnc Tag NGram collector
+     */
+    public void score(String inputFile, NGramCollector nc, NGramCollector tnc, TagDictionary td) {
+        String line;
+        BufferedReader br;
+        ScoredTaggedPhrase sp;
+        try {
+            br = new BufferedReader(new InputStreamReader(new FileInputStream(inputFile), "utf8"));
+
+            sp = new ScoredTaggedPhrase();
+
+            while ((line = br.readLine()) != null) {
+                if (line.equals("")) {
+                    sp.score(nc, tnc, td);
+                    rank(sp);
+                    sp = new ScoredTaggedPhrase();
+                    continue;
+                }
+                sp.enqueue(line);
+            }
+
+            br.close();
+
+            if (sp.tokens.size() > 0) {
+                sp.score(nc, tnc, td);
+                rank(sp);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+            System.out.println(e.toString());
+        }
+    }
+
+    /**
+     * Decide to discard scored phrase
+     * or include it into top- or
+     * bottom- phrase list
+     *
+     * @param sp scored phrase
+     */
+    public void rank(ScoredTaggedPhrase sp) {
         if (sp.tokens.size() == 0 || sp.tags.size() == 0)
             return;
 
@@ -49,168 +146,64 @@ public class TopTagged {
         }
     }
 
-    protected static void showMemoryUsage(Runtime rt)
-    {
+    /**
+     * Prints <em>N</em> high-scored phrases
+     */
+    public void  printTop() {
+        for (ScoredTaggedPhrase ph : pqT) {
+            ph.print();
+            System.out.println();
+        }
+    }
+
+    /**
+     * Prints <em>N</em> low-scored phrases
+     */
+    public void printBottom() {
+        for (ScoredTaggedPhrase ph : pqB) {
+            ph.print();
+            System.out.println();
+        }
+    }
+
+    /**
+     * Shows memory usage
+     *
+     * @param rt Runtime object
+     */
+    protected static void showMemoryUsage(Runtime rt) {
         long usedMB = (rt.totalMemory() - rt.freeMemory()) / 1024 / 1024;
         System.out.println("Memory usage: " + usedMB + "Mb\n");
     }
 
     /**
-     * Collect training corpus phrases
+     * Start memory usage measures
      *
-     * @param trainingFile Training file
-     * @param nc Token collector
-     * @param tnc Tag collector
+     * @return Runtime object
      */
-    public void collect(String trainingFile, NGramCollector nc, NGramCollector tnc, TagDictionary td)
-    {
-        String line;
-        BufferedReader br;
-        try {
-            br = new BufferedReader(new InputStreamReader(new FileInputStream(trainingFile), "utf8"));
-
-            ScoredTaggedPhrase sp = new ScoredTaggedPhrase();
-
-            while ((line = br.readLine()) != null) {
-
-                if(line.equals("") ) {
-                    if (sp.tokens.size() > 0) {
-                        sp.add(nc, tnc, td);
-                        sp = new ScoredTaggedPhrase();
-                    }
-
-                    continue;
-                }
-
-                sp.enqueue(line);
-            }
-
-            if(sp.tokens.size() >= N) {
-                sp.add(nc, tnc, td);
-            }
-
-            br.close();
-
-            td.buildSuffixIndex(tnc.suffixSmoothingFactor());
-            nc.smoothTrigramCounts();
-            tnc.smoothTrigramCounts();
-            nc.buildSuffixIndex();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println(e.toString());
-        }
-    }
-
-    /**
-     * Score corpus phrases on base of training corpus collections
-     *
-     * @param corpusFile Corpus file
-     * @param nc Token collector
-     * @param tnc Training collector
-     */
-    public void score(String corpusFile, NGramCollector nc, NGramCollector tnc, TagDictionary td)
-    {
-        String line;
-        BufferedReader br;
-        ScoredTaggedPhrase sp;
-        try {
-            br = new BufferedReader(new InputStreamReader(new FileInputStream(corpusFile), "utf8"));
-
-            sp = new ScoredTaggedPhrase();
-
-            while ((line = br.readLine()) != null) {
-
-                if(line.equals("") ) {
-
-                    if (sp.tokens.size() > 0) {
-                        sp.score(nc, tnc, td);
-                        collectPhrase(sp);
-                        sp = new ScoredTaggedPhrase();
-                    }
-
-                    continue;
-                }
-
-                sp.enqueue(line);
-
-            }
-
-            if(sp.tokens.size() > 1) {
-                sp.score(nc, tnc, td);
-                collectPhrase(sp);
-            }
-
-            br.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println(e.toString());
-        }
-    }
-
-    public void printTop()
-    {
-        String token, tag;
-        for (ScoredTaggedPhrase ph: pqT){
-            //System.out.println("score: " + Double.toString(ph.score));
-            while(ph.tokens.size() > 0) {
-                token = ph.tokens.dequeue();
-                tag = ph.tags.dequeue();
-                if (!token.equals("START") && !token.equals("STOP")) {
-                    System.out.println(token + "\t" + tag);
-                }
-            }
-            System.out.println();
-        }
-    }
-
-    public void printBottom()
-    {
-        String token, tag;
-        for (ScoredTaggedPhrase ph: pqB){
-            //System.out.println("score: " + Double.toString(ph.score));
-            while(ph.tokens.size() > 0) {
-                token = ph.tokens.dequeue();
-                tag = ph.tags.dequeue();
-                if (!token.equals("START") && !token.equals("STOP")) {
-                    System.out.println(token + "\t" + tag);
-                }
-            }
-            System.out.println();
-        }
-    }
-
-
-    public static void main(String[] args)
+    protected static Runtime start()
     {
         System.gc();
-        Runtime rt = Runtime.getRuntime();
+        return Runtime.getRuntime();
+    }
 
-//        String trainingFile  = args[0]; // /home/lera/LAUREA/input/Training_pos_isst-paisa-devLeg.pos
-//        String corpusFile  = args[1]; // /home/lera/jproject/gold/gold
+    public static void main(String[] args) {
 
-        String trainingFile  = "/home/lera/LAUREA/input/Training_pos_isst-paisa-devLeg-head-80732.pos";
-        String corpusFile  = "/home/lera/jproject/gold/gold";
+//        String trainingFile  = args[0];
+//        String corpusFile  = args[1];
+
+        String trainingFile = "/home/lera/LAUREA/input/Training_pos_isst-paisa-devLeg-head-80732.pos";
+        String corpusFile = "/home/lera/jproject/gold/gold";
 
         NGramCollector nc = new NGramCollector();
         NGramCollector tnc = new NGramCollector();
         TagDictionary td = new TagDictionary();
+
         TopTagged top = new TopTagged();
-
         top.collect(trainingFile, nc, tnc, td);
-
-        //showMemoryUsage(rt);
-
         top.score(corpusFile, nc, tnc, td);
-
-        //showMemoryUsage(rt);
-
         top.printTop();
         //top.printBottom();
-
-        //System.out.println(nc.size());
-        //System.out.println(tnc.size());
-
     }
 
 }

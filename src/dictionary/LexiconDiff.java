@@ -4,7 +4,6 @@ import algorithms.MinPQ;
 import algorithms.Queue;
 import algorithms.TST;
 import score.ScoredToken;
-import score.PhraseScoreTool;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -19,7 +18,7 @@ import java.io.InputStreamReader;
  *
  *  @author Valeriya Slovikovskaya
  */
-public class LexiconDiff implements PhraseScoreTool {
+public class LexiconDiff {
 
     protected TST<Integer> indexCorpus;
     protected MinPQ<ScoredToken> topTokens;
@@ -73,28 +72,6 @@ public class LexiconDiff implements PhraseScoreTool {
         return indexCorpus.size();
     }
 
-    public double score(Queue<String> trigram)
-    {
-        if(trigram.size() != 3)
-            throw new IllegalArgumentException("Size of trigram != 3");
-
-        String[] t = new String[3];
-        int i = 0;
-        for(String e:trigram) {
-            t[i++] = e;
-        }
-        if (t[0].length() == 1 && t[2].length() == 1) // punctuation
-            return 0;
-        if(contains(t[1])) {
-            int freq = get(t[1]);
-            if(freq > 20) {
-                return 1;
-            }
-            return 0;
-        }
-        return 0;
-    }
-
     public int score(String token)
     {
         String tkn = getToken(token);
@@ -146,7 +123,6 @@ public class LexiconDiff implements PhraseScoreTool {
         System.gc();
         Runtime rt = Runtime.getRuntime();
 
-        // /home/lera/Desktop/LAUREA/la_terra_trema/morfit/morph-it_048.txt /home/lera/Desktop/LAUREA/corpus_annotato_automaticamente_cleaned_no_tags.pos
         String baseDictFile  = args[0]; // /home/lera/Desktop/LAUREA/la_terra_trema/morfit/morph-it_048.txt
         String corpusFile  = args[1]; // /home/lera/Desktop/LAUREA/corpus_annotato_automaticamente_cleaned_no_tags.pos
 

@@ -4,12 +4,20 @@ import algorithms.Queue;
 import features.NGramCollector;
 import features.TagDictionary;
 
-public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase> {
+/**
+ * The <tt>ScoredTaggedPhrase</tt> class represents a tagged sentence to score
+ *
+ * @author Valeriya Slovikovskaya vslovik@gmail.com
+ */
+public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase>{
 
     protected Double score;
     protected Queue<String> tokens;
     protected Queue<String> tags;
 
+    /**
+     * Class constructor
+     */
     public ScoredTaggedPhrase()
     {
         this.tokens = new Queue<>();
@@ -34,9 +42,11 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase> {
     }
 
     /**
+     * Adds next tagged token to tagged phrase
+     *
      * @param line token\ttag line
      */
-    public void enqueue(String line)
+    public void enqueue(String line) // ToDo: find a better name
     {
         if (line.equals("START") || line.equals("STOP")) {
             tokens.enqueue(line);
@@ -53,12 +63,12 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase> {
     }
 
     /**
-     * Add
+     * Adds phrase <em>N</em>-grams into token and tags collectors
      *
      * @param nc Token collector
-     * @param tnc Token collector
+     * @param tnc Tag collector
      */
-    public void add(NGramCollector nc,  NGramCollector tnc, TagDictionary td)
+    public void add(NGramCollector nc,  NGramCollector tnc, TagDictionary td) // ToDo: find a better name
     {
         if (tokens.size() == 0) throw new IllegalArgumentException("Empty tokens");
         if (tags.size() == 0) throw new IllegalArgumentException("Empty tags");
@@ -69,10 +79,10 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase> {
     }
 
     /**
-     * Score
+     * Scores tagged phrase
      *
      * @param nc Token collector
-     * @param tnc Token collector
+     * @param tnc Tag collector
      */
     public void score(NGramCollector nc,  NGramCollector tnc, TagDictionary td)
     {
@@ -87,7 +97,7 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase> {
     }
 
     /**
-     * Calculate phrase score
+     * Scores tagged phrase
      *
      * @param nc Token collector
      * @param tokens Phrase tokens
@@ -95,15 +105,11 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase> {
      */
     public double score(NGramCollector nc, Queue<String> tokens)
     {
-        Queue<String> copy = new Queue<>();
-        for(String token: tokens) {
-            copy.enqueue(token);
-        }
-        return scoreFirstGram(nc, tokens, nc.N - 1) + scorePhrase(nc, copy);
+         return scoreFirstGram(nc, tokens, nc.N - 1)*scorePhrase(nc, copy(tokens));
     }
 
     /**
-     * Score Markov
+     * Calculate "Markov model" score
      *
      * @param tnc Tag n-gram collector
      * @param td Tag dictionary
@@ -111,19 +117,11 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase> {
      */
     public double scoreMarkov(NGramCollector tnc, TagDictionary td)
     {
-        Queue<String> tokensCopy = new Queue<>();
-        Queue<String> tagsCopy = new Queue<>();
-        for(String token: tokens) {
-            tokensCopy.enqueue(token);
-        }
-        for(String tag: tags) {
-            tagsCopy.enqueue(tag);
-        }
-        return scoreFirstGram(tnc, td, tokens, tags, tnc.N - 1) + scorePhrase(tnc, td, tokensCopy, tagsCopy);
+        return scoreFirstGram(tnc, td, tokens, tags, tnc.N - 1)*scorePhrase(tnc, td, copy(tokens), copy(tags));
     }
 
     /**
-     * Count N-Gram score
+     * Scores tagged phrase
      *
      * @param nc Token n-gram collector
      * @param tokens Token queue
@@ -133,19 +131,19 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase> {
     {
         if(tokens.size() < nc.N) throw new IllegalArgumentException();
 
-        double ph_sc = nc.scorePhaseLength(tokens) / (tokens.size() - nc.N + 1);
+        double ph_sc = 0.1 / (tokens.size() - nc.N + 1);
 
         double score = scoreFirstGram(nc, tokens, nc.N);
         while(tokens.size() > nc.N) {
             tokens.dequeue();
-            score += scoreFirstGram(nc, tokens, nc.N);
+            score *= scoreFirstGram(nc, tokens, nc.N);
         }
 
         return ph_sc * score;
     }
 
     /**
-     * Count N-Gram score
+     * Scores tagged phrase
      *
      * @param tnc Tag n-gram collector
      * @param td Tag dictionary
@@ -157,13 +155,13 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase> {
     {
         if(tags.size() < tnc.N) throw new IllegalArgumentException();
 
-        double ph_sc = tnc.scorePhaseLength(tokens) / (tags.size() - tnc.N + 1);
+        double ph_sc = 0.1 / (tags.size() - tnc.N + 1);
 
         double score = scoreFirstGram(tnc, td, tokens, tags, tnc.N);
         while(tags.size() > tnc.N) {
             tokens.dequeue();
             tags.dequeue();
-            score += scoreFirstGram(tnc, td, tokens, tags, tnc.N);
+            score *= scoreFirstGram(tnc, td, tokens, tags, tnc.N);
         }
 
         return ph_sc * score;
@@ -192,7 +190,7 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase> {
     }
 
     /**
-     * Score first gram
+     * Scores first gram
      *
      * @param tnc Tag collector
      * @param td Tag dictionary
@@ -204,10 +202,7 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase> {
     protected double scoreFirstGram(NGramCollector tnc, TagDictionary td, Queue<String> tokens, Queue<String> tags, int n) {
         if (tokens.size() < n) throw new IllegalArgumentException();
 
-        Queue<String> tokensCopy = new Queue<>();
-        for(String token: tokens) {
-            tokensCopy.enqueue(token);
-        }
+        Queue<String> tokensCopy = copy(tokens);
 
         double tdScore = 0.0;
         String token;
@@ -228,7 +223,37 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase> {
     }
 
     /**
-     * Output probability score
+     * Copies queue
+     *
+     * @param q Token/suffix queue
+     * @return queue copy
+     */
+    protected Queue<String> copy(Queue<String> q) {
+        Queue<String> copy = new Queue<String>();
+        for(String s: q) {
+            copy.enqueue(s);
+        }
+
+        return copy;
+    }
+
+    /**
+     * Prints scored phrase
+     */
+    public void print()
+    {
+        String token, tag;
+        while (tokens.size() > 0) {
+            token = tokens.dequeue();
+            tag = tags.dequeue();
+            if (!token.equals("START") && !token.equals("STOP")) {
+                System.out.println(token + "\t" + tag);
+            }
+        }
+    }
+
+    /**
+     * Gets output probability score
      *
      * @param tnc NGramCollector
      * @param td TagDictionary
@@ -240,7 +265,8 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase> {
     {
         int count = tnc.count(tag);
         if (count == 0) {
-            return 0.0; // ToDo: right exception here (check exceptions type)
+            System.out.println(tag);
+            throw new IllegalArgumentException("Invalid tag.");
         }
 
         double tdCount = td.count(token, tag);

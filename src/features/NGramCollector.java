@@ -3,15 +3,12 @@ package features;
 import algorithms.ST;
 import algorithms.Queue;
 import algorithms.TST;
-import score.PhraseScoreTool;
-
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import utils.Utils;
 
 /**
- * The <tt>NGramCollector</tt> class represents N-Gram collection
+ * The <tt>NGramCollector</tt> class
+ *
+ * @author Valeriya Slovikovskaya vslovik@gmail.com
  */
 public class NGramCollector {
 
@@ -49,54 +46,7 @@ public class NGramCollector {
     }
 
     /**
-     * N-gram collector constructor
-     *
-     * @param corpusFile Corpus file
-     */
-    public NGramCollector(String corpusFile)
-    {
-        tokenIndex = new TST<>();
-        tokenIndexR = new ST<>();
-        suffixIndex = new TST<>();
-        suffixIndexR = new ST<>();
-        phraseLengths = new ST<>();
-
-        String line;
-        BufferedReader br;
-        Queue<String> tokens;
-        try {
-            br = new BufferedReader(new InputStreamReader(new FileInputStream(corpusFile), "utf8"));
-
-            tokens = new Queue<>();
-
-            while ((line = br.readLine()) != null) {
-
-                if(line.equals("") && tokens.size() > 0) {
-                    addPhrase(tokens);
-                    tokens = new Queue<>();
-                    continue;
-                }
-
-                tokens.enqueue(line);
-            }
-
-            if(tokens.size() > 0) {
-                addPhrase(tokens);
-            }
-
-            br.close();
-
-            buildSuffixIndex();
-            smoothTrigramCounts();
-
-        } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println(e.toString());
-        }
-    }
-
-    /**
-     * smoothTrigramCount
+     * Smooth trigram counts
      */
     public void smoothTrigramCounts() {
         for (String token : tokenIndex.keys()) {
@@ -110,7 +60,7 @@ public class NGramCollector {
     }
 
     /**
-     * smoothingLambda
+     * Smoothes lambda
      *
      * @param first First node
      * @param prev Second node
@@ -147,7 +97,7 @@ public class NGramCollector {
     }
 
     /**
-     * getSmoothedTrigramScore
+     * Gets smoothed trigram score
      *
      * @param index Index
      * @param indexR Reverse index
@@ -171,16 +121,15 @@ public class NGramCollector {
     }
 
     /**
-     * getSmoothedTrigramScore
+     * Gets smoothed trigram score
      *
      * @param index Index
      * @param indexR Reverse index
-     * @param first First node
      * @param prev Prev node
      * @param token Last trigram token
      * @return score
      */
-    protected double getSmoothedTrigramScore(TST<Node> index, ST<Integer, String> indexR, Node first, Node prev, String token) {
+    protected double getSmoothedTrigramScore(TST<Node> index, ST<Integer, String> indexR, Node prev, String token) {
         Node n = index.get(token);
         double uni = (n == null ? 0.0 : n.freq) / (double) index.size();
         double bi  = (double) prev.freq / (double) index.get(indexR.get(prev.index)).freq;
@@ -189,7 +138,7 @@ public class NGramCollector {
     }
 
     /**
-     * normalizeLambdas
+     * Normalizes lambdas - trigram counts smoothing factors
      */
     protected void normalizeLambdas() {
         double sum = 0.0;
@@ -204,7 +153,7 @@ public class NGramCollector {
     }
 
     /**
-     * Calculate factor
+     * Builds suffix index
      */
     public void buildSuffixIndex()
     {
@@ -220,7 +169,7 @@ public class NGramCollector {
     }
 
     /**
-     * Calculate factor
+     * Adds suffix n-grams
      */
     protected void addSuffixGrams(Queue<String> q, Node node) {
         Node n;
@@ -236,7 +185,7 @@ public class NGramCollector {
     }
 
     /**
-     * addSuffixGrams
+     * Adds suffix n-grams
      *
      * @param t Tokens
      * @param s Suffix
@@ -244,11 +193,7 @@ public class NGramCollector {
     protected void addSuffixGrams(Queue<String> t, Queue<String> s) {
         if (t.size() == 0) {
 
-            //System.out.println(s);
-            Queue<String> copy = new Queue<>();
-            for(String token: s) {
-                copy.enqueue(token);
-            }
+            Queue<String> copy = Utils.copy(s);
             for (String token: copy) {
                 addSuffix(token);
             }
@@ -260,23 +205,13 @@ public class NGramCollector {
             return;
         }
 
-        Queue<String> tCopy = new Queue<>();
-        for (String token : t) {
-            tCopy.enqueue(token);
-        }
-
-        Queue<String> sCopy;
-        String suffix;
-
-        suffix = getSuffix(tCopy.dequeue());
+        Queue<String> tCopy = Utils.copy(t), sCopy;
+        String suffix = getSuffix(tCopy.dequeue());
         while (suffix.length() > 0) {
-            sCopy = new Queue<>();
-            for (String suff : s) {
-                sCopy.enqueue(suff);
-            }
+            sCopy = Utils.copy(s);
             sCopy.enqueue(suffix);
             addSuffixGrams(tCopy, sCopy);
-            suffix = suffix.length() == 1 ? "" : suffix.substring(1, suffix.length());
+            suffix = Utils.cutSuffix(suffix);
         }
     }
 
@@ -288,8 +223,8 @@ public class NGramCollector {
      */
     protected String getSuffix(String token)
     {
-        if (token.length() == 0) throw new IllegalArgumentException("Empty token");
         int length = token.length();
+        if (length == 0) throw new IllegalArgumentException("Empty token");
         if (length > maxSuffixLength) {
             return token.substring(length - maxSuffixLength, length - 1);
         } else {
@@ -298,7 +233,7 @@ public class NGramCollector {
     }
 
     /**
-     * Print N-Grams
+     * Print n-grams
      *
      * @param token Token
      */
@@ -310,7 +245,7 @@ public class NGramCollector {
     }
 
     /**
-     * Add Node to the collector
+     * Adds Node to the collector
      *
      * @param token Suffix
      */
@@ -320,7 +255,7 @@ public class NGramCollector {
     }
 
     /**
-     * Add Node to the collector
+     * Adds suffix to the collector
      *
      * @param suffix Suffix
      */
@@ -337,10 +272,9 @@ public class NGramCollector {
      */
     protected Node addNode(TST<Node> index, ST<Integer, String> indexR, String token)
     {
-        Node node;
         if (token.length() == 0) throw new IllegalArgumentException("Empty token.");
 
-        node = index.get(token);
+        Node node = index.get(token);
         if (node == null) {
             node = new Node();
             node.index = index.size();
@@ -386,7 +320,6 @@ public class NGramCollector {
         Node prev = null, node;
         int i = 0;
         for (String token: tokens) {
-            //System.out.println("---" + token);
             node = index.get(token);
             if (prev != null) {
                 node = addNeighbor(prev, node.index);
@@ -402,7 +335,7 @@ public class NGramCollector {
     }
 
     /**
-     * Add neighbor to node
+     * Adds neighbor to node
      *
      * @param prev Previous node
      * @param index Next node index
@@ -426,7 +359,7 @@ public class NGramCollector {
     }
 
     /**
-     * Score n-gram
+     * Scores token n-gram
      *
      * @param q n-gram queue
      * @param n n-gram rang
@@ -436,10 +369,7 @@ public class NGramCollector {
     {
         if (q.size() < n) throw new IllegalArgumentException();
 
-        Queue<String> qCopy = new Queue<>();
-        for (String suff : q) {
-            qCopy.enqueue(suff);
-        }
+        Queue<String> qCopy = Utils.copy(q);
 
         String token;
         Node prev = null, node = null, first = null;
@@ -449,40 +379,24 @@ public class NGramCollector {
             if (prev == null) {
                 node = tokenIndex.get(token);
                 first = node;
-                //if (node == null) {
-                    //System.out.println("unknown  1:" + token);
-                //}
             } else {
                 node = takeNext(prev, token);
-                if (node == null) {
-                    //System.out.println("unknown  2:" + token);
-                    if(n == 3 && first != prev) {
-                        return getSmoothedTrigramScore(tokenIndex, tokenIndexR, first, prev, token);
-                    }
-                }
+                if (node == null) if(n == 3 && first != prev) return getSmoothedTrigramScore(tokenIndex, tokenIndexR, prev, token);
             }
         }
 
-        if (node == null) {
-            //System.out.println("unknown  1:" + token);
-            return scoreSuffixGram(qCopy, n);
-        }
+        if (node == null) return scoreSuffixGram(qCopy, n);
 
-        if (n == 1) {
-            return (double) node.freq / tokenIndex.get("START").freq ;
-        } else if (n > 1 && prev != null) {
-            if (n == 3) {
-                return getSmoothedTrigramScore(tokenIndex, tokenIndexR, first, prev, node);
-            } else {
-                return (double) node.freq / (double) prev.freq;
-            }
-        }
+        if (n == 1) return (double) node.freq / tokenIndex.get("START").freq;
 
-        return 0;
+        if (prev == null) return n == 3 ? lambda[0] * ((double) node.freq / (double) tokenIndex.size()) : 0.0;
+
+        return n == 3 ? getSmoothedTrigramScore(tokenIndex, tokenIndexR, first, prev, node) : (double) node.freq / (double) prev.freq;
+
     }
 
     /**
-     * Score n-gram
+     * Scores suffix n-gram
      *
      * @param q n-gram queue
      * @param n n-gram rang
@@ -504,7 +418,7 @@ public class NGramCollector {
                 node = takeNextSuffixNode(prev, token);
                 if (node == null) {
                     if(n == 3 && first != prev) {
-                        return getSmoothedTrigramScore(suffixIndex, suffixIndexR, first, prev, token);
+                        return getSmoothedTrigramScore(suffixIndex, suffixIndexR, prev, token);
                     }
                 }
             }
@@ -514,21 +428,15 @@ public class NGramCollector {
             return 0.0;
         }
 
-        if (n == 1) {
-            return (double) node.freq / tokenIndex.get("START").freq ;
-        } else if (n > 1 && prev != null) {
-            if (n == 3) {
-                return getSmoothedTrigramScore(suffixIndex, suffixIndexR, first, prev, node);
-            } else {
-                return (double) node.freq / (double) prev.freq;
-            }
-        }
+        if (n == 1) return (double) node.freq / tokenIndex.get("START").freq;
 
-        return 0;
+        if (prev == null) return n == 3 ? lambda[0] * (double) node.freq / (double) tokenIndex.size() : 0.0;
+        return n == 3 ? getSmoothedTrigramScore(suffixIndex, suffixIndexR, first, prev, node) : (double) node.freq / (double) prev.freq;
+
     }
 
     /**
-     * suffixNode
+     * Gets longest suffix node by token
      *
      * @param token Token
      * @return node
@@ -540,31 +448,14 @@ public class NGramCollector {
         while(suffix.length() > 0) {
             node = suffixIndex.get(suffix);
             if (node != null) break;
-            suffix = suffix.length() == 1 ? "" : suffix.substring(1, suffix.length());
+            suffix = Utils.cutSuffix(suffix);
         }
 
         return node;
     }
 
     /**
-     * scorePhaseLength
-     *
-     * @param tokens Token queue
-     * @return score
-     */
-    public double scorePhaseLength(Queue<String> tokens)
-    {
-        return 1;
-//        if (null == phraseLengths.get(tokens.size() - 2)) {
-//            System.out.println("tokens size          " + tokens.size()); // ToDo handle unknown phrase length
-//            return (double) 1 / (double) tokenIndex.get("START").freq;
-//        } else {
-//            return (double) phraseLengths.get(tokens.size() - 2) / (double) tokenIndex.get("START").freq;
-//        }
-    }
-
-    /**
-     * Take next node
+     * Takes next node by token
      * 
      * @param prev Previous node
      * @param token Token
@@ -573,9 +464,7 @@ public class NGramCollector {
     protected Node takeNext(Node prev, String token)
     {
         for (int index: prev.neighbors.keys()) {
-            String t = tokenIndexR.get(index);
-
-            if (t.equals(token)) {
+            if (tokenIndexR.get(index).equals(token)) {
                 return prev.neighbors.get(index);
             }
         }
@@ -584,7 +473,7 @@ public class NGramCollector {
     }
 
     /**
-     * Take next node
+     * Takes next suffix node by token
      *
      * @param prev Previous node
      * @param token Token
@@ -595,20 +484,18 @@ public class NGramCollector {
         String suffix = getSuffix(token);
         while(suffix.length() > 0) {
             for (int index : prev.neighbors.keys()) {
-                String t = suffixIndexR.get(index);
-
-                if (t.equals(suffix)) {
+                if (suffixIndexR.get(index).equals(suffix)) {
                     return prev.neighbors.get(index);
                 }
             }
-            suffix = suffix.length() == 1 ? "" : suffix.substring(1, suffix.length());
+            suffix = Utils.cutSuffix(suffix);
         }
 
         return null;
     }
 
     /**
-     * Print uni gram
+     * Prints uni gram
      *
      * @param token Token
      * @return Node
@@ -623,7 +510,7 @@ public class NGramCollector {
     }
 
     /**
-     * Print N-Grams
+     * Prints n-grams
      *
      * @param history Backward history
      * @param neighbors Neighbors
@@ -632,9 +519,9 @@ public class NGramCollector {
     {
         if (neighbors.size() == 0) return;
         for (int index: neighbors.keys()) {
-            Node n = neighbors.get(index);
-            System.out.println(history + " " + tokenIndexR.get(index) +  " " + n.freq);
-            printNGrams(history + " " + tokenIndexR.get(index), n.neighbors);
+            Node node = neighbors.get(index);
+            System.out.println(history + " " + tokenIndexR.get(index) +  " " + node.freq);
+            printNGrams(history + " " + tokenIndexR.get(index), node.neighbors);
         }
     }
 
@@ -645,12 +532,7 @@ public class NGramCollector {
      */
     public void addPhrase(Queue<String> tokens)
     {
-        addLength(tokens);
-
-        Queue<String> copy = new Queue<>();
-        for(String token: tokens) {
-            copy.enqueue(token);
-        }
+        Queue<String> copy = Utils.copy(tokens);
         for (String token: copy) {
             addNode(token);
         }
@@ -661,24 +543,7 @@ public class NGramCollector {
     }
 
     /**
-     * Keep phrase length frequencies
-     *
-     * @param tokens Token queue
-     */
-    protected void addLength(Queue<String> tokens)
-    {
-        int lenKey = tokens.size() - 2;
-        int lenValue;
-        if (!phraseLengths.contains(lenKey)) {
-            lenValue = 1;
-        } else {
-            lenValue = 1 + phraseLengths.get(lenKey);
-        }
-        phraseLengths.put(lenKey, lenValue);
-    }
-
-    /**
-     *  Size
+     *  Gets token index size
      *
      * @return collection size
      */
@@ -688,7 +553,7 @@ public class NGramCollector {
     }
 
     /**
-     * Count
+     * Gets token count
      *
      * @param token Token
      * @return count
@@ -703,7 +568,7 @@ public class NGramCollector {
     }
 
     /**
-     * suffixSmoothingFactor
+     * Gets suffix smoothing factor
      *
      * @return factor
      */
@@ -721,19 +586,6 @@ public class NGramCollector {
         }
 
         return teta / (double) tokenIndex.size();
-    }
-
-    /**
-     * Unit tests the <tt>NGramCollector</tt> data type.
-     */
-    public static void main(String[] args)
-    {
-        String file = "/home/lera/Desktop/LAUREA/la_terra_trema/test_data/montale.txt";
-        NGramCollector nc = new NGramCollector(file);
-
-        for(String token: nc.tokenIndex.keys()) {
-            nc.printNGrams(token);
-        }
     }
 
 }
