@@ -2,7 +2,7 @@ package score;
 
 /***********************************************************************************
  * Execution:
- * java score.TopTagged [file to extract features from] [file with phrases to score]
+ * java score.TopScored [file to extract features from] [file with phrases to score]
  *
  * ********************************************************************************/
 
@@ -17,19 +17,19 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- *  The <tt>TopTagged</tt> class represents a client that scores
+ *  The <tt>TopScored</tt> class represents a client that scores
  *  every phrase in the input stream and collects <em>N</em>
  *  high/low scored items.
  *
  *  @author Valeriya Slovikovskaya vslovik@gmail.com
  */
-public class TopTagged {
+public class TopScored {
 
-    protected int N = 450;
+    protected int N = 500;
     protected MinPQ<ScoredTaggedPhrase> pqT;
     protected MaxPQ<ScoredTaggedPhrase> pqB;
 
-    public TopTagged() {
+    public TopScored() {
         pqT = new MinPQ<>();
         pqB = new MaxPQ<>();
     }
@@ -51,7 +51,7 @@ public class TopTagged {
 
             while ((line = br.readLine()) != null) {
                 if (line.equals("")) {
-                    sp.add(nc, tnc, td);
+                    sp.add(tnc, td);
                     sp = new ScoredTaggedPhrase();
                     continue;
                 }
@@ -61,7 +61,7 @@ public class TopTagged {
             br.close();
 
             if (sp.tokens.size() > 0)
-                sp.add(nc, tnc, td);
+                sp.add(tnc, td);
 
             td.buildSuffixIndex(tnc.suffixSmoothingFactor());
             nc.smoothTrigramCounts();
@@ -78,10 +78,9 @@ public class TopTagged {
      * Scores phrases from input file
      *
      * @param inputFile Input file
-     * @param nc Token NGram collector
      * @param tnc Tag NGram collector
      */
-    public void score(String inputFile, NGramCollector nc, NGramCollector tnc, TagDictionary td) {
+    public void score(String inputFile, NGramCollector tnc, TagDictionary td) {
         String line;
         BufferedReader br;
         ScoredTaggedPhrase sp;
@@ -92,7 +91,7 @@ public class TopTagged {
 
             while ((line = br.readLine()) != null) {
                 if (line.equals("")) {
-                    sp.score(nc, tnc, td);
+                    sp.score(tnc, td);
                     rank(sp);
                     sp = new ScoredTaggedPhrase();
                     continue;
@@ -103,7 +102,7 @@ public class TopTagged {
             br.close();
 
             if (sp.tokens.size() > 0) {
-                sp.score(nc, tnc, td);
+                sp.score(tnc, td);
                 rank(sp);
             }
 
@@ -189,21 +188,17 @@ public class TopTagged {
 
     public static void main(String[] args) {
 
-//        String trainingFile  = args[0];
-//        String corpusFile  = args[1];
-
-        String trainingFile = "/home/lera/LAUREA/input/Training_pos_isst-paisa-devLeg-head-80732.pos";
-        String corpusFile = "/home/lera/jproject/gold/gold";
+        String trainingFile  = args[0];
+        String corpusFile  = args[1];
 
         NGramCollector nc = new NGramCollector();
         NGramCollector tnc = new NGramCollector();
         TagDictionary td = new TagDictionary();
 
-        TopTagged top = new TopTagged();
+        TopScored top = new TopScored();
         top.collect(trainingFile, nc, tnc, td);
-        top.score(corpusFile, nc, tnc, td);
-        top.printTop();
-        //top.printBottom();
+        top.score(corpusFile, tnc, td);
+        top.printBottom();
     }
 
 }

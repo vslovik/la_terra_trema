@@ -3,6 +3,7 @@ package score;
 import algorithms.Queue;
 import features.NGramCollector;
 import features.TagDictionary;
+import utils.Utils;
 
 /**
  * The <tt>ScoredTaggedPhrase</tt> class represents a tagged sentence to score
@@ -56,7 +57,7 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase>{
         }
 
         String[] arr = line.split("\t");
-        if (arr.length < 2) throw new IllegalArgumentException("Invalid token\ttag line");
+        if (arr.length < 2) throw new IllegalArgumentException("Invalid token\\ttag line");
 
         tokens.enqueue(arr[0]);
         tags.enqueue(arr[1]);
@@ -65,15 +66,13 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase>{
     /**
      * Adds phrase <em>N</em>-grams into token and tags collectors
      *
-     * @param nc Token collector
      * @param tnc Tag collector
      */
-    public void add(NGramCollector nc,  NGramCollector tnc, TagDictionary td) // ToDo: find a better name
+    public void add(NGramCollector tnc, TagDictionary td) // ToDo: find a better name
     {
         if (tokens.size() == 0) throw new IllegalArgumentException("Empty tokens");
         if (tags.size() == 0) throw new IllegalArgumentException("Empty tags");
         enqueue("STOP");
-        nc.addPhrase(tokens);
         tnc.addPhrase(tags);
         td.addTaggedPhrase(tokens, tags);
     }
@@ -81,31 +80,16 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase>{
     /**
      * Scores tagged phrase
      *
-     * @param nc Token collector
      * @param tnc Tag collector
      */
-    public void score(NGramCollector nc,  NGramCollector tnc, TagDictionary td)
+    public void score(NGramCollector tnc, TagDictionary td)
     {
         if (tokens.size() == 0) throw new IllegalArgumentException("Empty tokens");
         if (tags.size() == 0) throw new IllegalArgumentException("Empty tags");
 
         enqueue("STOP");
 
-        score += score(nc, tokens);
-        score += score(tnc, tags);
-        score += scoreMarkov(tnc, td);
-    }
-
-    /**
-     * Scores tagged phrase
-     *
-     * @param nc Token collector
-     * @param tokens Phrase tokens
-     * @return score
-     */
-    public double score(NGramCollector nc, Queue<String> tokens)
-    {
-         return scoreFirstGram(nc, tokens, nc.N - 1)*scorePhrase(nc, copy(tokens));
+        score = scoreMarkov(tnc, td);
     }
 
     /**
@@ -117,29 +101,7 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase>{
      */
     public double scoreMarkov(NGramCollector tnc, TagDictionary td)
     {
-        return scoreFirstGram(tnc, td, tokens, tags, tnc.N - 1)*scorePhrase(tnc, td, copy(tokens), copy(tags));
-    }
-
-    /**
-     * Scores tagged phrase
-     *
-     * @param nc Token n-gram collector
-     * @param tokens Token queue
-     * @return score
-     */
-    protected double scorePhrase(NGramCollector nc, Queue<String> tokens)
-    {
-        if(tokens.size() < nc.N) throw new IllegalArgumentException();
-
-        double ph_sc = 0.1 / (tokens.size() - nc.N + 1);
-
-        double score = scoreFirstGram(nc, tokens, nc.N);
-        while(tokens.size() > nc.N) {
-            tokens.dequeue();
-            score *= scoreFirstGram(nc, tokens, nc.N);
-        }
-
-        return ph_sc * score;
+        return scoreFirstGram(tnc, td, tokens, tags, tnc.N - 1)*scorePhrase(tnc, td, Utils.copy(tokens), Utils.copy(tags));
     }
 
     /**
@@ -153,7 +115,7 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase>{
      */
     protected double scorePhrase(NGramCollector tnc, TagDictionary td, Queue<String> tokens, Queue<String> tags)
     {
-        if(tags.size() < tnc.N) throw new IllegalArgumentException();
+        if(tags.size() < tnc.N) throw new IllegalArgumentException(tags.toString());
 
         double ph_sc = 0.1 / (tags.size() - tnc.N + 1);
 
@@ -165,28 +127,6 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase>{
         }
 
         return ph_sc * score;
-    }
-
-    /**
-     * Score first gram
-     *
-     * @param nc Token collector
-     * @param tokens Token queue
-     * @param n nGram rang
-     * @return score
-     */
-    protected double scoreFirstGram(NGramCollector nc, Queue<String> tokens, int n) {
-        if (tokens.size() < n) throw new IllegalArgumentException();
-
-        Queue<String> q = new Queue<>();
-        for (String token : tokens) {
-            q.enqueue(token);
-            if (q.size() == n) {
-                break;
-            }
-        }
-
-        return nc.scoreGram(q, n);
     }
 
     /**
@@ -202,7 +142,7 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase>{
     protected double scoreFirstGram(NGramCollector tnc, TagDictionary td, Queue<String> tokens, Queue<String> tags, int n) {
         if (tokens.size() < n) throw new IllegalArgumentException();
 
-        Queue<String> tokensCopy = copy(tokens);
+        Queue<String> tokensCopy = Utils.copy(tokens);
 
         double tdScore = 0.0;
         String token;
@@ -220,21 +160,6 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase>{
         }
 
         return tnc.scoreGram(q, n)*tdScore;
-    }
-
-    /**
-     * Copies queue
-     *
-     * @param q Token/suffix queue
-     * @return queue copy
-     */
-    protected Queue<String> copy(Queue<String> q) {
-        Queue<String> copy = new Queue<String>();
-        for(String s: q) {
-            copy.enqueue(s);
-        }
-
-        return copy;
     }
 
     /**
@@ -265,8 +190,7 @@ public class ScoredTaggedPhrase implements Comparable<ScoredTaggedPhrase>{
     {
         int count = tnc.count(tag);
         if (count == 0) {
-            System.out.println(tag);
-            throw new IllegalArgumentException("Invalid tag.");
+            return 0.0;
         }
 
         double tdCount = td.count(token, tag);

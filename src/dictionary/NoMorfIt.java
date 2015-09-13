@@ -11,9 +11,12 @@ public class NoMorfIt {
         System.gc();
         Runtime rt = Runtime.getRuntime();
 
-        String lexicon  = args[0]; // /home/lera/Desktop/LAUREA/la_terra_trema/morfit/morph-it_048.txt
-        String corpus  = args[1]; // /home/lera/Desktop/LAUREA/Training_pos_isst-paisa-devLeg.pos
-                                 // /home/lera/Desktop/LAUREA/corpus_annotato_automaticamente.pos
+//        String lexicon  = args[0]; // /home/lera/Desktop/LAUREA/la_terra_trema/morfit/morph-it_048.txt
+//        String corpus  = args[1]; // /home/lera/Desktop/LAUREA/Training_pos_isst-paisa-devLeg.pos
+//                                 // /home/lera/LAUREA/input/corpus_annotato_automaticamente.pos
+
+        String lexicon  = "/home/lera/jproject/la_terra_trema/morfit/morph-it_048.txt";
+        String corpus  = "/home/lera/LAUREA/input/corpus_annotato_automaticamente.pos";//"/home/lera/LAUREA/input/corpus_head_89989.pos";//"/home/lera/LAUREA/input/Training_pos_isst-paisa-devLeg.pos";
 
         MorfItYesNoDictionary d = new MorfItYesNoDictionary(lexicon);
 
