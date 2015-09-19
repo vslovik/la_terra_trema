@@ -1,5 +1,0 @@
-lanci	lancio	NOUN-M:p
-lancino	lanciare	VER:sub+pres+3+p
-lancio	lanciare	VER:ind+pres+1+s
-lanciare	lanciare	VER:inf+pres
-lancio	lancio	NOUN-M:s

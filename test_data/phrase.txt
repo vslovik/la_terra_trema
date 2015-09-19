@@ -1,9 +1,0 @@
-rete	Sfs
-di	E
-raccolta	Sfs
-e	CC
-di	E
-smaltimento	Sms
-dei	EAmp
-rifiuti	Smp
-.	FS
