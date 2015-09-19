@@ -1,4 +1,4 @@
-**TopTagged** takes as input a file that contains a set of tagged sentences to learn statistics from and
+**score.TopScored** takes as input a file that contains a set of tagged sentences to learn statistics from and
 another file with tagged phrases to score.
 
 It outputs N best-scored sentences.
